@@ -1,0 +1,317 @@
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .main_width {
+    max-width: 100%;
+  }
+  footer {
+    margin-top: -150px;
+    padding-top: 40px;
+    background-color: #2f343f;
+  }
+  .main_footer {
+    display: none;
+  }
+  .year {
+    padding: 5px;
+    background-color: #282c36;
+  }
+  .year span {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+  }
+  .block_responsive .visa {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .block_responsive .visa p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .email {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .email ul li {
+    color: #fff;
+  }
+  .logo,
+  .slider {
+    text-align: center;
+    width: 100%;
+  }
+  .logo .phone {
+    margin-top: 5px;
+  }
+  .phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .days_work,
+  .phone {
+    font-size: 13px;
+    margin-top: 50px;
+    color: #fff;
+    background: url();
+    padding-left: 0;
+  }
+  .block_responsive .phone ul li p {
+    color: #fff;
+  }
+  .location ul li {
+    color: #fff;
+    font-size: 12px;
+  }
+  .days_work {
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  .nones {
+    display: block;
+  }
+  .none {
+    display: block;
+    background: url('');
+    padding-left: 0;
+    text-align: center;
+  }
+  .container_main-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .main_container_menu {
+    display: none;
+  }
+  .category_menu {
+    display: none;
+  }
+  .back_slider {
+    background: url('');
+  }
+  .slide {
+    background: url('../img/slided_responsive.png') center;
+    background-repeat: no-repeat;
+  }
+  .category .title {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .category .title span {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .title,
+  .category .title,
+  .catalog .title,
+  .catalog_stock_section .title {
+    background: url('');
+    padding-left: 0px;
+    text-align: center;
+  }
+  .title h1 img,
+  .category .title h1 img,
+  .catalog .title h1 img,
+  .catalog_stock_section .title h1 img {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .buttons_next {
+    display: none;
+  }
+  .buttons_next_copy {
+    display: block;
+    margin: 0 auto;
+    width: 310px;
+    margin-bottom: 10px;
+  }
+  .buttons_next_copy button {
+    padding-left: 95px;
+    padding-right: 95px;
+  }
+  .main_category,
+  .block_catalog,
+  .catalog_stock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main_category .card_category,
+  .block_catalog .card_category,
+  .catalog_stock .card_category,
+  .main_category .card_product,
+  .block_catalog .card_product,
+  .catalog_stock .card_product {
+    margin-bottom: 30px;
+  }
+  .titles {
+    width: 390px;
+    margin: 0 auto;
+  }
+  .s1 {
+    margin-top: -70px;
+  }
+  .banner {
+    width: 400px;
+    background: url('../img/img_.png') right;
+    background-repeat: no-repeat;
+    background-position-y: 98px;
+    margin-bottom: 30px;
+    background-color: #f8f8f8;
+    padding-bottom: 200px;
+    margin: 0 auto;
+  }
+  .banner .titles {
+    margin-left: -20px;
+  }
+  .banner .titles ul li {
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+  }
+  .banner .titles ul li:first-child {
+    line-height: 2.7em;
+    margin-bottom: 15px;
+    font-size: 13px;
+  }
+  .banner .titles ul li:first-child span {
+    color: #193b90;
+    font-size: 20px;
+    margin-left: 0px;
+  }
+  .banner .titles ul li:last-child span {
+    line-height: 1.5em;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner .titles ul li:nth-child(2) {
+    background: url('../img/icon_ukraine.png') left;
+    background-repeat: no-repeat;
+    background-position-x: -5px;
+  }
+  .banner .titles ul li:nth-child(3) {
+    background: url('../img/icon_tractor.png') left;
+    background-repeat: no-repeat;
+    background-position-x: -5px;
+  }
+  .banner .titles ul li:nth-child(2),
+  .banner .titles ul li:nth-child(3) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .banner .titles ul li:nth-child(2),
+  .banner .titles ul li:nth-child(3) {
+    padding-left: 90px;
+  }
+  .background {
+    background-color: #141d2b;
+  }
+}
+@media screen and (max-width: 400px) {
+  .card_category {
+    width: 320px;
+  }
+  .line_category {
+    width: 300px;
+  }
+  .banner {
+    display: none;
+    width: 320px;
+    box-sizing: border-box;
+  }
+  .titles {
+    width: 320px;
+  }
+  .pop-ap_window {
+    width: 320px;
+  }
+  .main_menu_open .search input {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 395px) {
+  .button_still_copy span {
+    padding-left: 79px;
+    padding-right: 79px;
+  }
+  .banner {
+    width: 310px;
+  }
+}
+@media screen and (max-width: 343px) {
+  .button_still_copy span {
+    padding-left: 59px;
+    padding-right: 59px;
+  }
+}
+@media screen and (max-width: 308px) {
+  .button_still_copy span {
+    padding-left: 49px;
+    padding-right: 49px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .pop-ap_window {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .button_still span {
+    padding-left: 89px;
+    padding-right: 89px;
+  }
+  .banner {
+    width: 300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .card_category {
+    margin: 0 auto;
+    width: 300px;
+  }
+  .line_category {
+    width: 270px;
+  }
+  .titles {
+    margin: 0 auto;
+    width: 280px;
+  }
+  .titles ul li {
+    font-size: 11px;
+    font-weight: bold;
+    color: #000;
+  }
+  .titles ul li:first-child {
+    line-height: 2.6em;
+    margin-bottom: 15px;
+    font-size: 13px;
+  }
+  .titles ul li:first-child span {
+    color: #193b90;
+    font-size: 20px;
+    margin-left: 0px;
+  }
+  .buttons_copy span {
+    padding-left: 59px;
+    padding-right: 59px;
+  }
+  .buttons_copyS span {
+    background-position-x: 5px;
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .buttons_copyS span {
+    background-position-x: 6px;
+    padding-left: 29px;
+    padding-right: 29px;
+  }
+}

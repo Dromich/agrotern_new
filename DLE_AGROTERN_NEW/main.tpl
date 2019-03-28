@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	{headers}
 	<!-- icons font -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<!-- font -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<!-- style -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="{THEME}/css/style.css">
 	<!-- responsive -->
 	<meta name="viewport" content="width=device-width"/>
 	
-	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="{THEME}/css/media.css">
 </head>
 <body>
 	<header>
@@ -26,7 +26,7 @@
 					</div>
 					<div class="search_basket_icon">
 						<div><i class="fas fa-search"></i></div>
-						<div><img src="img/icon_basket_responsive.png" alt="basket"></div>
+						<div><img src="{THEME}/img/icon_basket_responsive.png" alt="basket"></div>
 					</div>
 				</div>
 				<div class="responsive_menu-open nones">
@@ -92,7 +92,7 @@
 			<div class="container_main">
 				<div class="container_main-menu">
 					<div class="logo">
-						<img src="img/logo.png" class="logo-" alt="logo">
+						<img src="{THEME}/img/logo.png" class="logo-" alt="logo">
 						<div class="phone none">
 							<ul>
 								<li><a href="tel:(068)382-32-82"><b>(068) 382-32-82</b></a></li>
@@ -240,7 +240,7 @@
 			<div class="next_catalog">
 				<div class="title">
 					<h1>
-						<img src="img/icon_category.png" alt="category" class="none">
+						<img src="{THEME}/img/icon_category.png" alt="category" class="none">
 						<span>Купить сельскохозайственную</span>
 						<span>технику в Украины</span>
 					</h1>
@@ -320,7 +320,7 @@
 		<div class="main_width">
 			<div class="title">
 				<h1>
-					<img src="img/icon_catalog.png" alt="catalog" class="none">
+					<img src="{THEME}/img/icon_catalog.png" alt="catalog" class="none">
 					Каталог товаров
 				</h1>
 			</div>
@@ -529,7 +529,7 @@
 		<div class="main_width">
 			<div class="title">
 				<h1>
-					<img src="img/icon_stock_catalog.png" alt="stock" class="none">
+					<img src="{THEME}/img/icon_stock_catalog.png" alt="stock" class="none">
 					Акции и скидки
 				</h1>
 			</div>
@@ -634,7 +634,7 @@
 			<div class="navigation_main">
 				<div class="main_width flex">
 					<div class="logo">
-						<img src="img/logo.png" alt="logo">
+						<img src="{THEME}/img/logo.png" alt="logo">
 					</div>
 					<div class="navigation flex_betwen">
 						<div class="phone">
@@ -748,7 +748,7 @@
 								</p>
 							</div>
 							<div>
-								<img src="img/icon_visa.png" alt="visa">
+								<img src="{THEME}/img/icon_visa.png" alt="visa">
 							</div>
 						</div>
 					</div>
@@ -792,7 +792,7 @@
 						</p>
 					</div>
 					<div>
-						<img src="img/icon_visa.png" alt="visa">
+						<img src="{THEME}/img/icon_visa.png" alt="visa">
 					</div>
 				</div>
 				<div class="year">
