@@ -3,12 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	{headers}
+
+	<link rel="shortcut icon" href="{THEME}/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="{THEME}/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="{THEME}/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="{THEME}/img/favicon/apple-touch-icon-114x114.png">
 	<!-- icons font -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<!-- font -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<!-- style -->
+	<link media="screen" href="{THEME}/css/kylshop.css" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/style.css">
 	<!-- responsive -->
 	<meta name="viewport" content="width=device-width"/>
@@ -852,5 +858,6 @@
 		// end menu responsive
 
 	</script>
+	<script type="text/javascript" src="{THEME}/js/kylshop.js"></script>
 </body>
 </html>
