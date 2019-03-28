@@ -6,7 +6,7 @@
 				
 	</div>
 	[full-link]
-	<div class="name_product one " style="background: url('[xfvalue_image_url_main_img]');background-repeat:no-repeat;background-size:contain;">
+	<div class="name_product one " style="background: url('[xfvalue_image_url_main_img]');background-repeat:no-repeat;background-size:contain;max-height:260px;background-position:top center;">
 		<b>
 			<span>{title}</span>
 			<!--span>T240 FPK</span-->
@@ -16,8 +16,12 @@
 	[/full-link]
 
 	<div class="buy_price">
-		<span class="stock" style="opacity: 0;">%%%</span>
-		<span class="price">[xfvalue_price] грн</span>
+			
+		<span class="stock" [xfnotgiven_new_price]style="opacity: 0;"[/xfnotgiven_new_price]>[xfvalue_price] грн </span>
+		
+		[xfnotgiven_new_price]<span class="price">[xfvalue_price] грн</span>[/xfnotgiven_new_price]
+		[xfgiven_new_price]<span class="price">[xfvalue_new_price] грн</span>[/xfgiven_new_price]
+
 		<div class="in_garbage">
 			<span>В корзину</span>
 		</div>

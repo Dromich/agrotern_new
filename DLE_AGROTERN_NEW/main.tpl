@@ -15,11 +15,17 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<!-- style -->
 	<link media="screen" href="{THEME}/css/kylshop.css" type="text/css" rel="stylesheet">
+	[not-available=cat] 
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/style.css">
 	<!-- responsive -->
-	<meta name="viewport" content="width=device-width"/>
-	
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/media.css">
+	[/not-available]
+	[available=cat]
+	<link rel="stylesheet" type="text/css" href="{THEME}/css/style_catalog.css">
+	<link rel="stylesheet" type="text/css" href="{THEME}/css/media_catalog.css">
+	[/available]	
+	
+	<meta name="viewport" content="width=device-width"/>
 </head>
 <body>
 	<header>
@@ -229,6 +235,7 @@
 				</div>
 			</div>
 			<!-- end pop-ap window -->
+			[available=main] 
 			<div class="slider">
 				<div class="slide">
 					<!-- <img src="img/slide.png" alt="slide"> -->
@@ -239,8 +246,11 @@
 					<div class="element_pages"></div>
 				</div>
 			</div>
+			[/available] 
 		</div>
 	</section>
+
+	[available=main] 
 	<section class="category">
 		<div class="main_width">
 			<div class="next_catalog">
@@ -322,6 +332,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="catalog">
 		<div class="main_width">
 			<div class="title">
@@ -330,18 +341,15 @@
 					Каталог товаров
 				</h1>
 			</div>
-			<div class="">
+			<div id="main_cont_1" class="">
 				<!--BEGIN CATALOG-->
 {info}{content}
 
 				
-				<!--END CATALOG-->
-
-
-			
-
-
-				
+				<!--END CATALOG-->			
+			</div>
+			<div class="button_still">
+				<span><i class="fas fa-redo-alt reload"></i>Показать ещё</span>
 			</div>
 		</div>
 	</section>
@@ -478,6 +486,12 @@
 			</div>
 		</div>
 	</section>
+	[/available]
+
+	[available=cat]
+	{include file="mai_cat.tpl"}
+	[/available]
+
 	<footer>
 		<div class="main_footer">
 			<div class="navigation_main">
@@ -702,5 +716,38 @@
 
 	</script>
 	<script type="text/javascript" src="{THEME}/js/kylshop.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			var nextPage = 2
+			$( ".button_still" ).click(function( event ) {
+		
+			  event.preventDefault();
+			  
+							if (nextPage !== undefined) {
+								$.ajax({
+									url: '/page/'+nextPage,
+									success: function(data) {
+										
+										$('#ajax-next-page').remove();
+		let ajxcont = '<div class="block_catalog">'+$('#dle-content', data).html()+'</div>'
+		
+										$('#main_cont_1').append(
+											
+											ajxcont 
+										
+										);
+										nextPage++
+									console.log(nextPage);	
+										
+									}
+								})
+							}
+							
+							
+			});	
+		});
+		
+		
+			</script>
 </body>
 </html>

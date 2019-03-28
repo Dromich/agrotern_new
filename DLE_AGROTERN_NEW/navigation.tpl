@@ -1,3 +1,2 @@
-<!--div class="button_still">
-		<span><i class="fas fa-redo-alt reload"></i>Показать ещё</span>
-	</div-->
+<div style="display:none;" id="ajax-next-page">[next-link]Показать Еще[/next-link]
+</div>
