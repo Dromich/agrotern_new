@@ -1,0 +1,259 @@
+@media screen and (max-width: 768px) {
+  .none {
+    display: block;
+  }
+  .main_width {
+    width: 100%;
+  }
+  .main_content {
+    width: 100%;
+  }
+  .container_main {
+    display: none;
+  }
+  .category {
+    display: none;
+  }
+  .search-container {
+    display: none;
+  }
+  .main_block_content {
+    display: block;
+  }
+  footer {
+    padding-top: 40px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .phone {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .phone ul li p {
+    color: #fff;
+  }
+  .year {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #282c36;
+  }
+  .year span {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+  }
+  .email {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .visa p {
+    margin: 0 auto;
+    font-weight: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .location {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .location ul li p {
+    color: #fff;
+  }
+  .days_work {
+    margin-top: 40px;
+  }
+  #nones {
+    display: block;
+  }
+  .phone,
+  .days_work,
+  .location {
+    color: #fff;
+    background: url();
+    width: 100%;
+    padding: 0;
+  }
+  .main_footer {
+    display: none;
+  }
+  .block_catalog {
+    display: block;
+  }
+  .sorting {
+    display: none;
+  }
+  .text-about {
+    padding: 0 10px 0 10px;
+    margin-bottom: 150px;
+    width: 470px;
+  }
+  .text-about h2 {
+    font-size: 25px;
+  }
+  .text-about p {
+    text-align: left;
+  }
+  .title {
+    display: none;
+  }
+  .card_product {
+    margin: 0 auto;
+  }
+  .block_sorting_responsive {
+    margin-top: 10px;
+    padding: 10px 5px 10px 5px;
+    border: 2px solid #f5f5f5;
+    border-radius: 4px;
+  }
+  .block_sorting_responsive ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .block_sorting_responsive ul .price_sort,
+  .block_sorting_responsive ul .price_sort_ {
+    font-size: 12px;
+  }
+  .manafacturer-list,
+  .power-list,
+  .cylinders-list,
+  .drive-unit-list,
+  .track-list {
+    display: none;
+  }
+  .card_product {
+    margin-top: 40px;
+  }
+  .filter-block p {
+    margin-top: -20px;
+  }
+  .standart h3 {
+    margin: 0;
+  }
+  .standart i {
+    margin: 0;
+  }
+  .cabin {
+    border-bottom: none;
+    box-shadow: -1px 9px 25px -31px #000000 inset;
+    background-color: #fff;
+  }
+  .cabin h3 {
+    color: #193b90;
+  }
+  .cabin i {
+    color: #193b90;
+  }
+  .cabin-list {
+    background-color: #fff;
+  }
+  .button_still span {
+    padding-left: 79px;
+    padding-right: 79px;
+  }
+  .left-content {
+    margin: 0 auto;
+  }
+  .buttons_copyS {
+    margin-bottom: 40px;
+  }
+  .buttons_copyS span {
+    padding-left: 89px;
+    padding-right: 89px;
+  }
+  .nones{
+    display: block;
+  }
+}
+@media screen and (max-width: 465px) {
+  .text-about {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 448px) {
+  .text-about {
+    width: 430px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .text-about {
+    margin-bottom: 200px;
+    width: 410px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .text-about {
+    margin-bottom: 250px;
+    width: 380px;
+  }
+  .text-about h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 381px) {
+  .text-about {
+    margin-bottom: 315px;
+    width: 320px;
+  }
+  .text-about p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .text-about {
+    margin-bottom: 310px;
+    width: 310px;
+  }
+  .text-about h2 {
+    font-size: 16px;
+  }
+  .buttons_copyS span {
+    background-position-x: 20px;
+    padding-left: 59px;
+    padding-right: 59px;
+  }
+}
+@media screen and (max-width: 345px) {
+  .text-about {
+    margin-bottom: 450px;
+    margin-bottom: 380px;
+    width: 280px;
+  }
+}
+@media screen and (max-width: 334px) {
+  .buttons_copyS span {
+    padding-left: 49px;
+    padding-right: 49px;
+  }
+  .buttons_copyS p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 322px) {
+  .buttons_copyS span {
+    padding-left: 49px;
+    padding-right: 49px;
+  }
+}
+@media screen and (max-width: 295px) {
+  .button_still span {
+    padding-left: 59px;
+    padding-right: 59px;
+  }
+  .button_still p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 274px) {
+  .button_still span {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+@media screen and (max-width: 400px){
+  .main_menu_open .search input{
+    width: 70%;
+  }
+}
