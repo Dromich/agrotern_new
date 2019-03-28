@@ -725,7 +725,7 @@
 			  
 							if (nextPage !== undefined) {
 								$.ajax({
-									url: '/page/'+nextPage,
+									url: '/page/'+nextPage,//для категорій потрібно вивсети спочатку шорт урл категорії
 									success: function(data) {
 										
 										$('#ajax-next-page').remove();
