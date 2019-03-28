@@ -584,7 +584,7 @@ header {
   background-position-x: 5px;
 }
 .one {
-  background: url('../img/catalog_card.png');
+  /*background: url('../img/catalog_card.png');*/
   background-repeat: no-repeat;
 }
 .two {
@@ -656,6 +656,10 @@ header {
 }
 .block_catalog {
   display: flex;
+  justify-content: space-between;
+}
+#dle-content{
+	display: flex;
   justify-content: space-between;
 }
 .catalog_stock_section .title {
@@ -792,7 +796,7 @@ header {
 .banner {
   background: url('../img/bg_banner.png') center;
   background-repeat: no-repeat;
-  background-position: ;
+  
   margin-bottom: 30px;
   padding-top: 80px;
   padding-bottom: 80px;
