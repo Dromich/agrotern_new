@@ -377,6 +377,7 @@ header {
   outline: none;
   border: none;
   border-radius: 6px;
+  cursor:pointer;
 }
 .one_click {
   margin-top: 45px;
