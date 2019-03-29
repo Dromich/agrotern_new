@@ -25,13 +25,12 @@
 				</div>
 				<div class="slider_responsive none">
 					<div class="slide_responsive flex">
-						<div class="arrow_left">
-							<i class="fas fa-caret-left"></i>
-						</div>
-						<img src="{THEME}/img/slide_responsive.png" alt="slide">
-						<div class="arrow_right">
-							<i class="fas fa-caret-right"></i>
-						</div>
+						<div class="fotorama" data-width="100%" data-maxheight="350" data-allowfullscreen="native"
+					data-fit="contain" data-autoplay="true" data-loop="true" data-nav="thumbs">
+
+					[xfvalue_slide_img]
+
+				</div>
 					</div>
 				</div>
 				<div class="price_card">
