@@ -13,6 +13,7 @@
 	<!-- font -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<!-- style -->
 	<link media="screen" href="{THEME}/css/kylshop.css" type="text/css" rel="stylesheet">
 	[not-available=cat] 
@@ -481,6 +482,35 @@
 		// end menu responsive
 
 	</script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	  <script>
+		$( function() { /*для горизонтального*/
+		  $( "#slider-range" ).slider({
+			range: true,
+			min: 0,
+			max: 60000,
+			values: [ 28000, 48500 ],
+			slide: function( event, ui ) {
+			  $( "#amount" ).val(ui.values[ 0 ] + "грн.                         " + ui.values[ 1 ] + "-грн.");
+			}
+		  });
+		  $( "#amount" ).val($( "#slider-range" ).slider( "values", 0 ) + "грн.                         " + $( "#slider-range" ).slider( "values", 1 ) + "грн.");
+		} );
+	  
+		 $( function() {   /*для вертикального*/
+		  $( "#slider-vertical" ).slider({
+			orientation: "vertical",
+			range: "min",
+			min: 0,
+			max: 100,
+			value: 60,
+			slide: function( event, ui ) {
+			  $( "#" ).val( ui.value );
+			}
+		  });
+		  $( "#" ).val( $( "#slider-vertical" ).slider( "value" ) );
+		} );
+		</script>
 	<script type="text/javascript" src="{THEME}/js/kylshop.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
