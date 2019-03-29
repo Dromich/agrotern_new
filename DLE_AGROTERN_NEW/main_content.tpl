@@ -90,6 +90,11 @@
 		</div>
 		<div id="main_cont_1" class="">
 			<!--BEGIN CATALOG-->
+			<div class="block_catalog">
+
+				{custom  category="10,9"  available="main" navigation="no" from="0" limit="4" fixed="yes" order="rand" sort="desc" cache="yes"}
+			</div>
+
 {info}{content}
 
 			
@@ -138,96 +143,11 @@
 			</h1>
 		</div>
 		<div class="catalog_stock">
-				<div class="card_product">
-					<div class="event">
-						<span class="stockE" style="background-color: #eb133c;">Скидка</span>
-					</div>
-					<div class="name_product one">
-						<b>
-							<span>Мототрактор XINGTAI</span>
-							<span>T240 FPK</span>
-						</b>
-						<span class="manufacture">Xingtai</span>
-					</div>
-					<div class="buy_price">
-						<span class="stock">105 900 грн</span>
-						<span class="price">104 450 грн</span>
-						<div class="in_garbage">
-							<span>В корзину</span>
-						</div>
-					</div>
-					<div class="buy_click">
-						<span>Купить в 1 клик</span>
-					</div>
-				</div>
-				<div class="card_product">
-					<div class="event">
-						<span class="stockE" style="background-color: #eb133c;">Скидка</span>
-					</div>
-					<div class="name_product two">
-						<b>
-							<span>Мототрактор ФАЙТЕР T-16</span>
-							<span style="opacity: 0;">150 RX</span>
-						</b>
-						<span class="manufacture">Файтер</span>
-					</div>
-					<div class="buy_price">
-						<span class="stock">56 900 грн</span>
-						<span class="price">54 500 грн</span>
-						<div class="in_garbage">
-							<span>В корзину</span>
-						</div>
-					</div>
-					<div class="buy_click">
-						<span>Купить в 1 клик</span>
-					</div>
-				</div>
-				<div class="card_product">
-					<div class="event">
-						<span class="stockE" style="background-color: #eb133c;">Скидка</span>
-					</div>
-					<div class="name_product three">
-						<b>
-							<span>Мототрактор ВИТЯЗЬ VM</span>
-							<span>150 RX</span>
-						</b>
-						<span class="manufacture">Витязь</span>
-					</div>
-					<div class="buy_price">
-						<span class="stock">52 900 грн</span>
-						<span class="price">48 900 грн</span>
-						<div class="in_garbage">
-							<span>В корзину</span>
-						</div>
-					</div>
-					<div class="buy_click">
-						<span>Купить в 1 клик</span>
-					</div>
-				</div>
-				<div class="card_product four">
-					<div class="event">
-						<span class="stockE" style="background-color: #eb133c;">Скидка</span>
-					</div>
-					<div class="name_product four">
-						<b>
-							<span>Мототрактор FORTE MT-161</span>
-							<span>LUX</span>
-						</b>
-						<span class="manufacture">Forte</span>
-					</div>
-					<div class="buy_price">
-						<span class="stock">58 900 грн</span>
-						<span class="price">56 300 грн</span>
-						<div class="in_garbage">
-							<span>В корзину</span>
-						</div>
-					</div>
-					<div class="buy_click">
-						<span>Купить в 1 клик</span>
-					</div>
-				</div>
+			
+			{custom  category="89"  available="main" navigation="no" from="0" limit="4" fixed="yes" order="rand" sort="desc" cache="yes"}
+			
 				<div class="button_still_copy none">
-					<span><i class="fas fa-redo-alt reload"></i>Показать ещё скидки</span>
+				<a href="/"><span><i class="fas fa-redo-alt reload"></i>Показать ещё скидки</span></a>
 				</div>
 			</div>
 		</div>

@@ -16,14 +16,15 @@
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<!-- style -->
 	<link media="screen" href="{THEME}/css/kylshop.css" type="text/css" rel="stylesheet">
-	[not-available=cat] 
+	[not-available=showfull] 
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/style.css">
 	<!-- responsive -->
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/media.css">
 	[/not-available]
-	[available=cat]
-	<link rel="stylesheet" type="text/css" href="{THEME}/css/style_catalog.css">
-	<link rel="stylesheet" type="text/css" href="{THEME}/css/media_catalog.css">
+	
+	[available=showfull]
+	<link rel="stylesheet" type="text/css" href="{THEME}/css/style_fls.css">
+	<link rel="stylesheet" type="text/css" href="{THEME}/css/media_fls.css">
 	[/available]	
 	
 	<meta name="viewport" content="width=device-width"/>
@@ -248,8 +249,15 @@
 				</div>
 			</div>
 			[/available] 
+			[available=showfull]
+			{speedbar}
+			[/available]
 		</div>
 	</section>
+
+	[available=showfull] 
+	{info}{content}
+	[/available]
 
 	[available=main] 
 	{include file="main_content.tpl"}
@@ -385,7 +393,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer_responsive none">
+		<div class="footer_responsive none" id="nones">
 			<div class="buttons_copyS">
 				<span>
 					<a href="#box">Заказать консультацию</a>
