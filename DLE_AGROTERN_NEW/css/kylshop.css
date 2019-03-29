@@ -317,3 +317,11 @@
 	max-width: 100px;
 	vertical-align: middle;
 }
+.number_goods {
+	float: left;
+	margin-left: 20px;
+	margin-top: -45px;
+	color: #000;
+	padding: 5px;
+	/* background-color: rgba(255,255,255,.5); */
+}
