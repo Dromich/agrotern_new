@@ -57,7 +57,7 @@
 								</ul>
 							</div>
 							<div class="card_buttons_price">
-								<div  class="basket_click " >
+								<div href="{full-link}"  class="basket_click " data-goodsId="{news-id}" data-goodsimg="[xfvalue_image_url_main_img]" data-goodsPrice="[xfvalue_price]" data-goodsTitle="{title}"  >
 									<span>В корзину</span>
 								</div>
 								<div class="one_click">
