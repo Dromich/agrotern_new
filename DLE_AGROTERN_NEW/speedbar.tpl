@@ -1,11 +1,10 @@
-<div class="navigation_pages">
+<!--div class="navigation_pages">
 	<div class="pages__">
 
-			
+		
 		<ul class="flex">
-			<li>Главная</li> |
-			<li>Мототракторы</li> | 
-			<li style="color: #333; text-decoration: none;">Мототрактор SHIFENG SF-220</li>
+			<li>{speedbar}</li> |
+			
 		</ul>
 	</div>
-</div>
+</div-->
