@@ -19,9 +19,9 @@
 	[not-available=showfull] 
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/style.css">
 	<!-- responsive -->
-	<link rel="stylesheet" type="text/css" href="{THEME}/css/media.css">
-	[/not-available]
 	
+	[/not-available]
+	<link rel="stylesheet" type="text/css" href="{THEME}/css/media.css">
 	[available=showfull]
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/style_fls.css">
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/media_fls.css">
