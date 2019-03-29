@@ -153,12 +153,7 @@
 									<li><b>Сб-Вс: 8:00-20:00</b></li>
 								</ul>
 							</div>
-							<div class="basket">
-								<div>
-									<span>Корзина пуста</span>
-									<span>0 грн</span>
-								</div>
-							</div>
+							{cart}
 						</div>
 					</div>
 				</div>
@@ -263,7 +258,7 @@
 		</div>
 	</section>
 
-	[available=showfull]
+	[available=showfull|cart]
 	{info}{content}
 	[/available]
 
