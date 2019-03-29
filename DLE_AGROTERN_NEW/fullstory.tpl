@@ -2,26 +2,7 @@
 		<div class="main_width">
 			<div class="main_content flex_betwen">
 				<div class="slider">
-					<div class="slide">
-						<img src="{THEME}/img/fullscreen.png" alt="full">
-					</div>
-					<div class="preview flex_betwen">
-						<div class="arrow_left">
-							<i class="fas fa-caret-left"></i>
-						</div>
-						<div class="preview_slide">
-							<img src="{THEME}/img/preview_slide_one.png" alt="slide">
-						</div>
-						<div class="preview_slide">
-							<img src="{THEME}/img/preview_slide_two.png" alt="slide">
-						</div>
-						<div class="preview_slide preview_active_slide">
-							<img src="{THEME}/img/preview_slide_three.png" alt="slide">
-						</div>
-						<div class="arrow_right">
-							<i class="fas fa-caret-right"></i>
-						</div>
-					</div>
+					
 				</div>
 				<div class="content_card">
 					<div class="title">
