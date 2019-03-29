@@ -83,7 +83,7 @@ $(function(){
     // обновляем некоторую инфу в корзине
     function restartGoods(){
         // выводим количество товаров в корзине
-        $("#cart .number_goods").html('<b>' + CountGoods() + "</b> шт.");
+        $("#cart .number_goods").html('<b>' + CountGoods() + "</b> ");
         // заносим общую сумму всех товаров в корзине
 		$(".totalGoods b, #cart .total_amount b").text(AllMoneyGoods());		
 		PreOrder();
@@ -146,7 +146,7 @@ $(function(){
 		$(".oneGoods").remove();
 		$(".tele_form_inp").remove();
         $(".allPrice b").text("0");
-        $("#cart .number_goods").html('<b>0</b> шт.');
+        $("#cart .number_goods").html('<b>0</b>');
         $(".totalGoods b, #cart .total_amount b").text('0');
         return false;
     })
