@@ -25,6 +25,7 @@
 	[available=showfull]
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/style_fls.css">
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/media_fls.css">
+	
 	[/available]	
 	
 	<meta name="viewport" content="width=device-width"/>
@@ -106,7 +107,7 @@
 			<div class="container_main">
 				<div class="container_main-menu">
 					<div class="logo">
-						<img src="{THEME}/img/logo.png" class="logo-" alt="logo">
+					<a href="/">	<img src="{THEME}/img/logo.png" class="logo-" alt="logo"></a>
 						<div class="phone none">
 							<ul>
 								<li><a href="tel:(068)382-32-82"><b>(068) 382-32-82</b></a></li>
@@ -490,6 +491,12 @@
 		// end menu responsive
 
 	</script>
+	[available=showfull]
+	<script>
+			$('#dle-content').removeAttr('class');
+			</script>
+
+[/available]
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	  <script>
 		$( function() { /*для горизонтального*/
