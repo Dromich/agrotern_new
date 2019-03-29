@@ -2,7 +2,12 @@
 		<div class="main_width">
 			<div class="main_content flex_betwen">
 				<div class="slider">
-					
+					<div class="fotorama" data-width="100%" data-maxheight="350"
+	 data-fit="contain" data-autoplay="true" data-loop="true" data-nav="thumbs">
+	 
+	 [xfvalue_slide_img]
+		
+	  </div> 
 				</div>
 				<div class="content_card">
 					<div class="title">
