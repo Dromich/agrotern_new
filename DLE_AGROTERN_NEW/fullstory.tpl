@@ -26,14 +26,14 @@
 				<div class="content_card">
 					<div class="title">
 						<h1>
-							<span>Мототрактор SHIFENG</span>
-							<span>SF-220</span>
-						</h1>
+							<span>{title}</span>
+							
 					</div>
 					<div class="manufacture">
 						<ul>
-							<li>Производитель: <a href="#box"><b>Shifeng</b></a></li>
-							<li><b><i class="fas fa-check"></i> В наличии</b></li>
+							<li>Производитель: <b>[xfvalue_brand]</b></li>
+							[xfgiven_on-sale]<li><b><i class="fas fa-check"></i> В наличии</b></li>[/xfgiven_on-sale]
+							[xfnotgiven_on-sale]<li><b><i class="fas fa-check"></i> Нет в наличии</b></li>[/xfnotgiven_on-sale]
 						</ul>
 					</div>
 					<div class="slider_responsive none">
@@ -52,11 +52,12 @@
 							<div class="price">
 								<ul>
 									<li>Цена:</li>
-									<li><b>72 400 грн</b></li>								
+									<li><b> <span class="price_val">[xfvalue_price] </span>
+										грн</b></li>								
 								</ul>
 							</div>
 							<div class="card_buttons_price">
-								<div class="basket_click">
+								<div  class="basket_click " >
 									<span>В корзину</span>
 								</div>
 								<div class="one_click">
@@ -178,3 +179,21 @@
 			</div>
 		</div>
 	</section>
+	<script>
+			function split_register() {
+				console.log('Spl')
+				$('.price_val').each(function () {
+			var price = $(this).text();
+			//console.log(price);
+			var metamorf = price .replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ');
+			$(this).text(metamorf);	
+			});
+			}
+			
+			split_register();
+
+		// let bbimg =	$('#by_btn{news-id}').attr("data-goodsimg").substr(38);
+	
+		// console.log(bbimg);	
+		// $('#by_btn{news-id}').attr("data-goodsimg",bbimg);
+			</script>
