@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	{headers}
@@ -9,27 +10,29 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="{THEME}/img/favicon/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="{THEME}/img/favicon/apple-touch-icon-114x114.png">
 	<!-- icons font -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<!-- font -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<!-- style -->
 	<link media="screen" href="{THEME}/css/kylshop.css" type="text/css" rel="stylesheet">
-	[not-available=showfull] 
+	[not-available=showfull]
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/style.css">
 	<!-- responsive -->
-	
+
 	[/not-available]
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/media.css">
 	[available=showfull]
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/style_fls.css">
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/media_fls.css">
-	
-	[/available]	
-	
-	<meta name="viewport" content="width=device-width"/>
+
+	[/available]
+
+	<meta name="viewport" content="width=device-width" />
 </head>
+
 <body>
 	<header>
 		<div class="main_width">
@@ -76,8 +79,12 @@
 										</div>
 										<div class="phone">
 											<ul>
-												<li><a href="tel:(068)382-32-82"><p>(068) 382-32-82</p></a></li>
-												<li><a href="tel:(093)382-32-82"><p>(093) 382-32-82</p></a></li>
+												<li><a href="tel:(068)382-32-82">
+														<p>(068) 382-32-82</p>
+													</a></li>
+												<li><a href="tel:(093)382-32-82">
+														<p>(093) 382-32-82</p>
+													</a></li>
 											</ul>
 										</div>
 										<div class="days_work">
@@ -107,7 +114,7 @@
 			<div class="container_main">
 				<div class="container_main-menu">
 					<div class="logo">
-					<a href="/">	<img src="{THEME}/img/logo.png" class="logo-" alt="logo"></a>
+						<a href="/"> <img src="{THEME}/img/logo.png" class="logo-" alt="logo"></a>
 						<div class="phone none">
 							<ul>
 								<li><a href="tel:(068)382-32-82"><b>(068) 382-32-82</b></a></li>
@@ -238,7 +245,7 @@
 				</div>
 			</div>
 			<!-- end pop-ap window -->
-			[available=main] 
+			[available=main]
 			<div class="slider">
 				<div class="slide">
 					<!-- <img src="img/slide.png" alt="slide"> -->
@@ -249,18 +256,18 @@
 					<div class="element_pages"></div>
 				</div>
 			</div>
-			[/available] 
+			[/available]
 			[available=showfull]
 			{speedbar}
 			[/available]
 		</div>
 	</section>
 
-	[available=showfull] 
+	[available=showfull]
 	{info}{content}
 	[/available]
 
-	[available=main] 
+	[available=main]
 	{include file="main_content.tpl"}
 	[/available]
 
@@ -302,10 +309,15 @@
 					<div class="block_content">
 						<div>
 							<p>
-							Компания «Agrotern» основана в 2008 году и, на данный момент, это самая крупная компания по реализации сельскохозяйственной техники на рынке Украины. В ассортименте интернет-магазина Вы найдете продукцию только самых надежных торговых марок, таких как Garden Scout, Forte, DW, Shifeng, Claus, DongFeng, Xingtai, Foton, Jinma, Файтер, Булат, ДТЗ и множество других.
+								Компания «Agrotern» основана в 2008 году и, на данный момент, это самая крупная компания
+								по реализации сельскохозяйственной техники на рынке Украины. В ассортименте
+								интернет-магазина Вы найдете продукцию только самых надежных торговых марок, таких как
+								Garden Scout, Forte, DW, Shifeng, Claus, DongFeng, Xingtai, Foton, Jinma, Файтер, Булат,
+								ДТЗ и множество других.
 							</p>
 							<p>
-								Покупая в интернет-магазине «Agrotern», Вы можете быть уверены в качестве представленной продукции - весь товар поставляется напрямую от ведущих производителей Мира.
+								Покупая в интернет-магазине «Agrotern», Вы можете быть уверены в качестве представленной
+								продукции - весь товар поставляется напрямую от ведущих производителей Мира.
 							</p>
 						</div>
 						<div class="full_description">
@@ -403,8 +415,12 @@
 			<div class="block_responsive">
 				<div class="phone">
 					<ul>
-						<li><a href="tel:(068)382-32-82"><p>(068) 382-32-82</p></a></li>
-						<li><a href="tel:(093)382-32-82"><p>(093) 382-32-82</p></a></li>
+						<li><a href="tel:(068)382-32-82">
+								<p>(068) 382-32-82</p>
+							</a></li>
+						<li><a href="tel:(093)382-32-82">
+								<p>(093) 382-32-82</p>
+							</a></li>
 					</ul>
 				</div>
 				<div class="days_work">
@@ -444,16 +460,15 @@
 		</div>
 	</footer>
 	<script type="text/javascript">
-		
 		// hover menu
 		let elem = document.querySelector('.hover'),
 			menu = document.querySelector('.hover_menu');
 
-		elem.addEventListener('mouseenter', function() {
+		elem.addEventListener('mouseenter', function () {
 			menu.classList.add('active_hover-menu');
 			console.log('add');
 		});
-		menu.addEventListener('mouseleave', function() {
+		menu.addEventListener('mouseleave', function () {
 			menu.classList.remove('active_hover-menu');
 			console.log('remove');
 		});
@@ -464,11 +479,11 @@
 			pop = document.querySelector('.main_pop-ap_window'),
 			close = document.querySelector('.close_window');
 
-		message.addEventListener('click', function() {
+		message.addEventListener('click', function () {
 			pop.classList.add('active-pop_ap');
 			document.body.style.overflow = 'hidden';
 		});
-		close.addEventListener('click', function() {
+		close.addEventListener('click', function () {
 			pop.classList.remove('active-pop_ap');
 			document.body.style.overflow = '';
 		});
@@ -478,87 +493,94 @@
 			open_menu = document.querySelector('#bars'),
 			close_menu = document.querySelector('#times');
 
-		open_menu.addEventListener('click', function() {
+		open_menu.addEventListener('click', function () {
 			main_menu_response.classList.add('active_responsive-menu');
 			open_menu.style.display = 'none';
 			close_menu.style.display = 'block';
 		});
-		close_menu.addEventListener('click', function() {
+		close_menu.addEventListener('click', function () {
 			main_menu_response.classList.remove('active_responsive-menu');
 			open_menu.style.display = 'block';
 			close_menu.style.display = 'none';
 		});
 		// end menu responsive
-
 	</script>
 	[available=showfull]
 	<script>
-			$('#dle-content').removeAttr('class');
-			</script>
+		$('#dle-content').removeAttr('class');
+	</script>
 
-[/available]
+	[/available]
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	  <script>
-		$( function() { /*для горизонтального*/
-		  $( "#slider-range" ).slider({
-			range: true,
-			min: 0,
-			max: 60000,
-			values: [ 28000, 48500 ],
-			slide: function( event, ui ) {
-			  $( "#amount" ).val(ui.values[ 0 ] + "грн.                         " + ui.values[ 1 ] + "-грн.");
-			}
-		  });
-		  $( "#amount" ).val($( "#slider-range" ).slider( "values", 0 ) + "грн.                         " + $( "#slider-range" ).slider( "values", 1 ) + "грн.");
-		} );
-	  
-		 $( function() {   /*для вертикального*/
-		  $( "#slider-vertical" ).slider({
-			orientation: "vertical",
-			range: "min",
-			min: 0,
-			max: 100,
-			value: 60,
-			slide: function( event, ui ) {
-			  $( "#" ).val( ui.value );
-			}
-		  });
-		  $( "#" ).val( $( "#slider-vertical" ).slider( "value" ) );
-		} );
-		</script>
+	<script>
+		$(function () {
+			/*для горизонтального*/
+			$("#slider-range").slider({
+				range: true,
+				min: 0,
+				max: 60000,
+				values: [28000, 48500],
+				slide: function (event, ui) {
+					$("#amount").val(ui.values[0] + "грн.                         " + ui.values[1] +
+						"-грн.");
+				}
+			});
+			$("#amount").val($("#slider-range").slider("values", 0) + "грн.                         " + $(
+				"#slider-range").slider("values", 1) + "грн.");
+		});
+
+		$(function () {
+			/*для вертикального*/
+			$("#slider-vertical").slider({
+				orientation: "vertical",
+				range: "min",
+				min: 0,
+				max: 100,
+				value: 60,
+				slide: function (event, ui) {
+					$("#").val(ui.value);
+				}
+			});
+			$("#").val($("#slider-vertical").slider("value"));
+		});
+	</script>
 	<script type="text/javascript" src="{THEME}/js/kylshop.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
 			var nextPage = 2
-			$( ".button_still" ).click(function( event ) {
-		
-			  event.preventDefault();
-			  
-							if (nextPage !== undefined) {
-								$.ajax({
-									url: '/page/'+nextPage,//для категорій потрібно вивсети спочатку шорт урл категорії
-									success: function(data) {
-										
-										$('#ajax-next-page').remove();
-		let ajxcont = '<div class="block_catalog">'+$('#dle-content', data).html()+'</div>'
-		
-										$('#main_cont_1').append(
-											
-											ajxcont 
-										
-										);
-										nextPage++
-									console.log(nextPage);	
-										
-									}
-								})
-							}
-							
-							
-			});	
+			$(".button_still").click(function (event) {
+
+				event.preventDefault();
+
+				if (nextPage !== undefined) {
+					$.ajax({
+						url: '/page/' +
+						nextPage, //для категорій потрібно вивсети спочатку шорт урл категорії
+						success: function (data) {
+
+							$('#ajax-next-page').remove();
+							let ajxcont = '<div class="block_catalog">' + $('#dle-content', data)
+								.html() + '</div>'
+
+							$('#main_cont_1').append(
+
+								ajxcont
+
+							);
+							nextPage++
+							console.log(nextPage);
+
+						}
+					})
+				}
+
+
+			});
 		});
-		
-		
-			</script>
+	</script>
+	<link rel="stylesheet" href="{THEME}/js/fotorama/fotorama.css">
+	<script src="{THEME}/js/fotorama/fotorama.js"></script>
+
 </body>
+
 </html>
