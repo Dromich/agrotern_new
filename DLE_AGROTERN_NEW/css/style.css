@@ -1401,11 +1401,16 @@ header {
 	line-height: 29px;
 	margin-bottom: 25px;
   }
-  .text-about a {
+  .text-about .more {
 	color: #ff9c00;
 	font-weight: bold;
 	border-bottom: 2px dotted #ff9c00;
 	margin-bottom: 35px;
+	cursor: pointer;
+  }
+
+  .text-about .complete {
+	display:none;
   }
   /* left-content end */
 
