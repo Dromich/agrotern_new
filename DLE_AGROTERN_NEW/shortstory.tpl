@@ -23,7 +23,10 @@
 		[xfgiven_new_price]<span class="price">[xfvalue_new_price] грн</span>[/xfgiven_new_price]
 
 		<div href="{full-link}" class="in_garbage basket_click" data-goodsId="{news-id}"
-		data-goodsimg="[xfvalue_image_url_main_img]" data-goodsPrice="[xfvalue_price]" data-goodsTitle="{title}" >
+		data-goodsimg="[xfvalue_image_url_main_img]"
+		[xfgiven_new_price] data-goodsPrice="[xfvalue_new_price]" [/xfgiven_new_price]
+		[xfnotgiven_new_price] data-goodsPrice="[xfvalue_price]"  [/xfnotgiven_new_price]
+		 data-goodsTitle="{title}" >
 			<span>В корзину</span>
 		</div>
 	</div>
