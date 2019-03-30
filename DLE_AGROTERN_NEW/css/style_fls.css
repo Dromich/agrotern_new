@@ -765,16 +765,16 @@ header {
   margin-bottom: 30px;
 }
 .block_content .buttons span {
-  background: url('../img/icon_message.png') left;
-  background-repeat: no-repeat;
-  background-position-x: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 89px;
-  padding-right: 89px;
-  border-radius: 5px;
-  background-color: #ff9c00;
-  cursor: pointer;
+	background: url('../img/icon_message.png') left;
+	background-repeat: no-repeat;
+	background-position-x: 90%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 9px;
+	padding-right: 89px;
+	border-radius: 5px;
+	background-color: #ff9c00;
+	cursor: pointer;
 }
 .block_content .buttons span a {
   color: #ffffff;
