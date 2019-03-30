@@ -546,7 +546,6 @@
 			$("#").val($("#slider-vertical").slider("value"));
 		});
 	</script>
-	<script type="text/javascript" src="{THEME}/js/kylshop.js"></script>
 	
 	[not-available=showfull]
 	<script type="text/javascript">
@@ -600,6 +599,8 @@
 [/not-available]
 	<link rel="stylesheet" href="{THEME}/js/fotorama/fotorama.css">
 	<script src="{THEME}/js/fotorama/fotorama.js"></script>
+	<script type="text/javascript" src="{THEME}/js/kylshop.js"></script>
+	<script type="text/javascript" src="{THEME}/js/common.js"></script>
 
 </body>
 
