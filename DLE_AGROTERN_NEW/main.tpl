@@ -165,12 +165,12 @@
 		<div class="main_width">
 			<div class="category_menu">
 				<ul>
-					<li class="hover"><a href="#box">Мототракторы</a></li>
-					<li><a href="#box">Минитракторы</a></li>
-					<li><a href="#box">Мотоблоки</a></li>
-					<li><a href="#box">Генераторы</a></li>
-					<li><a href="#box">Навесное оборудование</a></li>
-					<li><a href="#box">Снегоуборщики</a></li>
+					<li class="hover"><a href="/mototraktory/">Мототракторы</a></li>
+					<li><a href="/minitraktory/">Минитракторы</a></li>
+					<li><a href="/motobloki/">Мотоблоки</a></li>
+					<li><a href="/generatory/">Генераторы</a></li>
+					<li><a href="/navesnoe-oborudovanie/">Навесное оборудование</a></li>
+					<li><a href="/snegouborochnye-mashiny/">Снегоуборщики</a></li>
 				</ul>
 			</div>
 			<!-- hover menu -->
