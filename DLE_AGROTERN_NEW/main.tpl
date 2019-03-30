@@ -516,11 +516,11 @@
 				max: 60000,
 				values: [28000, 48500],
 				slide: function (event, ui) {
-					$("#amount").val(ui.values[0] + "грн.                         " + ui.values[1] +
+					$("#amount").val(ui.values[0] + "грн." + ui.values[1] +
 						"-грн.");
 				}
 			});
-			$("#amount").val($("#slider-range").slider("values", 0) + "грн.                         " + $(
+			$("#amount").val($("#slider-range").slider("values", 0) + "грн." + $(
 				"#slider-range").slider("values", 1) + "грн.");
 		});
 
