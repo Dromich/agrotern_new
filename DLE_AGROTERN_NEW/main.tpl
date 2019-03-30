@@ -541,37 +541,40 @@
 	</script>
 	<script type="text/javascript" src="{THEME}/js/kylshop.js"></script>
 	<script type="text/javascript">
-		$(document).ready(function () {
-			var nextPage = 2
-			$(".button_still").click(function (event) {
+  $(document).ready(function () {
+	var nextPage = 2
+	$(".button_still").click(function (event) {
 
-				event.preventDefault();
+		event.preventDefault();
 
-				if (nextPage !== undefined) {
-					$.ajax({
-						url: '/page/' +
-						nextPage, //для категорій потрібно вивсети спочатку шорт урл категорії
-						success: function (data) {
+		if (nextPage !== undefined) {
+			$.ajax({
+				url: window.location.pathname+'page/' +	nextPage, //для категорій потрібно вивсети спочатку шорт урл категорії
+				success: function (data) {
 
-							$('#ajax-next-page').remove();
-							let ajxcont = '<div class="block_catalog">' + $('#dle-content', data)
-								.html() + '</div>'
+					$('#ajax-next-page').remove();
+					let ajxcont = '<div class="block_catalog">' + $('#dle-content', data).html() + '</div>';
+					$('#main_cont_1').append(
 
-							$('#main_cont_1').append(
+						ajxcont
 
-								ajxcont
+					);
+					nextPage++
+					//console.log(nextPage);
 
-							);
-							nextPage++
-							console.log(nextPage);
+				},
+				error: function (data) {
+					$(".button_still").remove();
+					
 
-						}
-					})
 				}
+			})
+		}
 
 
-			});
-		});
+	});
+});
+//console.log(window.location.pathname)
 	</script>
 	<link rel="stylesheet" href="{THEME}/js/fotorama/fotorama.css">
 	<script src="{THEME}/js/fotorama/fotorama.js"></script>
