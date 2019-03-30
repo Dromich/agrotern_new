@@ -38,7 +38,7 @@
 
 	<meta name="viewport" content="width=device-width" />
 </head>
-
+{AJAX}
 <body>
 	<header>
 		<div class="main_width">
@@ -145,8 +145,18 @@
 						<div class="line"></div>
 						<div class="container_main-two flex">
 							<div class="search">
-								<input type="text" placeholder=" Поиск по сайту">
-								<button></button>
+									<form id="quicksearch" method="post">
+											<input name="do" value="search" type="hidden">
+											<input name="subaction" value="search" type="hidden">
+											<input id="story" name="story" placeholder="Введите слово для поиска" autocomplete="off" type="text">
+								<button type="submit"></button>
+											<!--<div class="sblock">
+												<input id="story" name="story" placeholder="Введите слово для поиска" autocomplete="off" type="text">
+												<button id="sw" type="submit"><span class="fa fa-search "></span></button>
+											</div>-->
+										</form>
+
+								
 							</div>
 							<div class="phone">
 								<ul>
@@ -265,7 +275,7 @@
 		</div>
 	</section>
 
-	[available=showfull|cart]
+	[available=showfull|cart|search]
 	{info}{content}
 	[/available]
 
