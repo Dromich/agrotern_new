@@ -540,6 +540,8 @@
 		});
 	</script>
 	<script type="text/javascript" src="{THEME}/js/kylshop.js"></script>
+	
+	[not-available=showfull]
 	<script type="text/javascript">
   $(document).ready(function () {
 	var nextPage = 2
@@ -561,7 +563,7 @@
 					);
 					nextPage++
 					//console.log(nextPage);
-
+					split_register();
 				},
 				error: function (data) {
 					$(".button_still").remove();
@@ -572,10 +574,23 @@
 		}
 
 
+	});	
+	function split_register() {
+		
+		$('.price').each(function () {
+	var price = $(this).text();
+	//console.log(price);
+	var metamorf = price .replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ');
+	$(this).text(metamorf);	
 	});
+	}
+	
+	split_register();
 });
 //console.log(window.location.pathname)
 	</script>
+
+[/not-available]
 	<link rel="stylesheet" href="{THEME}/js/fotorama/fotorama.css">
 	<script src="{THEME}/js/fotorama/fotorama.js"></script>
 
