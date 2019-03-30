@@ -17,8 +17,8 @@
 		<div class="main_category oneBlock_category">
 			<div class="card_category">
 				<p>
-					<span><a href="#box">Мототракторы</a></span>
-					<span>156 предложений</span>
+					<span><a href="/mototraktory/">Мототракторы</a></span>
+					<span>{catnewscount id="9"}  предложений</span>
 				</p>
 				<div class="line_category">
 					<div class="to_line"></div>
@@ -26,8 +26,8 @@
 			</div>
 			<div class="card_category">
 				<p>
-					<span><a href="#box">Минитракторы</a></span>
-					<span>98 предложений</span>
+					<span><a href="/minitraktory/">Минитракторы</a></span>
+					<span>{catnewscount id="10"}  предложений</span>
 				</p>
 				<div class="line_category">
 					<div class="to_line"></div>
@@ -35,8 +35,8 @@
 			</div>
 			<div class="card_category">
 				<p>
-					<span><a href="#box">Мотоблоки</a></span>
-					<span>25 предложений</span>
+					<span><a href="/motobloki/">Мотоблоки</a></span>
+					<span>{catnewscount id="11"}  предложений</span>
 				</p>
 				<div class="line_category">
 					<div class="to_line"></div>
@@ -46,8 +46,8 @@
 		<div class="main_category twoBlock_category">
 			<div class="card_category">
 				<p>
-					<span><a href="#box">Навесное<br> оборудование</a></span>
-					<span>96 предложений</span>
+					<span><a href="/navesnoe-oborudovanie/">Навесное<br> оборудование</a></span>
+					<span>{catnewscount id="12"}  предложений</span>
 				</p>
 				<div class="line_category">
 					<div class="to_line"></div>
@@ -55,8 +55,8 @@
 			</div>
 			<div class="card_category">
 				<p>
-					<span><a href="#box">Генераторы</a></span>
-					<span>136 предложений</span>
+					<span><a href="/generatory/">Генераторы</a></span>
+					<span>{catnewscount id="13"}  предложений</span>
 				</p>
 				<div class="line_category">
 					<div class="to_line"></div>
@@ -64,8 +64,8 @@
 			</div>
 			<div class="card_category">
 				<p>
-					<span><a href="#box">Снегоуборочные<br> машины</a></span>
-					<span>85 предложений</span>
+					<span><a href="/snegouborochnye-mashiny/">Снегоуборочные<br> машины</a></span>
+					<span>{catnewscount id="14"}  предложений</span>
 				</p>
 				<div class="line_category">
 					<div class="to_line"></div>
