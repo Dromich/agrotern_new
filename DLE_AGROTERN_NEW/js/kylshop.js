@@ -83,7 +83,8 @@ $(function(){
     // обновляем некоторую инфу в корзине
     function restartGoods(){
         // выводим количество товаров в корзине
-        $("#cart .number_goods").html('<b>' + CountGoods() + "</b> ");
+		$("#cart .number_goods").html('<b>' + CountGoods() + "</b> ");
+		$(".mobil_goods span").html('<b>' + CountGoods() + "</b> ");
         // заносим общую сумму всех товаров в корзине
 		$(".totalGoods b, #cart .total_amount b").text(AllMoneyGoods());		
 		PreOrder();
@@ -132,7 +133,13 @@ $(function(){
         $("#bg_0, #modalCart").fadeIn("slow");
         $('html, body').animate({scrollTop: 0}, 700);
         return false;
-    })
+	})
+	$('.mobil_goods').click(function (e) { 
+		e.preventDefault();
+		$("#bg_0, #modalCart").fadeIn("slow");
+        $('html, body').animate({scrollTop: 0}, 700);
+        return false;
+	});
 
     // закрываем модальное окно
     $("body").on("click", "#bg_0, .cartClose", function(){
@@ -146,7 +153,8 @@ $(function(){
 		$(".oneGoods").remove();
 		$(".tele_form_inp").remove();
         $(".allPrice b").text("0");
-        $("#cart .number_goods").html('<b>0</b>');
+		$("#cart .number_goods").html('<b>0</b>');
+		$(".mobil_goods span").html('<b>0</b> ');
         $(".totalGoods b, #cart .total_amount b").text('0');
         return false;
     })

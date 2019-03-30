@@ -21,9 +21,15 @@
 	[not-available=showfull]
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/style.css">
 	<!-- responsive -->
-
 	[/not-available]
+
+	[not-available=main]
+<link rel="stylesheet" href="{THEME}/css/media_cat.css">
+<!--Медія для каталогу є конфлікт на майні -->
+	[/not-available]
+	
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/media.css">
+
 	[available=showfull]
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/style_fls.css">
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/media_fls.css">
@@ -43,8 +49,9 @@
 						<i class="fas fa-times" id="times"></i>
 					</div>
 					<div class="search_basket_icon">
-						<div><i class="fas fa-search"></i></div>
-						<div><img src="{THEME}/img/icon_basket_responsive.png" alt="basket"></div>
+
+						<!--<div><i class="fas fa-search"></i></div>-->
+						<div class="mobil_goods"><span></span> <img src="{THEME}/img/icon_basket_responsive.png" alt="basket"></div>
 					</div>
 				</div>
 				<div class="responsive_menu-open nones">
