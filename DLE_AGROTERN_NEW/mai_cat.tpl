@@ -207,7 +207,7 @@
 							</ul>
 						</div>
 					</div>
-
+{info}
 
 					{content}
 
