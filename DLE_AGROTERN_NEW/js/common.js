@@ -1,11 +1,11 @@
 $(function() {
 
-	//SVG Fallback
-	if(!Modernizr.svg) {
-		$("img[src*='svg']").attr("src", function() {
-			return $(this).attr("src").replace(".svg", ".png");
-		});
-	};
+	// //SVG Fallback
+	// if(!Modernizr.svg) {
+	// 	$("img[src*='svg']").attr("src", function() {
+	// 		return $(this).attr("src").replace(".svg", ".png");
+	// 	});
+	// };
 
 	//E-mail Ajax Send
 	//Documentation & Example: https://github.com/agragregra/uniMail
@@ -213,5 +213,23 @@ $('.add_to_cart').click(function(){
 			};	
 
 	})
+
+
+
+$(".more").click(function (e) { 
+$(".complete").slideToggle();
+console.log($(this).text());
+if ($(this).text()=="Читать полностью ") {
+	$(this).text("Cвернуть")
+	}else{
+		$(this).text("Читать полностью ")
+
+	}
+	
+});
+
+
+
+	
 	
   });
