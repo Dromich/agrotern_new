@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<!-- style -->
 	<link media="screen" href="{THEME}/css/kylshop.css" type="text/css" rel="stylesheet">
+	<link media="screen" href="{THEME}/css/engine.css" type="text/css" rel="stylesheet">
 	[not-available=showfull]
 	<link rel="stylesheet" type="text/css" href="{THEME}/css/style.css">
 	<!-- responsive -->
