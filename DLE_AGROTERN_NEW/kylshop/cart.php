@@ -33,9 +33,9 @@ if($is_logged == "1" || $kylshop_config["guest_allow"] == true){
     if(!isset($_GET["page"])){ // первая страница корзины
 
 		$cont = '
+		<div class="cart_optinns">
 		
-		
-		<h1>Мой заказ</h1><a href="#" class="cartClear">очистить</a>
+		<h1>Ваш заказ</h1><a href="#" class="cartClear">очистить</a>
 		
 		
 		<table class="listing-cart staticCart">
@@ -45,7 +45,7 @@ if($is_logged == "1" || $kylshop_config["guest_allow"] == true){
 				<th width="90">Цена / 1 шт.</th>
 			</tr>
 		</table>
-		<div class="totalGoods">Всего: <b>0</b><span> грн.</span></div>';
+		<div class="totalGoods">Всего: <b>0</b><span> грн.</span></div></div>';
 
         $field = '';
 
@@ -106,7 +106,8 @@ if($is_logged == "1" || $kylshop_config["guest_allow"] == true){
 		$cont .= '<div class="action_button_cart ">
 		<h3>Детали заказа</h3>
             <form id="cart_form"  method="POST" action="'.$config["http_home_url"].'?do=cart&page=payments">
-				'.$field.'
+			span	
+			'.$field.'
 				
                 <input type="hidden" name="productsIds" id="my_products" value="0" required>
                 <input type="hidden" name="productsAmount" id="productsAmount" value="0" required>
@@ -166,7 +167,7 @@ if($is_logged == "1" || $kylshop_config["guest_allow"] == true){
 
     }
 
-    $content = '<div id="staticCart">'.$cont.'</div>';
+    $content = ''.$cont.'';
 }
 
 ############################################
