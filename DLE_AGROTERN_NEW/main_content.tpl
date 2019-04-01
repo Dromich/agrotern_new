@@ -64,7 +64,7 @@
 			</div>
 			<div class="card_category">
 				<p>
-					<span><a href="/snegouborochnye-mashiny/">Снегоуборочные<br> машины</a></span>
+					<span><a href="/svarochnoe-oborudovanie/">Сварочное<br> оборудование</a></span>
 					<span>{catnewscount id="14"}  предложений</span>
 				</p>
 				<div class="line_category">
