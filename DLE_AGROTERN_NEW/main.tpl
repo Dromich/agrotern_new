@@ -275,8 +275,19 @@
 			[/available]
 		</div>
 	</section>
+	
+	[available=cart|search]
+	<section class="catalog">
+		<div class="main_width">
+				<div id="main_cont_1" class="">
+						{info}{content}
+				</div>
+			
+		</div>
+	</section>
+	[/available]
 
-	[available=showfull|cart|search]
+	[available=showfull]
 	{info}{content}
 	[/available]
 
