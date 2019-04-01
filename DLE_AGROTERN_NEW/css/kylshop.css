@@ -91,15 +91,15 @@
 }
 
 .action_button_cart li a:hover{
-	background: #E48900;
+	background: #ff9c00;
 }
 
 .cartClear{
-	background: #829BCE !important;
+	background: #193b90 !important;
 }
 
 .cartClear:hover{
-	background: #526CA0 !important;
+	background: #ff9c00 !important;
 }
 
 #staticCart .cartClear{
@@ -120,14 +120,14 @@
 }
 
 .listing-cart th, .listing-cart td{
-	border: 1px #3F8EE0 solid;
+	border: 1px #193b90 solid;
 	padding: 5px;
 	font-size: 12px;
 	font-weight: normal;
 }
 
 .listing-cart th{
-	background: #3F8EE0;
+	background: #193b90;
 	color: #fff;
 }
 
@@ -138,7 +138,7 @@
 .listing-cart .goodsAmount{
 	width: 70px;
 	padding: 3px 5px;
-	border: 1px #9ACBFF solid;
+	border: 1px #193b90 solid;
 }
 
 .totalGoods{
