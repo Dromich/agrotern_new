@@ -169,10 +169,12 @@
 	padding: 20px;
 }
 
-.myCart h1{
+.myCart h1 {
 	margin: 0 0 10px 0;
 	font-size: 21px;
-	color: #3F8EE0;
+	color: #333;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 #payment{
@@ -180,67 +182,22 @@
 	margin: 0 20px 0 0;
 }
 
-.go_payments, .btn_buy{
-	background: #fff url("../img/webmoney.png") no-repeat center center;
-    display: block;
-    width: 180px;
-	height: 70px;
-    border-radius: 3px;
-    cursor: pointer;
-    border: none;
-	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-    outline: none;
-    transition: 0.3s;
-}
 
-.free_kassa{
-	background: #fff url("../img/free-kassa.png") no-repeat center center;
-	display: block;
-	width: 255px;
-	height: 70px;
-	float: left;
-	border-radius: 3px;
-	cursor: pointer;
-	border: none;
-	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-	outline: none;
-	transition: 0.3s;
-}
+
+
+
+
 
 .btn_buy {
 	background: #4cbf1e;
-	height: 40px;
+	/* height: 40px; */
 	color: #fff;
 	margin: 20px auto;
-	width: 100% !important;
-}
-
-.go_payments:hover{
-	background: #fff url("../img/webmoney.png") no-repeat center center !important;
-}
-
-.payment_buttons{
-	font-style: italic;
-	display: inline-block;
-	margin: 10px 0;
-}
-
-.payment_buttons form{
-	display: inline-block;
-}
-
-.go_buy{
-	display: inline-block;
-	background: #6CAD56;
-	color: #fff;
-	outline: none;
-	border: none;
-	padding: 7px 10px;
-	border-right: 1px #87CE70 solid;
-	margin: 0;
+	/* width: 100% !important; */
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
 	cursor: pointer;
-	border-radius: 50px 0 0 50px;
-	transition: 0.3s;
 }
 
 .go_buy:hover{
@@ -324,4 +281,77 @@
 	color: #000;
 	padding: 5px;
 	/* background-color: rgba(255,255,255,.5); */
+}
+.myCart {
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.cartClear {
+	background: #193B90;
+	float: right;
+	padding: 10px;
+	margin: 15px auto;
+	color: #fff;
+	border-radius: 10px;
+}
+.cart_optinns {
+	width: 60%;
+	padding: 15px;
+}
+.action_button_cart {
+	margin: 20px auto 0;
+	width: 40%;
+	text-align: left;
+	padding-left: 25px;
+}
+#kylshop_field_comment {
+	display: block;
+	margin: 15px auto;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #333;
+}
+#deliv_tupe {
+	display: block;
+	margin: 10px auto;
+}
+#pay_tupe {
+	display: block;
+	margin: 15px auto;
+}
+.one_field input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #333;
+	border-radius: 10px;
+}
+.action_button_cart h3 {
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+	.myCart {
+		padding: 5px;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+	}
+	.cart_optinns {
+		width: 100%;
+		padding: 15px;
+	}
+	.action_button_cart {
+		margin: 20px auto 0;
+		width: 100%;
+		/* text-align: left; */
+		padding-left: 0;
+	}
+
 }
