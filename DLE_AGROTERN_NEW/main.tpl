@@ -489,6 +489,27 @@
 			</div>
 		</div>
 	</footer>
+
+	<div class="hidden">
+		
+	
+			<form id="teleform">
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="AGROTERN">
+				<input type="hidden" name="admin_email" value="agroternua@gmail.com">
+				<input type="hidden" name="form_subject" value="Покупка з AGROTERN">
+				<!-- END Hidden Required Fields -->
+	
+				<input id="costumer_name" type="hidden" name="Ім'я замовника">
+				<input id="costumer_phone" type="hidden" name="Телефон">
+				<input id="deliver_tupe" type="hidden" name="Спосіб доставки">
+				<input id="payy_tupe" type="hidden" name="Спосіб оплати">
+				<input id="teleform_total" type="hidden" name="Загальна вартість замовлення">
+			</form>
+	
+	
+		</div>
+
 	<script type="text/javascript">
 		// hover menu
 		let elem = document.querySelector('.hover'),
