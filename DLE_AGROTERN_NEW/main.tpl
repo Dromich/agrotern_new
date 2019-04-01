@@ -134,11 +134,11 @@
 						<div class="menu">
 							<div>
 								<ul class="flex">
-									<li><a href="#box">О нас</a></li>
-									<li><a href="#box">Доставка и оплата</a></li>
-									<li><a href="#box">Гарантия</a></li>
-									<li><a href="#box">Сотрудничество</a></li>
-									<li><a href="#box">Контакты</a></li>
+									<li><a href="/o-nas.html">О нас</a></li>
+									<li><a href="/oplata-i-dostavka.html">Доставка и оплата</a></li>
+									<li><a href="/garantija.html">Гарантия</a></li>
+									<li><a href="/sotrudnichestvo.html">Сотрудничество</a></li>
+									<li><a href="/kontaktnaja-informacija.html">Контакты</a></li>
 									<li><a href="#box" class="pop_ap"><b>Заказать консультацию</b></a></li>
 								</ul>
 							</div>
@@ -275,7 +275,7 @@
 			[/available]
 		</div>
 	</section>
-	
+
 	[available=cart|search]
 	<section class="catalog">
 		<div class="main_width">
@@ -287,7 +287,7 @@
 	</section>
 	[/available]
 
-	[available=showfull]
+	[available=showfull|static]
 	{info}{content}
 	[/available]
 
@@ -529,7 +529,7 @@
 		});
 		// end menu responsive
 	</script>
-	[available=showfull]
+	[available=showfull|static]
 	<script>
 		$('#dle-content').removeAttr('class');
 	</script>
