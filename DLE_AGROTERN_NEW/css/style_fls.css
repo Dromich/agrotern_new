@@ -439,6 +439,11 @@ header {
   text-decoration: underline;
   padding-left: 50px;
 }
+.services_list ul li  a {
+	
+	color: #0e1a30;
+	
+  }
 .services_list ul li:first-child {
   background: url('../img/icon_paymant.png') center left;
   background-repeat: no-repeat;
