@@ -86,9 +86,9 @@
 					</div>
 					<div class="services_list">
 						<ul>
-							<li>Оплата и доставка</li>
+							<li><a href="/oplata-i-dostavka.html">Оплата и доставка</a></li>
 							<li>Купить в кредит</li>
-							<li>Гарантии</li>
+							<li><a href="/garantija.html">Гарантии</a> </li>
 						</ul>
 					</div>
 				</div>
@@ -219,3 +219,43 @@
 	// console.log(bbimg);	
 	// $('#by_btn{news-id}').attr("data-goodsimg",bbimg);
 </script>
+
+<div id="popup{news-id}" class="main_pop-ap_window">
+		<div class="pop-ap_window">
+			<i id="close{news-id}" class="fas fa-times "></i>
+			<div class="width-pop-ap">
+				<h3>Заказать <br> {title} </h3>
+				<p class="description">
+					Наши специалисты свяжутся с Вами
+					в течении 15 минут
+				</p>
+				<form class="ajax_form" >
+					<!-- Hidden Required Fields -->
+			<input type="hidden" name="project_name" value="AGROTERN">
+			<input type="hidden" name="admin_email" value="agroternua@gmail.com">
+			<input type="hidden" name="form_subject" value="Покупка з AGROTERN">
+			<!-- END Hidden Required Fields -->
+					<p>Ваше имя: </p>
+					<input type="text" class="enter_name" required>
+					<p>Контактный телефон: </p>
+					<input type="text" class="enter_phone" required>
+					<button type="submit">Заказать</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script>
+	let cli = document.querySelector('.one_click'),
+			popcli = document.getElementById('popup{news-id}'),
+			closepopcli = document.getElementById('close{news-id}');
+
+		cli.addEventListener('click', function () {
+			popcli.classList.add('active-pop_ap');
+			document.body.style.overflow = 'hidden';
+		});
+		closepopcli.addEventListener('click', function () {
+			popcli.classList.remove('active-pop_ap');
+			document.body.style.overflow = '';
+		});
+	</script>
