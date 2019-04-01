@@ -248,11 +248,17 @@
 							в течении 15 минут
 						</p>
 						<form action="">
+
+							<!-- Hidden Required Fields -->
+			<input type="hidden" name="project_name" value="AGROTERN">
+			<input type="hidden" name="admin_email" value="agroternua@gmail.com">
+			<input type="hidden" name="form_subject" value="Консультация">
+			<!-- END Hidden Required Fields -->
 							<p>Ваше имя: </p>
 							<input type="text" class="enter_name">
 							<p>Контактный телефон: </p>
 							<input type="text" class="enter_phone">
-							<button>Заказать</button>
+							<button type="submit">Заказать</button>
 						</form>
 					</div>
 				</div>

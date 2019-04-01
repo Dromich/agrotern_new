@@ -965,10 +965,11 @@ header {
   margin-top: -3000px;
 }
 .pop-ap_window {
-  width: 370px;
-  height: 425px;
-  margin: 0 auto;
-  background-color: #ffffff;
+	width: 370px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #ffffff;
+	padding-bottom: 10px;
 }
 .pop-ap_window i {
   float: right;
@@ -1013,19 +1014,23 @@ header {
   margin-bottom: 5px;
 }
 .pop-ap_window form button {
-  font-size: 17px;
-  color: #ffffff;
-  background-color: #193b90;
-  font-weight: bold;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 16px;
-  padding-top: 16px;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  letter-spacing: 1px;
-  cursor: pointer;
+	font-size: 17px;
+	color: #ffffff;
+	background-color: #193b90;
+	font-weight: bold;
+	/* padding-left: 100px; */
+	/* padding-right: 100px; */
+	/* padding-bottom: 16px; */
+	/* padding-top: 16px; */
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	width: 80%;
 }
 .width-pop-ap {
   width: 277px;

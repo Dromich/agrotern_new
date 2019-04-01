@@ -30,7 +30,51 @@
 			<span>В корзину</span>
 		</div>
 	</div>
-	<div class="buy_click">
+	<div id="onecli{news-id}" class="buy_click">
 		<span>Купить в 1 клик</span>
 	</div>
 </div>
+
+
+<div id="popup{news-id}" class="main_pop-ap_window">
+		<div class="pop-ap_window">
+			<i id="close{news-id}" class="fas fa-times  "></i>
+			<div class="width-pop-ap">
+				<h3>Заказать <br> {title} </h3>
+				<p class="description">
+					Наши специалисты свяжутся с Вами
+					в течении 15 минут
+				</p>
+				<form class="ajax_form" >
+					<!-- Hidden Required Fields -->
+			<input type="hidden" name="project_name" value="AGROTERN">
+			<input type="hidden" name="admin_email" value="agroternua@gmail.com">
+			<input type="hidden" name="form_subject" value="Покупка {title}">
+			<!-- END Hidden Required Fields -->
+					<p>Ваше имя: </p>
+					<input type="text" class="enter_name" required>
+					<p>Контактный телефон: </p>
+					<input type="text" class="enter_phone" required>
+					<button type="submit">Заказать</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script>
+
+		$("#onecli{news-id}").click(function (e) { 
+			e.preventDefault();
+
+$('#popup{news-id}').addClass('active-pop_ap');
+$('html, body').animate({scrollTop: 0}, 700);
+			
+		});
+
+		$('#close{news-id}').click(function (e) { 
+			$('#popup{news-id}').removeClass('active-pop_ap');	
+			
+		});
+			
+				
+			</script>
