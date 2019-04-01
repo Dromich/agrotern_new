@@ -214,10 +214,7 @@
 
 	split_register();
 
-	// let bbimg =	$('#by_btn{news-id}').attr("data-goodsimg").substr(38);
-
-	// console.log(bbimg);	
-	// $('#by_btn{news-id}').attr("data-goodsimg",bbimg);
+	
 </script>
 
 <div id="popup{news-id}" class="main_pop-ap_window">
