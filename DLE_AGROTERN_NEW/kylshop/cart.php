@@ -33,9 +33,8 @@ if($is_logged == "1" || $kylshop_config["guest_allow"] == true){
     if(!isset($_GET["page"])){ // первая страница корзины
 
 		$cont = '
-		<div class="container">
-		<div class="row">
-		<div class="col-md-6 col-xs-12">
+		
+		
 		<h1>Мой заказ</h1><a href="#" class="cartClear">очистить</a>
 		
 		
@@ -46,7 +45,7 @@ if($is_logged == "1" || $kylshop_config["guest_allow"] == true){
 				<th width="90">Цена / 1 шт.</th>
 			</tr>
 		</table>
-		<div class="totalGoods">Всего: <b>0</b><span> грн.</span></div></div>';
+		<div class="totalGoods">Всего: <b>0</b><span> грн.</span></div>';
 
         $field = '';
 
@@ -104,7 +103,7 @@ if($is_logged == "1" || $kylshop_config["guest_allow"] == true){
         if($_MS["online_payments"] == "on") $button_name = 'Перейти к оплате';
         else $button_name = 'Оформить заказ';
 
-		$cont .= '<div class="action_button_cart col-md-6 col-xs-12">
+		$cont .= '<div class="action_button_cart ">
 		<h3>Детали заказа</h3>
             <form id="cart_form"  method="POST" action="'.$config["http_home_url"].'?do=cart&page=payments">
 				'.$field.'
@@ -158,8 +157,7 @@ if($is_logged == "1" || $kylshop_config["guest_allow"] == true){
 				<!--input type="submit" class="btn_buy" value="'.$button_name.'"-->
             </form>
 		</div>
-		</div>
-		</div>';
+		';
     }
 
     if(isset($_GET["page"]) && $_GET["page"] == "payments"){ // первая страница корзины
