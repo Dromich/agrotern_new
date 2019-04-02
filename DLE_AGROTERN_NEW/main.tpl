@@ -603,8 +603,11 @@
 	$(".button_still").click(function (event) {
 
 		event.preventDefault();
+		
+		var nexbut = document.getElementsByClassName('navigation-button');
 
-		if (nextPage !== undefined) {
+		if(!$(".button_still").hasClass("filteron")){
+			if (nextPage !== undefined) {
 			$.ajax({
 				url: window.location.pathname+'page/' +	nextPage, //для категорій потрібно вивсети спочатку шорт урл категорії
 				success: function (data) {
@@ -627,6 +630,12 @@
 				}
 			})
 		}
+		}else{
+			$('#filter-next').click();
+			console.log("filteron")
+		}
+
+	
 
 
 	});	

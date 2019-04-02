@@ -1,4 +1,13 @@
  var bigRedBut = document.getElementsByClassName('butt red');
+ function split_register() {
+		
+	$('.price').each(function () {
+var price = $(this).text();
+//console.log(price);
+var metamorf = price .replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ');
+$(this).text(metamorf);	
+});
+}
 
  function move_Fvalue(e, ui0, ui1) {
  	$(e + ' .val1').stop().animate({
@@ -212,10 +221,14 @@
  					nextBtn.children('span').animate({
  						width: '100%'
  					}, 'slow', function () {
- 						if (cstart > 0) $('#main_cont_1').append(mainData);
+ 						if (cstart > 0){
+							$('#main_cont_1').append(mainData);
+							split_register();} 
 						 else {
 							$('#dle-content').removeAttr('class');
 							$('#dle-content').html(mainData);
+							$(".button_still").addClass('filteron');
+							split_register();
 						 }
 						 
  						$(this).parents('.navigation-button').fadeOut(200, function () {
