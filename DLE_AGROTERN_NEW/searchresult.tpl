@@ -1,9 +1,9 @@
 [searchposts]
 	[fullresult]
-<div class="block_catalog_srch">
+
 		{include file="test.tpl"}
 
-</div>
+
 		
 
 

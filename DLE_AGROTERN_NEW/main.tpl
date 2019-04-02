@@ -556,7 +556,7 @@
 		});
 		// end menu responsive
 	</script>
-	[available=showfull|static]
+	[available=showfull|static|search]
 	<script>
 		$('#dle-content').removeAttr('class');
 	</script>

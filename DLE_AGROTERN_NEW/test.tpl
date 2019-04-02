@@ -1,4 +1,4 @@
-<div class="card_product search">
+<div class="card_product search_result">
 		<div class="event">
 			[xfgiven_novinka]<span class="new">Новинка</span>[/xfgiven_novinka]
 			[xfgiven_hitman]<span class="stockE" style="background-color: #eb133c;">Скидка</span>[/xfgiven_hitman]

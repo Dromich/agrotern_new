@@ -1476,9 +1476,15 @@ header {
 .searchpage {
 	width: 100%;
 	display: block;
+	padding: 10px;
+	margin: 10px auto;
 }
 .block_catalog_srch {
 	display: inline-block;
 	justify-content: space-between;
 	
+}
+.search_result {
+	display: inline-block;
+	margin: 10px .8%;
 }

@@ -325,11 +325,27 @@
 	position: absolute;
 	top: 4px;
 	left: 10px;
-	color: #f39e17;
+	color: #fff;
 	font-weight: 600;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background-color: #ff9c00;
+	/* padding: 2.5px; */
+	padding-left: 5.5px;
+	padding-top: 2px;
 }
   
 /*==holy bones ;)===*/
   body {
 	overflow-x: hidden;
+}
+
+.bbcodes {
+	background-color: orange;
+	color: #fff !important;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 15px !important;
+	cursor: pointer;
 }
