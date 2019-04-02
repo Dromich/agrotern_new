@@ -35,6 +35,17 @@
 						</div>
 				</div>
 				<div class="text-about">
+						<div class="hidden">[category=9]<span id="cat_value">9</span>[/category]
+							[category=10]<span id="cat_value">10</span>[/category]
+							[category=11]<span id="cat_value">11</span>[/category]
+							[category=12]<span id="cat_value">12</span>[/category]
+							[category=13]<span id="cat_value">13</span>[/category]
+							[category=14]<span id="cat_value">14</span>[/category]
+							[category=15]<span id="cat_value">15</span>[/category]
+							[category=16]<span id="cat_value">16</span>[/category]
+							[category=17]<span id="cat_value">17</span>[/category]
+							[category=18]<span id="cat_value">18</span>[/category]</div>
+						
 					<h2>Купить мототрактор в Украине</h2>
 					<p class="teaser">
 						В связи с широким развитием сельского хозяйства, сейчас очень популярным становятся мототракторы.
