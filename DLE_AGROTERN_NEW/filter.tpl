@@ -16,6 +16,9 @@
 					</form>
 				</div>
 				<div class="hidden">
+						<div id="filter_red_but" class="butt red">
+								<span>Подобрать <i class="fa fa-filter"></i></span>
+							</div>
 						[category=9]<span id="cat_value">9</span>[/category]
 						[category=10]<span id="cat_value">10</span>[/category]
 						[category=11]<span id="cat_value">11</span>[/category]
