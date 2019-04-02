@@ -1228,7 +1228,7 @@ header {
   .filter-block h3 {
 	padding: 22px 0 22px 18px;
   }
-  #slider-range {
+  #xf_price {
 	width: 80%;
 	margin: 0 auto;
 	border: none;
@@ -1487,4 +1487,17 @@ header {
 .search_result {
 	display: inline-block;
 	margin: 10px .8%;
+}
+/*==MAIN FILTER==*/
+
+.filter-value {
+	position: absolute;
+	top: 25px;	
+	font-weight: bold;
+}
+.filter-value::after {
+	content: "грн";
+	margin-left: 5px;
+	font-size: 11px;
+	font-weight: 100;
 }
