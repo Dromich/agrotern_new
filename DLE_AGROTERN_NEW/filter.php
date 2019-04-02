@@ -151,8 +151,8 @@
 	
 	if( $_GET['cstart'] ) $cstart = $_GET['cstart'];
 	else $cstart = 0;
-	
-	$sql_select = "SELECT id, short_story, xfields, title, category, alt_name FROM " . PREFIX . "_post WHERE approve=1$where ORDER BY date DESC LIMIT $cstart,".$config['news_number'];
+	$newslimit = 3;
+	$sql_select = "SELECT id, short_story, xfields, title, category, alt_name FROM " . PREFIX . "_post WHERE approve=1$where ORDER BY date DESC LIMIT $cstart,".$newslimit;
 	$sql_count = "SELECT COUNT(*) as count FROM " . PREFIX . "_post WHERE approve=1$where";
 	
 	$config['news_navigation'] = 0;
