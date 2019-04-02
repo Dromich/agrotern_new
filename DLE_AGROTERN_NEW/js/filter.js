@@ -208,12 +208,16 @@
  					xf_cylinders: xf_cylinders,
  					cstart: cstart
  				},function (data) {
-					 console.log(data)
+					 var mainData= '<div class="block_catalog">' + data + '</div>';
  					nextBtn.children('span').animate({
  						width: '100%'
  					}, 'slow', function () {
- 						if (cstart > 0) $('#dle-content').append(data);
- 						else $('#dle-content').html(data);
+ 						if (cstart > 0) $('#main_cont_1').append(mainData);
+						 else {
+							$('#dle-content').removeAttr('class');
+							$('#dle-content').html(mainData);
+						 }
+						 
  						$(this).parents('.navigation-button').fadeOut(200, function () {
  							$(this).remove()
  						});
