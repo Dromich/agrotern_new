@@ -24,9 +24,9 @@ $(this).text(metamorf);
  		$("#xf_price").slider({
  			range: true,
  			min: 100,
- 			max: 1000000,
- 			step: 1,
- 			values: [100, 400000],
+ 			max: 450000,
+ 			step: 500,
+ 			values: [1500, 150000],
  			slide: function (event, ui) {
  				move_Fvalue('#xf_price', ui.values[0], ui.values[1]);
  			},
@@ -47,10 +47,10 @@ $(this).text(metamorf);
 
  			},
  			change: function (event, ui) {
- 				$('#content').html('<br>'); //костиль який заміняє вивід фільра на пустишку щоб відображалась анімація
+ 				$('#dle-content').html('<br>'); //костиль який заміняє вивід фільра на пустишку щоб відображалась анімація
 
-
- 				eventFire(bigRedBut[0], 'click');
+$('#filter_red_but').click();
+ 				
  			}
  		})
  		//.append('<div class="steps"><span class="s1">'+45757+'</span><span class="s2">'+156682+'</span><span class="s3">'+261338+'</span><span class="s4">'+400000+'</span><span class="s5">'+500000+'</span></div>');
@@ -201,7 +201,7 @@ $(this).text(metamorf);
  			}, 'slow');
  			$.get("/engine/ajax/filter.php", {
  					genre: genre,
- 					genre_filter: gf,
+ 					genre_filter: 1,
  					xf_tip_obor: xf_tip_obor,
  					gf,
  					xf_prdz: xf_prdz,
@@ -217,6 +217,8 @@ $(this).text(metamorf);
  					xf_cylinders: xf_cylinders,
  					cstart: cstart
  				},function (data) {
+					$(".filteron").css('opacity', '1');
+
 					 var mainData= '<div class="block_catalog">' + data + '</div>';
  					nextBtn.children('span').animate({
  						width: '100%'
@@ -236,10 +238,6 @@ $(this).text(metamorf);
  						});
 
  					});
-
-
-
-
 
 				 }
 
