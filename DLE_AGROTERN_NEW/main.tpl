@@ -603,8 +603,9 @@
 	$(".button_still").click(function (event) {
 
 		event.preventDefault();
+
 		
-		var nexbut = document.getElementsByClassName('navigation-button');
+		
 
 		if(!$(".button_still").hasClass("filteron")){
 			if (nextPage !== undefined) {
@@ -631,6 +632,11 @@
 			})
 		}
 		}else{
+		
+			if($('.navigation-button').length == 0){
+	
+	$(".filteron").css('opacity', '0.3');
+}
 			$('#filter-next').click();
 			console.log("filteron")
 		}
