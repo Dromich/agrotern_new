@@ -650,6 +650,7 @@
 	<script src="{THEME}/js/fotorama/fotorama.js"></script>
 	<script type="text/javascript" src="{THEME}/js/kylshop.js"></script>
 	<script type="text/javascript" src="{THEME}/js/common.js"></script>
+	<script type="text/javascript" src="{THEME}/js/filter.js"></script>
 
 </body>
 
