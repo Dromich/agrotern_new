@@ -19,16 +19,8 @@
 						<div id="filter_red_but" class="butt red">
 								<span>Подобрать <i class="fa fa-filter"></i></span>
 							</div>
-						[category=9]<span id="cat_value">9</span>[/category]
-						[category=10]<span id="cat_value">10</span>[/category]
-						[category=11]<span id="cat_value">11</span>[/category]
-						[category=12]<span id="cat_value">12</span>[/category]
-						[category=13]<span id="cat_value">13</span>[/category]
-						[category=14]<span id="cat_value">14</span>[/category]
-						[category=15]<span id="cat_value">15</span>[/category]
-						[category=16]<span id="cat_value">16</span>[/category]
-						[category=17]<span id="cat_value">17</span>[/category]
-						[category=18]<span id="cat_value">18</span>[/category]
+
+						
 				
 				</div>
 				<div class="filter-block">
