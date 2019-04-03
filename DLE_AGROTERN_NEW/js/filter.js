@@ -73,7 +73,7 @@ $('#filter_red_but').click();
 
  	})
  	.click(function (e) {
- 		if ($('.filter-buttons .butt .active').length == 0)
+ 		if ($('.filter-buttons .butt .active ').length == 0)
  			return;
  		e = e || window.event;
  		var target = e.target || e.srcElement;
@@ -83,7 +83,7 @@ $('#filter_red_but').click();
  			target = target.parentNode;
  		};
  	})
- 	.on('click', '.cbtn, #filter-next, #filter_red_but', function () {
+ 	.on('click', ' #filter-next,  #filter_red_but', function () {
  		//$('#dle-content').remove();
  		//$('#content').html('<br>'); //костиль який заміняє вивід фільра на пустишку щоб відображалась анімація
 

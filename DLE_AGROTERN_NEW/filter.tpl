@@ -42,37 +42,37 @@
 					<form id="xf_brand">
 						<div class="margin-top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox" />
-						<label for="checkbox">Garden Scout</label><br>
+						<label class="cbtn" for="checkbox">Garden Scout</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox1" />
-						<label for="checkbox1">Shifeng</label><br>
+						<label class="cbtn" for="checkbox1">Shifeng</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox2" />
-						<label for="checkbox2">Булат</label><br>
+						<label class="cbtn" for="checkbox2">Булат</label><br>
 						<div class="top"></div>
-						<input type="checkbox" class="checkbox" id="checkbox3" />
-						<label for="checkbox3">Файтер</label><br>
+						<input  type="checkbox" class="checkbox" id="checkbox3" />
+						<label class="cbtn" for="checkbox3">Файтер</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox4" />
-						<label for="checkbox4">Forte</label><br>
+						<label class="cbtn" for="checkbox4">Forte</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox5" />
-						<label for="checkbox5">DW</label><br>
+						<label class="cbtn" for="checkbox5">DW</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox6" />
-						<label for="checkbox6">Добрыня</label><br>
+						<label class="cbtn" for="checkbox6">Добрыня</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox7" />
-						<label for="checkbox7">Claus</label><br>
+						<label class="cbtn" for="checkbox7">Claus</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox8" />
-						<label for="checkbox8">Витязь</label><br>
+						<label class="cbtn" for="checkbox8">Витязь</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox9" />
-						<label for="checkbox9">Lider</label><br>
+						<label class="cbtn" for="checkbox9">Lider</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox10" />
-						<label for="checkbox10">ДТЗ</label>
+						<label class="cbtn" for="checkbox10">ДТЗ</label>
 					</form>
 				</div>
 			</div>
