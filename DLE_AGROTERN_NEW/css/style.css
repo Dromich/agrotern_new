@@ -1342,13 +1342,15 @@ header {
 	height: 366px;
 	width: 270px;
 	background: #F9F9F9;
-  }
+	overflow-y: scroll;
+}
   /* мощность */
   .power-list {
 	height: 240px;
 	width: 270px;
 	background: #F9F9F9;
-  }
+	overflow-y: scroll;
+}
   /* количество цилиндров */
   .cylinders-list {
 	height: 100px;
