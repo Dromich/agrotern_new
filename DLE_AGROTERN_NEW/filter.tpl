@@ -179,7 +179,7 @@
 					</form>
 				</div>
 			</div>
-			<div class="reset">
+			<div id="filter_reset" class="reset">
 				<i style="cursor: pointer;" class="fas fa-times"></i>
 				<p style="cursor: pointer;">Сбросить параметры фильтра</p>
 			</div>

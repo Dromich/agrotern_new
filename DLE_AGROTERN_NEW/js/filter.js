@@ -186,7 +186,7 @@ $('#filter_red_but').click();
  		xf_price_start = $('#xf_price .val1').html();
  		xf_price_end = $('#xf_price .val2').html();
 
-console.log(xf_brand)
+
 
  		gf = 1;
  		nextBtn.css({
@@ -279,3 +279,10 @@ console.log(xf_brand)
  		};
  	};
  };
+
+ $('#filter_reset').click(function (e) { 
+	 e.preventDefault();
+
+	 $("input:checkbox").removeAttr("checked");
+	 
+ });
