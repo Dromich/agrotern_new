@@ -34,6 +34,125 @@
 						<span class="filter-value val2"></span>
 					</div>
 				</div>
+
+
+				[category=12]
+				<div class="manafacturer">
+					<div class="manafacturer standart flex_align-center">
+						<h3>Предназначение</h3>
+						<i class="fas fa-angle-down"></i>
+					</div>
+					<div class="cylinders-list">
+						<form id="xf_prdz">
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="checkbox25" />
+							<label class="cbtn" for="checkbox25">Для мототрактора</label>
+							<br>
+							<div class="top"></div>
+							<input type="checkbox" class="checkbox" id="checkbox26" />
+							<label class="cbtn" for="checkbox26">Для минитрактора</label>
+							<br>
+							<div class="top"></div>
+							<input type="checkbox" class="checkbox" id="checkbox26z" />
+							<label class="cbtn" for="checkbox26z">Для мотоблока</label>
+							<br>
+						</form>
+					</div>
+				</div>
+
+
+				<div class="manafacturer">
+					<div class="manafacturer standart flex_align-center">
+						<h3>Тип</h3>
+						<i class="fas fa-angle-down"></i>
+					</div>
+					<div class="manafacturer-list">
+						<form id="xf_tip_obor">
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m33_checkbox" />
+							<label class="cbtn" for="m33_checkbox">Бороны</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m34_checkbox" />
+							<label class="cbtn" for="m34_checkbox">Грабли</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m35_checkbox" />
+							<label class="cbtn" for="m35_checkbox">Картофелекопатели</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m36_checkbox" />
+							<label class="cbtn" for="m36_checkbox">Картофелесажатели</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m37_checkbox" />
+							<label class="cbtn" for="m37_checkbox">Культиваторы</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m38_checkbox" />
+							<label class="cbtn" for="m38_checkbox">Окучиватели</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m39_checkbox" />
+							<label class="cbtn" for="m39_checkbox">Плуги</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m40_checkbox" />
+							<label class="cbtn" for="m40_checkbox">Почвофрезы</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m41_checkbox" />
+							<label class="cbtn" for="m41_checkbox">Прицепы</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m42_checkbox" />
+							<label class="cbtn" for="m42_checkbox">Косы</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m43_checkbox" />
+							<label class="cbtn" for="m43_checkbox">Чеснококопатели</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m44_checkbox" />
+							<label class="cbtn" for="m44_checkbox">Чеснокосажатели</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m46_checkbox" />
+							<label class="cbtn" for="m46_checkbox">Фронтальные погрузчики</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m47_checkbox" />
+							<label class="cbtn" for="m47_checkbox">Другое оборудование</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m48_checkbox" />
+							<label class="cbtn" for="m48_checkbox">Буры</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m49_checkbox" />
+							<label class="cbtn" for="m49_checkbox">Опрыскиватели</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m50_checkbox" />
+							<label class="cbtn" for="m50_checkbox">Разбрасыватели удобрений</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m51_checkbox" />
+							<label class="cbtn" for="m51_checkbox">Сеялки</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m52_checkbox" />
+							<label class="cbtn" for="m52_checkbox">Щетки</label>
+							<br>
+
+						</form>
+					</div>
+				</div>
+
+
+
+				[/category]
+
 				[not-category=12]<div class="manafacturer">
 					<div class="manafacturer standart flex_align-center">
 						<h3>Производитель</h3>
@@ -186,7 +305,7 @@
 
 					[not-category=12]
 				</div>[/not-category]
-
+				[not-category=12]
 				<div class="power">
 					<div class="power standart flex_align-center">
 						<h3>Мощность</h3>
@@ -305,7 +424,7 @@
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m51_checkbox" />
-							<label class="cbtn" for="m51_checkbox">6/label>
+							<label class="cbtn" for="m51_checkbox">6</label>
 								<br>
 								<div class="margin-top"></div>
 								<input type="checkbox" class="checkbox" id="m52_checkbox" />
@@ -372,7 +491,7 @@
 
 						</form>
 					</div>
-				</div>
+				</div>[/not-category]
 				[category=9,10]
 				<div class="cylinders">
 					<div class="cylinders standart  flex_align-center">
@@ -512,122 +631,6 @@
 				</div>
 				[/category]
 
-				[category=12]
-				<div class="">
-					<div class="cabin standart flex_align-center">
-						<h3>Предназначение</h3>
-						<i class="fas fa-angle-down"></i>
-					</div>
-					<div class="cabin-list">
-						<form id="xf_prdz">
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="checkbox25" />
-							<label class="cbtn" for="checkbox25">Для мототрактора</label>
-							<br>
-							<div class="top"></div>
-							<input type="checkbox" class="checkbox" id="checkbox26" />
-							<label class="cbtn" for="checkbox26">Для минитрактора</label>
-							<br>
-							<div class="top"></div>
-							<input type="checkbox" class="checkbox" id="checkbox26z" />
-							<label class="cbtn" for="checkbox26z">Для мотоблока</label>
-							<br>
-						</form>
-					</div>
-				</div>
-
-
-				<div class="">
-					<div class="cabin standart flex_align-center">
-						<h3>Тип</h3>
-						<i class="fas fa-angle-down"></i>
-					</div>
-					<div class="cabin-list">
-						<form id="xf_tip_obor">
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m33_checkbox" />
-							<label class="cbtn" for="m33_checkbox">Бороны</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m34_checkbox" />
-							<label class="cbtn" for="m34_checkbox">Грабли</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m35_checkbox" />
-							<label class="cbtn" for="m35_checkbox">Картофелекопатели</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m36_checkbox" />
-							<label class="cbtn" for="m36_checkbox">Картофелесажатели</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m37_checkbox" />
-							<label class="cbtn" for="m37_checkbox">Культиваторы</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m38_checkbox" />
-							<label class="cbtn" for="m38_checkbox">Окучиватели</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m39_checkbox" />
-							<label class="cbtn" for="m39_checkbox">Плуги</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m40_checkbox" />
-							<label class="cbtn" for="m40_checkbox">Почвофрезы</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m41_checkbox" />
-							<label class="cbtn" for="m41_checkbox">Прицепы</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m42_checkbox" />
-							<label class="cbtn" for="m42_checkbox">Косы</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m43_checkbox" />
-							<label class="cbtn" for="m43_checkbox">Чеснококопатели</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m44_checkbox" />
-							<label class="cbtn" for="m44_checkbox">Чеснокосажатели</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m46_checkbox" />
-							<label class="cbtn" for="m46_checkbox">Фронтальные погрузчики</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m47_checkbox" />
-							<label class="cbtn" for="m47_checkbox">Другое оборудование</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m48_checkbox" />
-							<label class="cbtn" for="m48_checkbox">Буры</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m49_checkbox" />
-							<label class="cbtn" for="m49_checkbox">Опрыскиватели</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m50_checkbox" />
-							<label class="cbtn" for="m50_checkbox">Разбрасыватели удобрений</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m51_checkbox" />
-							<label class="cbtn" for="m51_checkbox">Сеялки</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m52_checkbox" />
-							<label class="cbtn" for="m52_checkbox">Щетки</label>
-							<br>
-
-						</form>
-					</div>
-				</div>
-
-
-
-				[/category]
 
 				<div id="filter_reset" class="reset">
 					<i style="cursor: pointer;" class="fas fa-times"></i>
