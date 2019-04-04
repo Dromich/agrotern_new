@@ -82,28 +82,35 @@
 					<i class="fas fa-angle-down"></i>
 				</div>
 				<div class="power-list">
-					<form method="post" action="">
+					<form id="xf_power">
 						<div class="margin-top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox11" />
-						<label for="checkbox11">12</label><br>
+						<label class="cbtn" for="checkbox10">ДТЗ</label>
+						<label  for="checkbox11">12</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox12" />
-						<label for="checkbox12">15</label><br>
+						<label class="cbtn" for="checkbox10">ДТЗ</label>
+						<label  for="checkbox12">15</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox13" />
-						<label for="checkbox13">16</label><br>
+						<label class="cbtn" for="checkbox10">ДТЗ</label>
+						<label  for="checkbox13">16</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox14" />
-						<label for="checkbox14">18</label><br>
+						<label class="cbtn" for="checkbox10">ДТЗ</label>
+						<label  for="checkbox14">18</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox15" />
-						<label for="checkbox15">20</label><br>
+						<label class="cbtn" for="checkbox10">ДТЗ</label>
+						<label  for="checkbox15">20</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox16" />
-						<label for="checkbox16">22</label><br>
+						<label class="cbtn" for="checkbox10">ДТЗ</label>
+						<label  for="checkbox16">22</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox17" />
-						<label for="checkbox17">24</label><br>
+						<label class="cbtn" for="checkbox10">ДТЗ</label>
+						<label  for="checkbox17">24</label><br>
 						<div class="top"></div>
 					</form>
 				</div>
@@ -117,13 +124,14 @@
 					<form method="post" action="">
 						<div class="margin-top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox18" />
-						<label for="checkbox18">1</label><br>
+						<label class="cbtn" for="checkbox10">ДТЗ</label>
+						<label class="cbtn" for="checkbox18">1</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox19" />
-						<label for="checkbox19">2</label><br>
+						<label class="cbtn" for="checkbox19">2</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox20" />
-						<label for="checkbox20">3</label><br>
+						<label class="cbtn" for="checkbox20">3</label><br>
 						<div class="top"></div>
 					</form>
 				</div>
@@ -137,10 +145,10 @@
 					<form method="post" action="">
 						<div class="margin-top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox21" />
-						<label for="checkbox21">4х4</label><br>
+						<label class="cbtn" for="checkbox21">4х4</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox22" />
-						<label for="checkbox22">4х2</label><br>
+						<label class="cbtn" for="checkbox22">4х2</label><br>
 						<div class="top"></div>
 					</form>
 				</div>
@@ -154,10 +162,10 @@
 					<form method="post" action="">
 						<div class="margin-top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox23" />
-						<label for="checkbox23">Да</label><br>
+						<label class="cbtn" for="checkbox23">Да</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox24" />
-						<label for="checkbox24">Нет</label><br>
+						<label class="cbtn" for="checkbox24">Нет</label><br>
 						<div class="top"></div>
 					</form>
 				</div>
@@ -171,10 +179,10 @@
 					<form method="post" action="">
 						<div class="margin-top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox25" />
-						<label for="checkbox25">Есть</label><br>
+						<label class="cbtn" for="checkbox25">Есть</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox26" />
-						<label for="checkbox26">Нет</label><br>
+						<label class="cbtn" for="checkbox26">Нет</label><br>
 						<div class="top"></div>
 					</form>
 				</div>
