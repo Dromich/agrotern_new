@@ -260,6 +260,12 @@ header {
   color: #193b90;
   font-size: 15px;
 }
+.navigation_pages .pages__ ul li a {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #193b90;
+	font-size: 15px;
+  }
 .navigation_pages .pages__ ul li:nth-child(1) {
   margin-right: 5px;
 }
