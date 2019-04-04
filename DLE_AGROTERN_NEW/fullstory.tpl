@@ -203,8 +203,7 @@
 </section>
 <script>
 	function split_register() {
-		console.log('Spl')
-		$('.price_val').each(function () {
+			$('.price_val').each(function () {
 			var price = $(this).text();
 			//console.log(price);
 			var metamorf = price.replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ');
@@ -255,4 +254,19 @@
 			popcli.classList.remove('active-pop_ap');
 			document.body.style.overflow = '';
 		});
+		
+$('#cat_yrl_fls').text('{title}');
+
+
+
+let myurl = window.location.pathname;
+let urlarr =myurl.split('/');
+
+
+console.log(urlarr);
+
+$('#cat_url_ttl').attr("href", '/'+urlarr[1]+'/');
+
+
+
 	</script>
