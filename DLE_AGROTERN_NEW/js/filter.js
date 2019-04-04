@@ -85,7 +85,7 @@ $('#filter_red_but').click();
  	})
  	.on('click', ' #filter-next,  #filter_red_but', function () {
 		 
-		console.log('go Filters')
+		//console.log('go Filters')
 		//$('#dle-content').remove();
  		//$('#content').html('<br>'); //костиль який заміняє вивід фільра на пустишку щоб відображалась анімація
 
@@ -188,7 +188,7 @@ $('#filter_red_but').click();
  		xf_price_start = $('#xf_price .val1').html();
  		xf_price_end = $('#xf_price .val2').html();
 
-console.log('Параметри: '+ xf_tip_obor  + xf_prdz + xf_toplivo + xf_coling + xf_power +  xf_brand + xf_wd + xf_weels + xf_cabin + xf_cylinders)
+//console.log('Параметри: '+ xf_tip_obor  + xf_prdz + xf_toplivo + xf_coling + xf_power +  xf_brand + xf_wd + xf_weels + xf_cabin + xf_cylinders)
 
  		gf = 1;
  		nextBtn.css({
