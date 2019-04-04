@@ -112,7 +112,7 @@ $('#filter_red_but').click();
  		i = 0;
  		$('#xf_power .checkbox').each(function () {
  			if ($(this).prop('checked')) {
- 				xf_power[i] = $(this).attr('label');
+ 				xf_power[i] = $(this).context.labels[0].innerText;
  				i++;
  			}
  		});
@@ -126,58 +126,58 @@ $('#filter_red_but').click();
  		});
  		i = 0;
  		$('#xf_cylinders .cbtn').each(function () {
- 			if ($(this).hasClass('active')) {
- 				xf_cylinders[i] = $(this).html();
+ 			if ($(this).prop('checked')) {
+ 				xf_cylinders[i] = $(this).context.labels[0].innerText;
  				i++;
- 				console.log($(this).html());
+ 				
  			}
  		});
  		i = 0;
  		$('#xf_wd .cbtn').each(function () {
- 			if ($(this).hasClass('active')) {
- 				xf_wd[i] = $(this).html();
+ 			if ($(this).prop('checked')) {
+ 				xf_wd[i] = $(this).context.labels[0].innerText;
  				i++;
  			}
  		});
  		i = 0;
  		$('#xf_weels .cbtn').each(function () {
- 			if ($(this).hasClass('active')) {
- 				xf_weels[i] = $(this).html();
+ 			if ($(this).prop('checked')) {
+ 				xf_weels[i] = $(this).context.labels[0].innerText;
  				i++;
  			}
  		});
  		i = 0;
  		$('#xf_cabin .cbtn').each(function () {
- 			if ($(this).hasClass('active')) {
- 				xf_cabin[i] = $(this).html();
+ 			if ($(this).prop('checked')) {
+ 				xf_cabin[i] = $(this).context.labels[0].innerText;
  				i++;
  			}
  		});
  		i = 0;
  		$('#xf_coling .cbtn').each(function () {
- 			if ($(this).hasClass('active')) {
- 				xf_coling[i] = $(this).html();
+ 			if ($(this).prop('checked')) {
+ 				xf_coling[i] = $(this).context.labels[0].innerText;
  				i++;
  			}
  		});
  		i = 0;
  		$('#xf_toplivo .cbtn').each(function () {
- 			if ($(this).hasClass('active')) {
- 				xf_toplivo[i] = $(this).html();
+ 			if ($(this).prop('checked')) {
+ 				xf_toplivo[i] = $(this).context.labels[0].innerText;
  				i++;
  			}
  		});
  		i = 0;
  		$('#xf_prdz .cbtn').each(function () {
- 			if ($(this).hasClass('active')) {
- 				xf_prdz[i] = $(this).html();
+ 			if ($(this).prop('checked')) {
+ 				xf_prdz[i] = $(this).context.labels[0].innerText;
  				i++;
  			}
  		});
  		i = 0;
  		$('#xf_tip_obor .cbtn').each(function () {
- 			if ($(this).hasClass('active')) {
- 				xf_tip_obor[i] = $(this).html();
+ 			if ($(this).prop('checked')) {
+ 				xf_tip_obor[i] = $(this).context.labels[0].innerText;
  				i++;
  			}
  		});
