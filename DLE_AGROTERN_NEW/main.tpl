@@ -282,6 +282,7 @@
 			[available=showfull]
 			{speedbar}
 			[/available]
+			
 		</div>
 	</section>
 

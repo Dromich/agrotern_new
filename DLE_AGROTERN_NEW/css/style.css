@@ -1381,13 +1381,13 @@ header {
 	height: 60px;
 	width: 270px;
 	background: #F9F9F9;
-	/*border-top: 6px solid #F1F1F1;*/
+	/* border-top: 6px solid #F1F1F1; */
 	color: #EB133C;
 	font-weight: 600;
 	font-size: 13px;
 	box-shadow: 0px 1px 10px -15px #000000 inset;
-  
-  }
+	margin-bottom: 30px;
+}
   .reset i{
 	font-size: 15px;
   }
