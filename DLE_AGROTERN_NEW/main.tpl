@@ -264,6 +264,9 @@
 				</div>
 			</div>
 			<!-- end pop-ap window -->
+
+
+			
 			[available=main]
 			<div class="slider">
 				<div class="slide">
