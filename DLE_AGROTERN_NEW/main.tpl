@@ -600,6 +600,7 @@
 	</script>
 	
 	[not-available=showfull]
+
 	<script type="text/javascript">
   $(document).ready(function () {
 	var nextPage = 2
@@ -662,13 +663,13 @@
 });
 //console.log(window.location.pathname)
 	</script>
-
+<script type="text/javascript" src="{THEME}/js/filter.js"></script>
 [/not-available]
 	<link rel="stylesheet" href="{THEME}/js/fotorama/fotorama.css">
 	<script src="{THEME}/js/fotorama/fotorama.js"></script>
 	<script type="text/javascript" src="{THEME}/js/kylshop.js"></script>
 	<script type="text/javascript" src="{THEME}/js/common.js"></script>
-	<script type="text/javascript" src="{THEME}/js/filter.js"></script>
+	
 
 </body>
 
