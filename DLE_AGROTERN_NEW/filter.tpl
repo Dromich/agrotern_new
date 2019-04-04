@@ -85,32 +85,25 @@
 					<form id="xf_power">
 						<div class="margin-top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox11" />
-						<label class="cbtn" for="checkbox10">ДТЗ</label>
-						<label  for="checkbox11">12</label><br>
+						<label class="cbtn" for="checkbox11">12</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox12" />
-						<label class="cbtn" for="checkbox10">ДТЗ</label>
-						<label  for="checkbox12">15</label><br>
+						<label class="cbtn" for="checkbox12">15</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox13" />
-						<label class="cbtn" for="checkbox10">ДТЗ</label>
-						<label  for="checkbox13">16</label><br>
+						<label class="cbtn" for="checkbox13">16</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox14" />
-						<label class="cbtn" for="checkbox10">ДТЗ</label>
-						<label  for="checkbox14">18</label><br>
+						<label class="cbtn" for="checkbox14">18</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox15" />
-						<label class="cbtn" for="checkbox10">ДТЗ</label>
-						<label  for="checkbox15">20</label><br>
+						<label class="cbtn" for="checkbox15">20</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox16" />
-						<label class="cbtn" for="checkbox10">ДТЗ</label>
-						<label  for="checkbox16">22</label><br>
+						<label class="cbtn" for="checkbox16">22</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox17" />
-						<label class="cbtn" for="checkbox10">ДТЗ</label>
-						<label  for="checkbox17">24</label><br>
+						<label class="cbtn" for="checkbox17">24</label><br>
 						<div class="top"></div>
 					</form>
 				</div>
@@ -121,10 +114,9 @@
 					<i class="fas fa-angle-down"></i>
 				</div>
 				<div class="cylinders-list">
-					<form id="xf_cylinders">
+					<form id="xf_cylinders" >
 						<div class="margin-top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox18" />
-						<label class="cbtn" for="checkbox10">ДТЗ</label>
 						<label class="cbtn" for="checkbox18">1</label><br>
 						<div class="top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox19" />
