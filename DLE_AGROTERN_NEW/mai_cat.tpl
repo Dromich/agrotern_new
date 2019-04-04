@@ -96,85 +96,85 @@
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m4_checkbox" />
-							<label class="cbtn" for="m4_checkboxcheckbox">Lider</label>
+							<label class="cbtn" for="m4_checkbox">Lider</label>
 							<br>
 							[/not-category]
 							[category=10]
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m12_checkbox" />
-							<label class="cbtn" for="m12_checkboxcheckbox">DongFeng</label>
+							<label class="cbtn" for="m12_checkbox">DongFeng</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m13_checkbox" />
-							<label class="cbtn" for="m13_checkboxcheckbox">Foton</label>
+							<label class="cbtn" for="m13_checkbox">Foton</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m14_checkbox" />
-							<label class="cbtn" for="m14_checkboxcheckbox">Jinma</label>
+							<label class="cbtn" for="m14_checkbox">Jinma</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m15_checkbox" />
-							<label class="cbtn" for="m15_checkboxcheckbox">Mitsubishi</label>
+							<label class="cbtn" for="m15_checkbox">Mitsubishi</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m16_checkbox" />
-							<label class="cbtn" for="m16_checkboxcheckbox">SOLIS</label>
+							<label class="cbtn" for="m16_checkbox">SOLIS</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m17_checkbox" />
-							<label class="cbtn" for="m17_checkboxcheckbox">WUZHENG</label>
+							<label class="cbtn" for="m17_checkbox">WUZHENG</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m18_checkbox" />
-							<label class="cbtn" for="m18_checkboxcheckbox">Xingtai</label>
+							<label class="cbtn" for="m18_checkbox">Xingtai</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m19_checkbox" />
-							<label class="cbtn" for="m19_checkboxcheckbox">Zoomlion</label>
+							<label class="cbtn" for="m19_checkbox">Zoomlion</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m20_checkbox" />
-							<label class="cbtn" for="m20_checkboxcheckbox">МТЗ(Belarus)</label>
+							<label class="cbtn" for="m20_checkbox">МТЗ(Belarus)</label>
 							<br>
 							[/category]
 							<!--Мінітрактори-->
 							[category=11]
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m21_checkbox" />
-							<label class="cbtn" for="m21_checkboxcheckbox">ДТЗ</label>
+							<label class="cbtn" for="m21_checkbox">ДТЗ</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m22_checkbox" />
-							<label class="cbtn" for="m22_checkboxcheckbox">Forte</label>
+							<label class="cbtn" for="m22_checkbox">Forte</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m23_checkbox" />
-							<label class="cbtn" for="m23_checkboxcheckbox">GARDEN SCOUT</label>
+							<label class="cbtn" for="m23_checkbox">GARDEN SCOUT</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m24_checkbox" />
-							<label class="cbtn" for="m24_checkboxcheckbox">Zirka</label>
+							<label class="cbtn" for="m24_checkbox">Zirka</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m25_checkbox" />
-							<label class="cbtn" for="m25_checkboxcheckbox">Карпаты</label>
+							<label class="cbtn" for="m25_checkbox">Карпаты</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m26_checkbox" />
-							<label class="cbtn" for="m26_checkboxcheckbox">Кентавр</label>
+							<label class="cbtn" for="m26_checkbox">Кентавр</label>
 							<br>
 							[/category]
 							<!--Мотоблоки-->
@@ -197,102 +197,102 @@
 							<div class="margin-top"></div>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m27_checkbox" />
-							<label class="cbtn" for="m27_checkboxcheckbox">12</label>
+							<label class="cbtn" for="m27_checkbox">12</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m28_checkbox" />
-							<label class="cbtn" for="m28_checkboxcheckbox">15</label>
+							<label class="cbtn" for="m28_checkbox">15</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m29_checkbox" />
-							<label class="cbtn" for="m29_checkboxcheckbox">16</label>
+							<label class="cbtn" for="m29_checkbox">16</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m30_checkbox" />
-							<label class="cbtn" for="m30_checkboxcheckbox">18</label>
+							<label class="cbtn" for="m30_checkbox">18</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m31_checkbox" />
-							<label class="cbtn" for="m31_checkboxcheckbox">20</label>
+							<label class="cbtn" for="m31_checkbox">20</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m32_checkbox" />
-							<label class="cbtn" for="m32_checkboxcheckbox">22</label>
+							<label class="cbtn" for="m32_checkbox">22</label>
 							<br>
 
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m32_checkbox" />
-							<label class="cbtn" for="m32_checkboxcheckbox">24</label>
+							<label class="cbtn" for="m32_checkbox">24</label>
 							<br>
 							[category=10]
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m33_checkbox" />
-							<label class="cbtn" for="m33_checkboxcheckbox">18</label>
+							<label class="cbtn" for="m33_checkbox">18</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m34_checkbox" />
-							<label class="cbtn" for="m34_checkboxcheckbox">20</label>
+							<label class="cbtn" for="m34_checkbox">20</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m35_checkbox" />
-							<label class="cbtn" for="m35_checkboxcheckbox">22</label>
+							<label class="cbtn" for="m35_checkbox">22</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m36_checkbox" />
-							<label class="cbtn" for="m36_checkboxcheckbox">24</label>
+							<label class="cbtn" for="m36_checkbox">24</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m37_checkbox" />
-							<label class="cbtn" for="m37_checkboxcheckbox">25</label>
+							<label class="cbtn" for="m37_checkbox">25</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m38_checkbox" />
-							<label class="cbtn" for="m38_checkboxcheckbox">35</label>
+							<label class="cbtn" for="m38_checkbox">35</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m39_checkbox" />
-							<label class="cbtn" for="m39_checkboxcheckbox">36</label>
+							<label class="cbtn" for="m39_checkbox">36</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m40_checkbox" />
-							<label class="cbtn" for="m40_checkboxcheckbox">40</label>
+							<label class="cbtn" for="m40_checkbox">40</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m41_checkbox" />
-							<label class="cbtn" for="m41_checkboxcheckbox">45</label>
+							<label class="cbtn" for="m41_checkbox">45</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m42_checkbox" />
-							<label class="cbtn" for="m42_checkboxcheckbox">50</label>
+							<label class="cbtn" for="m42_checkbox">50</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m43_checkbox" />
-							<label class="cbtn" for="m43_checkboxcheckbox">81</label>
+							<label class="cbtn" for="m43_checkbox">81</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m44_checkbox" />
-							<label class="cbtn" for="m45_checkboxcheckbox">88</label>
+							<label class="cbtn" for="m45_checkbox">88</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m46_checkbox" />
-							<label class="cbtn" for="m46_checkboxcheckbox">105</label>
+							<label class="cbtn" for="m46_checkbox">105</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m47_checkbox" />
-							<label class="cbtn" for="m47_checkboxcheckbox">120</label>
+							<label class="cbtn" for="m47_checkbox">120</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m48_checkbox" />
-							<label class="cbtn" for="m48_checkboxcheckbox">130</label>
+							<label class="cbtn" for="m48_checkbox">130</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m49_checkbox" />
-							<label class="cbtn" for="m49_checkboxcheckbox">140</label>
+							<label class="cbtn" for="m49_checkbox">140</label>
 							<br>
 
 
@@ -301,70 +301,70 @@
 							[category=11]
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m50_checkbox" />
-							<label class="cbtn" for="m50_checkboxcheckbox">5</label>
+							<label class="cbtn" for="m50_checkbox">5</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m51_checkbox" />
-							<label class="cbtn" for="m51_checkboxcheckbox">6/label>
+							<label class="cbtn" for="m51_checkbox">6/label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m52_checkbox" />
-							<label class="cbtn" for="m52_checkboxcheckbox">6.5</label>
+							<label class="cbtn" for="m52_checkbox">6.5</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m53_checkbox" />
-							<label class="cbtn" for="m53_checkboxcheckbox">7</label>
+							<label class="cbtn" for="m53_checkbox">7</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m54_checkbox" />
-							<label class="cbtn" for="m54_checkboxcheckbox">7.6</label>
+							<label class="cbtn" for="m54_checkbox">7.6</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m55_checkbox" />
-							<label class="cbtn" for="m55_checkboxcheckbox">8</label>
+							<label class="cbtn" for="m55_checkbox">8</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m56_checkbox" />
-							<label class="cbtn" for="m56_checkboxcheckbox">8.8</label>
+							<label class="cbtn" for="m56_checkbox">8.8</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m57_checkbox" />
-							<label class="cbtn" for="m57_checkboxcheckbox">9</label>
+							<label class="cbtn" for="m57_checkbox">9</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m57_checkbox" />
-							<label class="cbtn" for="m57_checkboxcheckbox">10</label>
+							<label class="cbtn" for="m57_checkbox">10</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m57_checkbox" />
-							<label class="cbtn" for="m57_checkboxcheckbox">11</label>
+							<label class="cbtn" for="m57_checkbox">11</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m57_checkbox" />
-							<label class="cbtn" for="m57_checkboxcheckbox">12</label>
+							<label class="cbtn" for="m57_checkbox">12</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m58_checkbox" />
-							<label class="cbtn" for="m58_checkboxcheckbox">13</label>
+							<label class="cbtn" for="m58_checkbox">13</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m59_checkbox" />
-							<label class="cbtn" for="m59_checkboxcheckbox">15</label>
+							<label class="cbtn" for="m59_checkbox">15</label>
 							<br>
 							[/category]
 							<!--Мотоблоки-->
 							[category=13]
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m57_checkbox" />
-							<label class="cbtn" for="m57_checkboxcheckbox">1-15Квт</label>
+							<label class="cbtn" for="m57_checkbox">1-15Квт</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m58_checkbox" />
-							<label class="cbtn" for="m58_checkboxcheckbox">15-120Квт</label>
+							<label class="cbtn" for="m58_checkbox">15-120Квт</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m59_checkbox" />
-							<label class="cbtn" for="m59_checkboxcheckbox">120-900Квт</label>
+							<label class="cbtn" for="m59_checkbox">120-900Квт</label>
 							<br>
 
 							[/category]<!--ГЕНЕРАТОРИ-->
