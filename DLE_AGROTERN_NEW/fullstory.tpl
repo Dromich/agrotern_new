@@ -262,9 +262,6 @@ $('#cat_yrl_fls').text('{title}');
 let myurl = window.location.pathname;
 let urlarr =myurl.split('/');
 
-
-console.log(urlarr);
-
 $('#cat_url_ttl').attr("href", '/'+urlarr[1]+'/');
 
 
