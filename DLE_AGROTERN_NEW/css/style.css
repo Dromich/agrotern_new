@@ -1356,7 +1356,8 @@ header {
 	height: 100px;
 	width: 270px;
 	background: #F9F9F9;
-  }
+	overflow-y: scroll;
+}
   /* привод */
   .drive-unit-list {
 	height: 70px;
@@ -1496,6 +1497,9 @@ header {
 	position: absolute;
 	top: 25px;	
 	font-weight: bold;
+}
+.filter-value.val2 {
+	top: -25px;
 }
 .filter-value::after {
 	content: "грн";
