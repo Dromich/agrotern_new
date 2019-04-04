@@ -276,7 +276,7 @@
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m44_checkbox" />
-							<label class="cbtn" for="m45_checkbox">88</label>
+							<label class="cbtn" for="m44_checkbox">88</label>
 							<br>
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m46_checkbox" />
@@ -306,68 +306,69 @@
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="m51_checkbox" />
 							<label class="cbtn" for="m51_checkbox">6/label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m52_checkbox" />
-							<label class="cbtn" for="m52_checkbox">6.5</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m53_checkbox" />
-							<label class="cbtn" for="m53_checkbox">7</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m54_checkbox" />
-							<label class="cbtn" for="m54_checkbox">7.6</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m55_checkbox" />
-							<label class="cbtn" for="m55_checkbox">8</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m56_checkbox" />
-							<label class="cbtn" for="m56_checkbox">8.8</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m57_checkbox" />
-							<label class="cbtn" for="m57_checkbox">9</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m57_checkbox" />
-							<label class="cbtn" for="m57_checkbox">10</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m57_checkbox" />
-							<label class="cbtn" for="m57_checkbox">11</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m57_checkbox" />
-							<label class="cbtn" for="m57_checkbox">12</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m58_checkbox" />
-							<label class="cbtn" for="m58_checkbox">13</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m59_checkbox" />
-							<label class="cbtn" for="m59_checkbox">15</label>
-							<br>
-							[/category]
-							<!--Мотоблоки-->
-							[category=13]
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m57_checkbox" />
-							<label class="cbtn" for="m57_checkbox">1-15Квт</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m58_checkbox" />
-							<label class="cbtn" for="m58_checkbox">15-120Квт</label>
-							<br>
-							<div class="margin-top"></div>
-							<input type="checkbox" class="checkbox" id="m59_checkbox" />
-							<label class="cbtn" for="m59_checkbox">120-900Квт</label>
-							<br>
+								<br>
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m52_checkbox" />
+								<label class="cbtn" for="m52_checkbox">6.5</label>
+								<br>
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m53_checkbox" />
+								<label class="cbtn" for="m53_checkbox">7</label>
+								<br>
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m54_checkbox" />
+								<label class="cbtn" for="m54_checkbox">7.6</label>
+								<br>
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m55_checkbox" />
+								<label class="cbtn" for="m55_checkbox">8</label>
+								<br>
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m56_checkbox" />
+								<label class="cbtn" for="m56_checkbox">8.8</label>
+								<br>
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m57_checkbox" />
+								<label class="cbtn" for="m57_checkbox">9</label>
+								<br>
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m57_checkbox" />
+								<label class="cbtn" for="m57_checkbox">10</label>
+								<br>
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m57_checkbox" />
+								<label class="cbtn" for="m57_checkbox">11</label>
+								<br>
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m57_checkbox" />
+								<label class="cbtn" for="m57_checkbox">12</label>
+								<br>
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m58_checkbox" />
+								<label class="cbtn" for="m58_checkbox">13</label>
+								<br>
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m59_checkbox" />
+								<label class="cbtn" for="m59_checkbox">15</label>
+								<br>
+								[/category]
+								<!--Мотоблоки-->
+								[category=13]
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m57_checkbox" />
+								<label class="cbtn" for="m57_checkbox">1-15Квт</label>
+								<br>
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m58_checkbox" />
+								<label class="cbtn" for="m58_checkbox">15-120Квт</label>
+								<br>
+								<div class="margin-top"></div>
+								<input type="checkbox" class="checkbox" id="m59_checkbox" />
+								<label class="cbtn" for="m59_checkbox">120-900Квт</label>
+								<br>
 
-							[/category]<!--ГЕНЕРАТОРИ-->
+								[/category]
+								<!--ГЕНЕРАТОРИ-->
 
 						</form>
 					</div>
@@ -390,13 +391,72 @@
 							<br>
 							<div class="top"></div>
 							<input type="checkbox" class="checkbox" id="checkbox20" />
-							<label class="cbtn" for="checkbox20">3</label><br>
+							<label class="cbtn" for="checkbox20">3</label>
+							<br>
+						
+							[not-category=9]
 							<div class="top"></div>
+							<input type="checkbox" class="checkbox" id="checkbox202" />
+							<label class="cbtn" for="checkbox202">4</label>
+							<br>
+							[/not-category]
+
 						</form>
 					</div>
 				</div>
 				[/category]
 
+				[category=11]
+				<div class="cylinders">
+					<div class="cylinders standart  flex_align-center">
+						<h3>Охлаждение</h3>
+						<i class="fas fa-angle-down"></i>
+					</div>
+					<div class="cylinders-list">
+						<form id="xf_coling">
+
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="checkbox18" />
+							<label class="cbtn" for="checkbox18">Воздушное</label>
+							<br>
+
+							<div class="top"></div>
+							<input type="checkbox" class="checkbox" id="checkbox19" />
+							<label class="cbtn" for="checkbox19">Водяное</label>
+							<br>
+
+
+						</form>
+					</div>
+				</div>
+
+				<div class="cylinders">
+					<div class="cylinders standart  flex_align-center">
+						<h3>Тип топлива</h3>
+						<i class="fas fa-angle-down"></i>
+					</div>
+					<div class="cylinders-list">
+						<form id="xf_toplivo">
+							<div class="margin-top"></div>
+
+							<input type="checkbox" class="checkbox" id="checkbox20" />
+							<label class="cbtn" for="checkbox20">Дизель</label>
+							<br>
+							<div class="top"></div>
+							<input type="checkbox" class="checkbox" id="checkbox202" />
+							<label class="cbtn" for="checkbox202">Бензин</label>
+							<br>
+
+
+						</form>
+					</div>
+				</div>
+				[/category]
+
+
+
+
+				[category=9,10]
 				<div class="drive-unit">
 					<div class="drive-unit standart  flex_align-center">
 						<h3>Привод</h3>
@@ -406,10 +466,10 @@
 						<form id="xf_wd">
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="checkbox21" />
-							<label class="cbtn" for="checkbox21">4х4</label><br>
+							<label class="cbtn" for="checkbox21">4X4</label><br>
 							<div class="top"></div>
 							<input type="checkbox" class="checkbox" id="checkbox22" />
-							<label class="cbtn" for="checkbox22">4х2</label><br>
+							<label class="cbtn" for="checkbox22">4X2</label><br>
 							<div class="top"></div>
 						</form>
 					</div>
@@ -440,14 +500,135 @@
 						<form id="xf_cabin">
 							<div class="margin-top"></div>
 							<input type="checkbox" class="checkbox" id="checkbox25" />
-							<label class="cbtn" for="checkbox25">Есть</label><br>
+							<label class="cbtn" for="checkbox25">Есть</label>
+							<br>
 							<div class="top"></div>
 							<input type="checkbox" class="checkbox" id="checkbox26" />
-							<label class="cbtn" for="checkbox26">Нет</label><br>
+							<label class="cbtn" for="checkbox26">Нет</label>
+							<br>
 							<div class="top"></div>
 						</form>
 					</div>
 				</div>
+				[/category]
+
+				[category=12]
+				<div class="">
+					<div class="cabin standart flex_align-center">
+						<h3>Предназначение</h3>
+						<i class="fas fa-angle-down"></i>
+					</div>
+					<div class="cabin-list">
+						<form id="xf_prdz">
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="checkbox25" />
+							<label class="cbtn" for="checkbox25">Для мототрактора</label>
+							<br>
+							<div class="top"></div>
+							<input type="checkbox" class="checkbox" id="checkbox26" />
+							<label class="cbtn" for="checkbox26">Для минитрактора</label>
+							<br>
+							<div class="top"></div>
+							<input type="checkbox" class="checkbox" id="checkbox26z" />
+							<label class="cbtn" for="checkbox26z">Для мотоблока</label>
+							<br>
+						</form>
+					</div>
+				</div>
+
+
+				<div class="">
+					<div class="cabin standart flex_align-center">
+						<h3>Тип</h3>
+						<i class="fas fa-angle-down"></i>
+					</div>
+					<div class="cabin-list">
+						<form id="xf_tip_obor">
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m33_checkbox" />
+							<label class="cbtn" for="m33_checkbox">Бороны</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m34_checkbox" />
+							<label class="cbtn" for="m34_checkbox">Грабли</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m35_checkbox" />
+							<label class="cbtn" for="m35_checkbox">Картофелекопатели</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m36_checkbox" />
+							<label class="cbtn" for="m36_checkbox">Картофелесажатели</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m37_checkbox" />
+							<label class="cbtn" for="m37_checkbox">Культиваторы</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m38_checkbox" />
+							<label class="cbtn" for="m38_checkbox">Окучиватели</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m39_checkbox" />
+							<label class="cbtn" for="m39_checkbox">Плуги</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m40_checkbox" />
+							<label class="cbtn" for="m40_checkbox">Почвофрезы</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m41_checkbox" />
+							<label class="cbtn" for="m41_checkbox">Прицепы</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m42_checkbox" />
+							<label class="cbtn" for="m42_checkbox">Косы</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m43_checkbox" />
+							<label class="cbtn" for="m43_checkbox">Чеснококопатели</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m44_checkbox" />
+							<label class="cbtn" for="m44_checkbox">Чеснокосажатели</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m46_checkbox" />
+							<label class="cbtn" for="m46_checkbox">Фронтальные погрузчики</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m47_checkbox" />
+							<label class="cbtn" for="m47_checkbox">Другое оборудование</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m48_checkbox" />
+							<label class="cbtn" for="m48_checkbox">Буры</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m49_checkbox" />
+							<label class="cbtn" for="m49_checkbox">Опрыскиватели</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m50_checkbox" />
+							<label class="cbtn" for="m50_checkbox">Разбрасыватели удобрений</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m51_checkbox" />
+							<label class="cbtn" for="m51_checkbox">Сеялки</label>
+							<br>
+							<div class="margin-top"></div>
+							<input type="checkbox" class="checkbox" id="m52_checkbox" />
+							<label class="cbtn" for="m52_checkbox">Щетки</label>
+							<br>
+
+						</form>
+					</div>
+				</div>
+
+
+
+				[/category]
+
 				<div id="filter_reset" class="reset">
 					<i style="cursor: pointer;" class="fas fa-times"></i>
 					<p style="cursor: pointer;">Сбросить параметры фильтра</p>
