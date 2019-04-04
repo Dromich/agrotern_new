@@ -121,7 +121,7 @@
 					<i class="fas fa-angle-down"></i>
 				</div>
 				<div class="cylinders-list">
-					<form method="post" action="">
+					<form id="xf_cylinders">
 						<div class="margin-top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox18" />
 						<label class="cbtn" for="checkbox10">ДТЗ</label>
@@ -142,7 +142,7 @@
 					<i class="fas fa-angle-down"></i>
 				</div>
 				<div class="drive-unit-list">
-					<form method="post" action="">
+					<form id="xf_wd">
 						<div class="margin-top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox21" />
 						<label class="cbtn" for="checkbox21">4х4</label><br>
@@ -159,7 +159,7 @@
 					<i class="fas fa-angle-down"></i>
 				</div>
 				<div class="track-list">
-					<form method="post" action="">
+					<form id="xf_weels">
 						<div class="margin-top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox23" />
 						<label class="cbtn" for="checkbox23">Да</label><br>
@@ -176,7 +176,7 @@
 					<i class="fas fa-angle-down"></i>
 				</div>
 				<div class="cabin-list">
-					<form method="post" action="">
+					<form id="xf_cabin">
 						<div class="margin-top"></div>
 						<input type="checkbox" class="checkbox" id="checkbox25" />
 						<label class="cbtn" for="checkbox25">Есть</label><br>
