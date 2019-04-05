@@ -142,14 +142,21 @@
 				Акции и скидки
 			</h1>
 		</div>
-		<div class="catalog_stock">
+		<div id="cat_stok">
+
+			<div class="catalog_stock">
 			
-			{custom  category="89"  available="main" navigation="no" from="0" limit="4" fixed="yes" order="rand" sort="desc" cache="yes"}
-			
-				<div class="button_still_copy none">
-				<a href="/"><span><i class="fas fa-redo-alt reload"></i>Показать ещё скидки</span></a>
+				{custom  category="89"  available="main" navigation="no" from="0" limit="4" fixed="yes" order="rand" sort="desc" cache="yes"}
+				
+					
 				</div>
-			</div>
+
+				<div class="button_still_copy none">
+					<a id="more_sale" href="/rozprodazh/"><span><i class="fas fa-redo-alt reload"></i>Показать ещё скидки</span></a>
+					</div>
+		</div>
+		
 		</div>
 	</div>
 </section>
+
