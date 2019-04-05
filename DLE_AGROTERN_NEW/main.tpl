@@ -575,9 +575,7 @@
 
 let globalurl = window.location.pathname;
 	let gurlarr = globalurl.split('/');
-	$('#go_catalog').attr("href", '/' + gurlarr[1] + '/');
-		console.log(gurlarr[1] )
-		console.log(gurlarr )
+	$('#go_catalog').attr("href", '/' + gurlarr[1] + '/');		
 	
 	</script>
 	
