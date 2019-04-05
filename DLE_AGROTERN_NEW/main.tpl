@@ -51,9 +51,13 @@
 					</div>
 					<div class="search_basket_icon">
 
-						<!--<div><i class="fas fa-search"></i></div>-->
+						<div><i class="fas fa-search"></i></div>
 						<div class="mobil_goods"><span></span> <img src="{THEME}/img/icon_basket_responsive.png" alt="basket"></div>
 					</div>
+					<div class="back">
+						<p> <a id="go_catalog" href="#">	<i class="fas fa-long-arrow-alt-left"></i> В каталог</a></p>
+					</div>
+
 				</div>
 				<div class="responsive_menu-open nones">
 					<div class="main_menu_open">
@@ -568,36 +572,13 @@
 	[/available]
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script>
-		$(function () {
-			/*для горизонтального*/
-			$("#slider-range").slider({
-				range: true,
-				min: 0,
-				max: 60000,
-				values: [28000, 48500],
-				slide: function (event, ui) {
-					$("#amount").val(ui.values[0] + "грн." + ui.values[1] +
-						"-грн.");
-				}
-			});
-			$("#amount").val($("#slider-range").slider("values", 0) + "грн." + $(
-				"#slider-range").slider("values", 1) + "грн.");
-		});
 
-		$(function () {
-			/*для вертикального*/
-			$("#slider-vertical").slider({
-				orientation: "vertical",
-				range: "min",
-				min: 0,
-				max: 100,
-				value: 60,
-				slide: function (event, ui) {
-					$("#").val(ui.value);
-				}
-			});
-			$("#").val($("#slider-vertical").slider("value"));
-		});
+let globalurl = window.location.pathname;
+	let gurlarr = globalurl.split('/');
+	$('#go_catalog').attr("href", '/' + gurlarr[1] + '/');
+		console.log(gurlarr[1] )
+		console.log(gurlarr )
+	
 	</script>
 	
 	[not-available=showfull]
