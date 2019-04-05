@@ -38,7 +38,8 @@ header {
   font-size: 16px;
 }
 .menu ul li a {
-  color: #1d2b39;
+	color: #1d2b39;
+	font-size: 15px;
 }
 .menu ul li:not(:last-child) {
   margin-right: 40px;
@@ -85,7 +86,9 @@ header {
   background-position-x: 15px;
 }
 .search {
-  margin-right: 40px;
+	margin-right: 40px;
+	position: relative;
+	margin-top: 20px;
 }
 .search input {
   padding-top: 15px;
@@ -98,16 +101,17 @@ header {
   color: #9b9b9b;
 }
 .search button {
-  height: 48px;
-  width: 35px;
-  background: url('../img/search.png') center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  position: relative;
-  right: 39px;
-  top: 17px;
+	height: 48px;
+	width: 35px;
+	background: url('../img/search.png') center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	
 }
 .phone {
   background: url('../img/phone.png') center;
