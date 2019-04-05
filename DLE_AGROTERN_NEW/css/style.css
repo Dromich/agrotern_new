@@ -920,7 +920,12 @@ header {
   font-weight: bold;
   padding-bottom: 30px;
 }
-.one_block_menu_hover ul li i {
+.one_block_menu_hover ul li a{
+	color: #333333;
+	font-weight: bold;
+	padding-bottom: 30px;
+  }
+.one_block_menu_hover ul li  i {
   color: #ff9c00;
   margin-right: 5px;
 }
@@ -947,6 +952,11 @@ header {
   font-weight: bold;
   padding-bottom: 20px;
 }
+.two_block_menu_hover ul li a {
+	color: #333333;
+	font-weight: bold;
+	padding-bottom: 20px;
+  }
 .two_block_menu_hover ul li i {
   color: #bfd9f3;
   margin-right: 5px;
