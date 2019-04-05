@@ -188,12 +188,12 @@
 		<div class="main_width">
 			<div class="category_menu">
 				<ul>
-					<li class="hover"><a href="/mototraktory/">Мототракторы</a></li>
-					<li><a href="/minitraktory/">Минитракторы</a></li>
-					<li><a href="/motobloki/">Мотоблоки</a></li>
-					<li><a href="/generatory/">Генераторы</a></li>
-					<li><a href="/navesnoe-oborudovanie/">Навесное оборудование</a></li>
-					<li><a href="/snegouborochnye-mashiny/">Снегоуборщики</a></li>
+					<li id="mototraktor" ><a href="/mototraktory/">Мототракторы</a></li>
+					<li id="minitraktor"><a href="/minitraktory/">Минитракторы</a></li>
+					<li id="motoblok"><a href="/motobloki/">Мотоблоки</a></li>
+					<li id="generator"><a href="/generatory/">Генераторы</a></li>
+					<li id="dop_oborudov"><a href="/navesnoe-oborudovanie/">Навесное оборудование</a></li>
+					<li  id="svrka"><a href="/svarochnoe-oborudovanie/">Сварочное оборудование</a></li>
 				</ul>
 			</div>
 			<!-- hover menu -->
@@ -478,19 +478,7 @@
 		</div>
 
 	<script type="text/javascript">
-		// hover menu
-		let elem = document.querySelector('.hover'),
-			menu = document.querySelector('.hover_menu');
-
-		elem.addEventListener('mouseenter', function () {
-			menu.classList.add('active_hover-menu');
-			
-		});
-		menu.addEventListener('mouseleave', function () {
-			menu.classList.remove('active_hover-menu');
-			
-		});
-		// end hover menu
+	
 
 		// pop-ap window
 		let message = document.querySelector('.pop_ap'),
