@@ -644,8 +644,12 @@ let globalurl = window.location.pathname;
 });
 //console.log(window.location.pathname)
 	</script>
-<script type="text/javascript" src="{THEME}/js/filter.js"></script>
+
 [/not-available]
+[available=cat]
+<script type="text/javascript" src="{THEME}/js/filter.js"></script>
+[/available]
+
 	<link rel="stylesheet" href="{THEME}/js/fotorama/fotorama.css">
 	<script src="{THEME}/js/fotorama/fotorama.js"></script>
 	<script type="text/javascript" src="{THEME}/js/kylshop.js"></script>
