@@ -74,9 +74,10 @@
 	margin: 20px auto 0;
 }
 
-.action_button_cart li{
-	display: inline-block;
+.action_button_cart li {
+	display: inline-flex;
 	list-style: none;
+	justify-content: space-around;
 }
 
 .action_button_cart li a{
@@ -302,7 +303,7 @@
 }
 .action_button_cart {
 	margin: 20px auto 0;
-	width: 40%;
+	width: 100%;
 	text-align: left;
 	padding-left: 25px;
 }
