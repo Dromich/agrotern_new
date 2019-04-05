@@ -586,9 +586,13 @@ header {
   padding-top: 210px;
 }
 .card_product .name_product b span {
-  display: block;
-  color: #333333;
-  text-decoration: underline;
+	display: block;
+	color: #333333;
+	text-decoration: underline;
+	height: 50px;
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 5px;
 }
 .card_product .name_product b span:first-child {
   margin-bottom: 5px;
