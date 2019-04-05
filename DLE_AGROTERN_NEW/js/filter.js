@@ -24,9 +24,9 @@ $(this).text(metamorf);
  		$("#xf_price").slider({
  			range: true,
  			min: 100,
- 			max: 450000,
+ 			max: 1000000,
  			step: 500,
- 			values: [1500, 150000],
+ 			values: [1500, 350000],
  			slide: function (event, ui) {
  				move_Fvalue('#xf_price', ui.values[0], ui.values[1]);
  			},
