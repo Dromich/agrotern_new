@@ -2,7 +2,7 @@
 	<div class="main_width">
 		<div class="main_content flex_betwen">
 			<div class="slider">
-				<div class="fotorama" data-width="100%" data-maxheight="350" data-allowfullscreen="native"
+				<div class="fotorama" data-width="100%" data-maxheight="550" data-allowfullscreen="native"
 					data-fit="contain" data-autoplay="true" data-loop="true" data-nav="thumbs">
 
 					[xfvalue_slide_img]
@@ -25,12 +25,12 @@
 				</div>
 				<div class="slider_responsive none">
 					<div class="slide_responsive flex">
-						<div class="fotorama" data-width="100%" data-maxheight="350" data-allowfullscreen="native"
-					data-fit="contain" data-autoplay="true" data-loop="true" data-nav="thumbs">
+						<div class="fotorama" data-width="100%"  data-allowfullscreen="native"
+							data-fit="contain" data-autoplay="true" data-loop="true" data-nav="thumbs">
 
-					[xfvalue_slide_img]
+							[xfvalue_slide_img]
 
-				</div>
+						</div>
 					</div>
 				</div>
 				<div class="price_card">
@@ -143,12 +143,12 @@
 				</div>
 			</div>
 			<div class="tabs_open_specifications flex_betwen">
-					
+
 				<div class="one_block_tabs_specifications one_block">
 
-						{full-story}
+					{full-story}
 
-				</div>				
+				</div>
 			</div>
 			<div class="tabs_responsive none">
 				<div class="one_block_tabs_responsive">
@@ -190,25 +190,25 @@
 	</div>
 </section>
 <section class="modal">
-		<div class="main_width">
-			<div class="title_modal">
-				<h1>
-					Похожие модели
-				</h1>
-			</div>
-			<div class="catalog_stock">
-				
-			
-					{custom  category="{category-id}"   navigation="no" from="0" limit="4" fixed="no" order="rand" sort="desc" cache="yes"}
-			
-			</div>
+	<div class="main_width">
+		<div class="title_modal">
+			<h1>
+				Похожие модели
+			</h1>
 		</div>
-	</section>
+		<div class="catalog_stock">
+
+
+			{custom category="{category-id}" navigation="no" from="0" limit="4" fixed="no" order="rand" sort="desc"	cache="yes"}
+
+		</div>
+	</div>
+</section>
 
 
 <script>
 	function split_register() {
-			$('.price_val').each(function () {
+		$('.price_val').each(function () {
 			var price = $(this).text();
 			//console.log(price);
 			var metamorf = price.replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ');
@@ -224,58 +224,49 @@
 	}
 
 	split_register();
-
-	
 </script>
 
 <div id="popup{news-id}" class="main_pop-ap_window">
-		<div class="pop-ap_window">
-			<i id="close{news-id}" class="fas fa-times "></i>
-			<div class="width-pop-ap">
-				<h3>Заказать <br> {title} </h3>
-				<p class="description">
-					Наши специалисты свяжутся с Вами
-					в течении 15 минут
-				</p>
-				<form class="ajax_form" >
-					<!-- Hidden Required Fields -->
-			<input type="hidden" name="project_name" value="AGROTERN">
-			<input type="hidden" name="admin_email" value="agroternua@gmail.com">
-			<input type="hidden" name="form_subject" value="Покупка з AGROTERN">
-			<!-- END Hidden Required Fields -->
-					<p>Ваше имя: </p>
-					<input type="text" class="enter_name" required>
-					<p>Контактный телефон: </p>
-					<input type="text" class="enter_phone" required>
-					<button type="submit">Заказать</button>
-				</form>
-			</div>
+	<div class="pop-ap_window">
+		<i id="close{news-id}" class="fas fa-times "></i>
+		<div class="width-pop-ap">
+			<h3>Заказать <br> {title} </h3>
+			<p class="description">
+				Наши специалисты свяжутся с Вами
+				в течении 15 минут
+			</p>
+			<form class="ajax_form">
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="AGROTERN">
+				<input type="hidden" name="admin_email" value="agroternua@gmail.com">
+				<input type="hidden" name="form_subject" value="Покупка з AGROTERN">
+				<!-- END Hidden Required Fields -->
+				<p>Ваше имя: </p>
+				<input type="text" class="enter_name" required>
+				<p>Контактный телефон: </p>
+				<input type="text" class="enter_phone" required>
+				<button type="submit">Заказать</button>
+			</form>
 		</div>
 	</div>
+</div>
 
-	<script>
+<script>
 	let cli = document.querySelector('.one_click'),
-			popcli = document.getElementById('popup{news-id}'),
-			closepopcli = document.getElementById('close{news-id}');
+		popcli = document.getElementById('popup{news-id}'),
+		closepopcli = document.getElementById('close{news-id}');
 
-		cli.addEventListener('click', function () {
-			popcli.classList.add('active-pop_ap');
-			document.body.style.overflow = 'hidden';
-		});
-		closepopcli.addEventListener('click', function () {
-			popcli.classList.remove('active-pop_ap');
-			document.body.style.overflow = '';
-		});
-		
-$('#cat_yrl_fls').text('{title}');
+	cli.addEventListener('click', function () {
+		popcli.classList.add('active-pop_ap');
+		document.body.style.overflow = 'hidden';
+	});
+	closepopcli.addEventListener('click', function () {
+		popcli.classList.remove('active-pop_ap');
+		document.body.style.overflow = '';
+	});
 
-
-
-let myurl = window.location.pathname;
-let urlarr =myurl.split('/');
-
-$('#cat_url_ttl').attr("href", '/'+urlarr[1]+'/');
-
-
-
-	</script>
+	$('#cat_yrl_fls').text('{title}');
+	let myurl = window.location.pathname;
+	let urlarr = myurl.split('/');
+	$('#cat_url_ttl').attr("href", '/' + urlarr[1] + '/');
+</script>
