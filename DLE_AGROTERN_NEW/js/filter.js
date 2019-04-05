@@ -224,16 +224,43 @@ $('#filter_red_but').click();
  				},function (data) {
 					$(".filteron").css('opacity', '1');
 
+
+					var tpl = `	<div class="sorting_card_product">
+						
+						
+					<div class="title">
+						<h1>
+							Минитракторы
+						</h1>
+					</div>
+					<div class="sorting flex_betwen">
+						<ul class="one_block flex">
+							<li class="sort">Сортировка:</li>
+							<li class="price_sort"> <span>⬆</span> По возрастанию цены</li>
+							<li class="price_sort_"> <span>⬇</span> По убиванию цены</li>
+						</ul>
+						<ul class="two_block flex">
+							<li class="all_sort">Все</li>
+							<li class="sort_active">12</li>
+							<li class="sorts_">24</li>
+						</ul>
+					</div>
+				</div>
+				`
+
 					 var mainData= '<div class="block_catalog">' + data + '</div>';
  					nextBtn.children('span').animate({
  						width: '100%'
  					}, 'slow', function () {
  						if (cstart > 0){
+							//$('#main_cont_1').html(mainData);
 							$('#main_cont_1').append(mainData);
 							split_register();} 
 						 else {
-							$('#dle-content').removeAttr('class');
-							$('#dle-content').html(mainData);
+							 $('#main_cont_1').html(tpl);
+							 $('#main_cont_1').append(mainData);
+							//$('#dle-content').removeAttr('class');
+							//$('#dle-content').html(mainData);
 							$(".button_still").addClass('filteron');
 							split_register();
 						 }
