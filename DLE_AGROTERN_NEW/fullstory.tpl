@@ -143,24 +143,12 @@
 				</div>
 			</div>
 			<div class="tabs_open_specifications flex_betwen">
+					
 				<div class="one_block_tabs_specifications one_block">
-					<ul>
-						<li><span class="name_tabs">ДВИГАТЕЛЬ</span> <span class="value values">138-2</span></li>
-						<li><span class="name_tabs">МЕТОД ЗАПУСКА</span> <img class="hint_hover"
-								src="{THEME}/img/icon-vopros.png" alt="vopros"> <span class="value"><span
-									class="asja">Электростартер</span> <span class="responsive_display">+ ручной пуск
-									(-<br> образная рукоятка)</span></span></li>
-						<li><span class="name_tabs">ДИАПЕТР ЦИЛИНДРА</span> <span class="value">115 мм</span></li>
-					</ul>
-				</div>
-				<div class="one_block_tabs_specifications two_block">
-					<ul>
-						<li><span class="name_tabs">ХОД ПОРШНЯ</span> <span class="value">125 мм</span></li>
-						<li><span class="name_tabs">МАКС. МОЩНОСТЬ</span> <span class="value vasls">24 л.с</span></li>
-						<li><span class="name_tabs">НОМИНАЛЬНАЯ МОЩНОСТЬ</span> <span class="value vaso">22 л.с</span>
-						</li>
-					</ul>
-				</div>
+
+						{full-story}
+
+				</div>				
 			</div>
 			<div class="tabs_responsive none">
 				<div class="one_block_tabs_responsive">
@@ -201,9 +189,33 @@
 		</div>
 	</div>
 </section>
+<section class="modal">
+		<div class="main_width">
+			<div class="title_modal">
+				<h1>
+					Похожие модели
+				</h1>
+			</div>
+			<div class="catalog_stock">
+				
+			
+					{custom  category="{category-id}"   navigation="no" from="0" limit="4" fixed="no" order="rand" sort="desc" cache="yes"}
+			
+			</div>
+		</div>
+	</section>
+
+
 <script>
 	function split_register() {
 			$('.price_val').each(function () {
+			var price = $(this).text();
+			//console.log(price);
+			var metamorf = price.replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ');
+			$(this).text(metamorf);
+		});
+
+		$('.price_val_ss').each(function () {
 			var price = $(this).text();
 			//console.log(price);
 			var metamorf = price.replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ');
