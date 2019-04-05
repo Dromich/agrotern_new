@@ -57,6 +57,7 @@
 					<div class="back">
 						<p> <a id="go_catalog" href="#">	<i class="fas fa-long-arrow-alt-left"></i> В каталог</a></p>
 					</div>
+					
 
 				</div>
 				<div class="responsive_menu-open nones">

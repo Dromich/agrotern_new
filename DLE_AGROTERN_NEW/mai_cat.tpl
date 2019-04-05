@@ -1,5 +1,6 @@
 <div class="main_block_content main_width">
 	<!--Filter-->
+	<div class="mob_title" style="display:none;"><h1>{category-title}</h1></div>
 	<div class="left-content">
 		<nav class="left-nav">
 			<div class="nav-list">
@@ -651,6 +652,8 @@
 			<div class="main_content">
 				<div id="main_cont_1" class="">
 					<div class="sorting_card_product">
+						
+						
 						<div class="title">
 							<h1>
 								{category-title}

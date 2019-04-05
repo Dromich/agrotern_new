@@ -1,5 +1,25 @@
 @media screen and (max-width: 768px) {
 
+	.mob_title {
+		display: block!important;
+		width: 100%;
+		margin: 18px auto;
+		font-size: 10px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.back {
+		/* margin-top: -20px; */
+		font-weight: bold;
+		color: #1d3f92;
+		padding: 10px 10px 10px 10px;
+		background-color: transparent;
+		cursor: pointer;
+		margin-bottom: -35px;
+		position: absolute;
+		top: 55px;
+	}
+
 	
   * {
     margin: 0;
