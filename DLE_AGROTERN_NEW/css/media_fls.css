@@ -147,13 +147,14 @@
   .two_block ul li:not(:first-child) {
     display: none;
   }
-  .tabs_open_specifications {
+ /* .tabs_open_specifications {
     display: none;
-  }
+  }*/
   .one_block_tabs_specifications {
-    width: 350px;
-    margin: 0 auto;
-  }
+	width: 100%;
+	margin: 0 auto;
+	padding: 5px;
+}
   .responsive_display {
     display: none;
   }
@@ -269,7 +270,7 @@
     font-size: 12px;
   }
   .phone ul{
-    width: ;
+    
     margin: 0 auto;
   }
   .days_work {
@@ -292,7 +293,7 @@
     text-align: center;
   }
   .visa p{
-    width: ;
+   
     margin: 0 auto;
     font-weight: 100;
     text-align: center;
@@ -336,10 +337,7 @@
     margin-left: 0;
   }
 
-  .test {
-    /* font-size: 13px;
-    margin-left: 100px; */
-  }
+  
   
 }
 

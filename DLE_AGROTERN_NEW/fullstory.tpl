@@ -24,9 +24,9 @@
 					</ul>
 				</div>
 				<div class="slider_responsive none">
-					<div class="slide_responsive flex">
-						<div class="fotorama" data-width="100%"  data-allowfullscreen="native"
-							data-fit="contain" data-autoplay="true" data-loop="true" data-nav="thumbs">
+					<div class="">
+						<div class="fotorama" data-width="100%"  data-height="320" data-allowfullscreen="native"
+							data-fit="contain" data-autoplay="true" data-loop="true" >
 
 							[xfvalue_slide_img]
 
@@ -158,36 +158,7 @@
 
 				</div>
 			</div>
-			<div class="tabs_responsive none">
-				<div class="one_block_tabs_responsive">
-					<div class="one_block_tabs_specifications one_block">
-						<ul>
-							<li class='fix-width'>
-								<span class="name_tabs">ДВИГАТЕЛЬ</span> <span class="value values"
-									style="float: right;">138-2</span>
-							</li>
-							<li class='fix-width' class="width_spec">
-								<span class="name_tabs">МЕТОД ЗАПУСКА</span> <img class="hint_hovers"
-									src="{THEME}/img/icon-vopros.png" alt="vopros"> <span class="test"><span
-										class="asja">Электростартер</span> <span class="responsive_display">+ ручной
-										пуск (-<br> образная рукоятка)</span></span>
-							</li>
-							<li class='fix-width'>
-								<span class="name_tabs">ДВИГАТЕЛЬ</span> <span class="value"
-									style="color: #0083ca; text-decoration: underline; margin-right: 20px;">138-2</span>
-							</li>
-						</ul>
-					</div>
-					<div class="one_block_tabs_specifications two_block">
-						<ul>
-							<li class='fix-width'>
-								<span class="name_tabs fix-width">ХОД ПОРШНЯ</span> <span class="value"
-									style="margin-right: 25px;">125 мм</span>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
+			
 			<div class="hint">
 				<p>
 					Всплывающий текст с <br>
