@@ -42,12 +42,17 @@
 	position: absolute;
 	top: 55px;
 }
+.back a{
+	color: #1d3f92;
+
+}
   .slider {
     display: none;
   }
   .title {
-    text-align: center;
-  }
+	text-align: center;
+	display: block !important;
+}
   .title span {
     display: flex;
     flex-direction: column;
