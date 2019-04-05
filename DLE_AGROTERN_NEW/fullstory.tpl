@@ -130,23 +130,31 @@
 		<div class="main_tabs_container">
 			<div class="tabs">
 				<div class="main_menu_tabs flex">
-					<div class="tubs_item-description">
+					<div id="desc_tab_ttl" class="tubs_item-description">
 						<h2 class='tabs-item-title'>
 							Описание
 						</h2>
 					</div>
-					<div class="tubs_item-specifications active_tabs">
+					<div id="spec_tab_ttl" class="tubs_item-specifications active_tabs">
 						<h2 class='tabs-item-title'>
 							Характеристики
 						</h2>
 					</div>
 				</div>
 			</div>
-			<div class="tabs_open_specifications flex_betwen">
+			<div id="tab_spec" class="tabs_open_specifications flex_betwen">
 
 				<div class="one_block_tabs_specifications one_block">
 
 					{full-story}
+
+				</div>
+			</div>
+			<div id="tab_desc" class="tabs_open_specifications flex_betwen" style="display:none;">
+
+				<div class="one_block_tabs_specifications one_block">
+
+					Описание
 
 				</div>
 			</div>
@@ -269,4 +277,34 @@
 	let myurl = window.location.pathname;
 	let urlarr = myurl.split('/');
 	$('#cat_url_ttl').attr("href", '/' + urlarr[1] + '/');
+
+$('#desc_tab_ttl').click(function (e) { 
+	if ($(this).hasClass('active_tabs')) {
+		$(this).removeClass('active_tabs');
+		$('#spec_tab_ttl').addClass('active_tabs');
+		$("#tab_desc").slideToggle();	
+	$("#tab_spec").slideToggle();
+	}else{
+		$(this).addClass('active_tabs');
+		$('#spec_tab_ttl').removeClass('active_tabs');
+		$("#tab_spec").slideToggle();
+	$("#tab_desc").slideToggle();
+	}	
+});
+$('#spec_tab_ttl').click(function (e) { 
+	if ($(this).hasClass('active_tabs')) {
+		$(this).removeClass('active_tabs');
+		$('#desc_tab_ttl').addClass('active_tabs');
+		$("#tab_spec").slideToggle();
+		$("#tab_desc").slideToggle();	
+	
+	}else{
+		$(this).addClass('active_tabs');
+		$('#desc_tab_ttl').removeClass('active_tabs');
+		$("#tab_desc").slideToggle();
+		$("#tab_spec").slideToggle();	
+	}	
+});
+
+
 </script>
