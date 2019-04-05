@@ -19,8 +19,8 @@
 			
 		<span class="stock" [xfnotgiven_new_price]style="opacity: 0;"[/xfnotgiven_new_price]>[xfvalue_price] грн </span>
 		
-		[xfnotgiven_new_price]<span class="price">[xfvalue_price] грн</span>[/xfnotgiven_new_price]
-		[xfgiven_new_price]<span class="price">[xfvalue_new_price] грн</span>[/xfgiven_new_price]
+		[xfnotgiven_new_price]<span class="price price_val_ss">[xfvalue_price] грн</span>[/xfnotgiven_new_price]
+		[xfgiven_new_price]<span class="price price_val_ss">[xfvalue_new_price] грн</span>[/xfgiven_new_price]
 
 		<div href="{full-link}" class="in_garbage basket_click" data-goodsId="{news-id}"
 		data-goodsimg="[xfvalue_image_url_main_img]"
