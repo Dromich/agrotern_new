@@ -151,7 +151,7 @@
 					
 				</div>
 
-				<div class="button_still_copy none">
+				<div class="button_still none">
 					<a id="more_sale" href="/rozprodazh/"><span><i class="fas fa-redo-alt reload"></i>Показать ещё скидки</span></a>
 					</div>
 		</div>

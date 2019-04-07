@@ -1,4 +1,24 @@
 @media screen and (max-width: 768px) {
+	.search button {
+right: 10%;
+	}
+	.button_still span {
+		overflow: hidden;
+		font-size: 16px;
+		color: #193b90;
+		font-weight: bold;
+		/* padding-top: 16px; */
+		/* padding-bottom: 16px; */
+		padding-left: 99px;
+		padding-right: 99px;
+		transition: all .4s;
+		border: 2px solid #193b90;
+		border-radius: 4px;
+		width: 90%;
+		display: block;
+		padding: 10px;
+		margin: 0 auto;
+	}
 
 	.mob_title {
 		display: block!important;
@@ -181,15 +201,16 @@
     margin-top: -70px;
   }
   .banner {
-    width: 400px;
-    background: url('../img/img_.png') right;
-    background-repeat: no-repeat;
-    background-position-y: 98px;
-    margin-bottom: 30px;
-    background-color: #f8f8f8;
-    padding-bottom: 200px;
-    margin: 0 auto;
-  }
+	width: 400px;
+	background: url('../img/img_.png') right;
+	background-repeat: no-repeat;
+	/* background-position-y: 98px; */
+	margin-bottom: 30px;
+	background-color: #f8f8f8;
+	padding-bottom: 200px;
+	margin: 0 auto;
+	background-position: bottom;
+}
   .banner .titles {
     margin-left: -20px;
   }
@@ -244,7 +265,7 @@
     width: 300px;
   }
   .banner {
-    display: none;
+   
     width: 320px;
     box-sizing: border-box;
   }
@@ -258,27 +279,7 @@
     width: 80%;
   }
 }
-@media screen and (max-width: 395px) {
-  .button_still_copy span {
-    padding-left: 79px;
-    padding-right: 79px;
-  }
-  .banner {
-    width: 310px;
-  }
-}
-@media screen and (max-width: 343px) {
-  .button_still_copy span {
-    padding-left: 59px;
-    padding-right: 59px;
-  }
-}
-@media screen and (max-width: 308px) {
-  .button_still_copy span {
-    padding-left: 49px;
-    padding-right: 49px;
-  }
-}
+
 @media screen and (max-width: 321px) {
   .pop-ap_window {
     width: 280px;

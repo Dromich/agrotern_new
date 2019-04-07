@@ -1062,7 +1062,9 @@ header {
   left: 0;
 }
 .responsive_menu-open {
-  width: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
 }
 .main_menu_open {
   z-index: 9999;
@@ -1130,21 +1132,22 @@ header {
   display: none;
 }
 .icon_menu i:last-child {
-  display: none;
+	display: none;
+	margin-top: -15px;
 }
 .active_responsive-menu {
-  transition: all .5s;
-  z-index: 9999;
-  opacity: 1;
-  position: absolute;
-  top: 45px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 5px;
-  width: 100%;
-  height: 950px;
-  margin: 0 auto;
+	transition: all .5s;
+	z-index: 100;
+	opacity: 1;
+	position: absolute;
+	top: 45px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 5px;
+	width: 100%;
+	height: 950px;
+	margin: 0 auto;
 }
 /*===CATALOG STYLEs===*/
 .main_block_content{
