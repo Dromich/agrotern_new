@@ -60,28 +60,12 @@
 							</h2>
 						</div>
 						<div class="list">
-							<ul>
-								<li>Мощность <span
-										class="main_list_span">...........................................</span>
-									<span>24 л. с.</span></li>
-								<li>Передач <span
-										class="main_list_span">..............................................</span>
-									<span>(4+ 1) x 2</span></li>
-								<li>Привод <span
-										class="main_list_span">................................................</span>
-									<span>4x2</span></li>
-								<li>Тип топлива <span
-										class="main_list_span">.......................................</span>
-									<span>Дизель</span></li>
-								<li>Масса <span
-										class="main_list_span">...................................................</span>
-									<span>908 кг</span></li>
-								<li>Комплектация <span class="main_list_span">...................................</span>
-									<span>ЗИП</span></li>
-								<li>Гарантия <span
-										class="main_list_span">...............................................</span>
-									<span>24 мес.</span></li>
-							</ul>
+							<div class="short_desk">
+									{short-story}
+							</div>
+
+
+							
 						</div>
 					</div>
 					<div class="services_list">
@@ -99,26 +83,11 @@
 						</h2>
 					</div>
 					<div class="list">
-						<ul>
-							<li>Мощность <span class="main_list_span">...........................................</span>
-								<span>24 л. с.</span></li>
-							<li>Передач <span
-									class="main_list_span">..............................................</span>
-								<span>(4+ 1) x 2</span></li>
-							<li>Привод <span
-									class="main_list_span">................................................</span>
-								<span>4x2</span></li>
-							<li>Тип топлива <span class="main_list_span">.......................................</span>
-								<span>Дизель</span></li>
-							<li>Масса <span
-									class="main_list_span">...................................................</span>
-								<span>908 кг</span></li>
-							<li>Комплектация <span class="main_list_span">...................................</span>
-								<span>ЗИП</span></li>
-							<li>Гарантия <span
-									class="main_list_span">...............................................</span>
-								<span>24 мес.</span></li>
-						</ul>
+
+							<div class="short_desk">
+									{short-story}
+							</div>
+					
 					</div>
 				</div>
 			</div>
@@ -154,17 +123,18 @@
 
 				<div class="one_block_tabs_specifications one_block">
 
-					Описание
+						
+						[xfvalue_description]
 
 				</div>
 			</div>
-			
-			<div class="hint">
+			<br>
+			<!--<div class="hint">
 				<p>
 					Всплывающий текст с <br>
 					обьснениями параметрами
 				</p>
-			</div>
+			</div>-->
 		</div>
 	</div>
 </section>
