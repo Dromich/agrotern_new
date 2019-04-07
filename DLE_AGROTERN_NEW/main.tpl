@@ -54,18 +54,34 @@
 						<div><i class="fas fa-search"></i></div>
 						<div class="mobil_goods"><span></span> <img src="{THEME}/img/icon_basket_responsive.png" alt="basket"></div>
 					</div>
+					[available=showfull]
 					<div class="back">
 						<p> <a id="go_catalog" href="#">	<i class="fas fa-long-arrow-alt-left"></i> В каталог</a></p>
 					</div>
-					
+					[/available]
+					[available=cat|static|cart|search]
+					<div class="back">
+						<p> <a id="go_catalog" href="/">	<i class="fas fa-long-arrow-alt-left"></i> Назад</a></p>
+					</div>
+					[/available]
 
 				</div>
 				<div class="responsive_menu-open nones">
 					<div class="main_menu_open">
+							[not-desktop]
 						<div class="search">
-							<input type="text" placeholder=" Поиск по сайту">
-							<button></button>
+								<form id="quicksearch" method="post">
+										<input name="do" value="search" type="hidden">
+										<input name="subaction" value="search" type="hidden">
+										<input id="story" name="story" placeholder="Введите слово для поиска" autocomplete="off" type="text">
+							<button type="submit"></button>
+										<!--<div class="sblock">
+											<input id="story" name="story" placeholder="Введите слово для поиска" autocomplete="off" type="text">
+											<button id="sw" type="submit"><span class="fa fa-search "></span></button>
+										</div>-->
+									</form>
 						</div>
+						[/not-desktop]
 						<div class="main_list-responsive">
 							<div class="list_category" style="background-color: #141d2b;">
 								<ul>
@@ -150,6 +166,7 @@
 						</div>
 						<div class="line"></div>
 						<div class="container_main-two flex">
+								[desktop]
 							<div class="search">
 									<form id="quicksearch" method="post">
 											<input name="do" value="search" type="hidden">
@@ -164,6 +181,7 @@
 
 								
 							</div>
+							[/desktop]
 							<div class="phone">
 								<ul>
 									<li><a href="tel:(068)382-32-82"><b>(068) 382-32-82</b></a></li>
@@ -518,6 +536,7 @@
 
 	[/available]
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	[available=showfull]
 	<script>
 
 let globalurl = window.location.pathname;
@@ -525,7 +544,7 @@ let globalurl = window.location.pathname;
 	$('#go_catalog').attr("href", '/' + gurlarr[1] + '/');		
 	
 	</script>
-	
+	[/available]
 	[not-available=showfull]
 
 	<script type="text/javascript">
