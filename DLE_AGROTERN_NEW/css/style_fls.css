@@ -393,7 +393,7 @@ header {
   margin-top: 45px;
   transition: all .4s;
 }
-.one_click span {
+.one_click span:hover {
 	transition: all .4s;	
 	color: #ff9c00;
 	background-color: #ffffff;
@@ -406,15 +406,21 @@ header {
 	display: block;
 	margin: 5px auto;
 	text-align: center;
-	padding: 20px;
+	padding:15px;
 	margin-left: -1px;
 }
-.one_click span:hover {
-  background-color: #ff9c00;
-  color: #ffffff;
-  transition: all .4s;
-  border: 2px solid #ff9c00;
-  cursor: pointer;
+.one_click span {
+	background-color: #ff9c00;
+	color: #ffffff;
+	transition: all .4s;
+	border: 2px solid #ff9c00;
+	cursor: pointer;
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 15px;
+	 margin: 5px auto; 
+	border-radius: 10px;
 }
 .card {
   display: flex;
@@ -921,9 +927,7 @@ header {
 .vaso {
   padding-right: 22px;
 }
-.modal {
-  margin-top: -50px;
-}
+
 .hover_menu {
   opacity: 0;
   margin-top: -1000px;

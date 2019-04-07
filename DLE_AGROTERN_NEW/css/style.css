@@ -562,7 +562,7 @@ header {
 }
 .event {
   position: absolute;
-  z-index: 1000;
+  z-index: 2;
   padding-top: 20px;
   padding-left: 10px;
 }
