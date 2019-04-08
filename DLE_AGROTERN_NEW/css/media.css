@@ -1,4 +1,14 @@
 @media screen and (max-width: 768px) {
+	.filter-block {
+		
+		height: auto;
+	}	
+	#xf_price {		
+		display: none;
+	}
+#mob_price{
+	display: block;
+}
 	.search button {
 right: 10%;
 	}
