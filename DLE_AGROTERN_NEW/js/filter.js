@@ -330,4 +330,34 @@ $('#filter_red_but').click();
 	 e.preventDefault();
 	 $(this).siblings().slideToggle();
 	 
+ });	
+
+ $('#mob_price input').change(function (e) { 
+	 console.log($(this).val())
+	 console.log('$(this).val()')
+	 
  });
+
+$('#mob_price input').keyup(function (e) { 
+	$('#price_alert').css('display', 'none');
+});
+
+$('#mob_prc_ok').click(function (e) { 
+	e.preventDefault();
+	let stprc = $('#mob_prc_1').val();
+	let endprc = $('#mob_prc_2').val();
+	
+	if (!Number(stprc) || !Number(endprc) ) {
+		
+		$('#price_alert').css('display', 'block');
+		
+	}else{
+		$('#xf_price .val1').html(stprc);
+		$('#xf_price .val2').html(endprc);
+		setTimeout(() => {
+			$('#filter_red_but').click(); 
+		 }, 200);
+	}
+	
+	
+});
