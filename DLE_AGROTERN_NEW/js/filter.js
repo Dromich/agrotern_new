@@ -325,3 +325,9 @@ $('#filter_red_but').click();
 	
 	 
  });
+
+ $('.expander').click(function (e) { 
+	 e.preventDefault();
+	 $(this).siblings().slideToggle();
+	 
+ });
