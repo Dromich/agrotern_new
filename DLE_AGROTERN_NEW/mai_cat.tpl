@@ -28,8 +28,15 @@
 
 
 				</div>
-				<div class="filter-block">
+				<div class="filter-block">	
+<span  id="price_alert">Значение цены должно быть числом</span>
+
 					<h3>Цена, грн.</h3>
+					<div id="mob_price">
+							<input type="text"  id="mob_prc_1" placeholder="ОТ">
+							<input type="text"  id="mob_prc_2" placeholder="ДО">
+							<span id="mob_prc_ok">Задать цену</span>
+						</div>
 					<div id="xf_price" class="filter-slider">
 						<span class="filter-value val1"></span>
 						<span class="filter-value val2"></span>
