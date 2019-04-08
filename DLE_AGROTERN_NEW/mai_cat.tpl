@@ -39,7 +39,7 @@
 
 				[category=12]
 				<div class="manafacturer">
-					<div class="manafacturer standart flex_align-center">
+					<div class="expander manafacturer standart flex_align-center">
 						<h3>Предназначение</h3>
 						<i class="fas fa-angle-down"></i>
 					</div>
@@ -63,7 +63,7 @@
 
 
 				<div class="manafacturer">
-					<div class="manafacturer standart flex_align-center">
+					<div class="expander manafacturer standart flex_align-center">
 						<h3>Тип</h3>
 						<i class="fas fa-angle-down"></i>
 					</div>
@@ -159,7 +159,7 @@
 
 				[category=14]
 				<div class="manafacturer">
-					<div class="manafacturer standart flex_align-center">
+					<div class="expander manafacturer standart flex_align-center">
 						<h3>Класс аппарата:</h3>
 						<i class="fas fa-angle-down"></i>
 					</div>
@@ -187,7 +187,7 @@
 
 
 				<div class="manafacturer">
-					<div class="manafacturer standart flex_align-center">
+					<div class="expander manafacturer standart flex_align-center">
 						<h3>Тип</h3>
 						<i class="fas fa-angle-down"></i>
 					</div>
@@ -224,13 +224,13 @@
 
 				[/category]
 
-				[not-category=12]<div class="manafacturer">
-					<div class="manafacturer standart flex_align-center">
+				[not-category=12,13]<div class="manafacturer">
+					<div class="expander manafacturer standart flex_align-center">
 						<h3>Производитель</h3>
 						<i class="fas fa-angle-down"></i>
 					</div>
 					[/not-category]
-					[not-category=12] <div class="manafacturer-list">[/not-category]
+					[not-category=12,13] <div class="manafacturer-list">[/not-category]
 						<!--<div id="slider-vertical"></div>-->
 						<form id="xf_brand">
 							[not-category=11,12,13,14]
@@ -445,14 +445,14 @@
 							[/category]
 
 						</form>
-						[not-category=12]
+						[not-category=12,13]
 					</div>[/not-category]
 
-					[not-category=12]
+					[not-category=12,13]
 				</div>[/not-category]
 				[not-category=12,14]
 				<div class="power">
-					<div class="power standart flex_align-center">
+					<div class="expander power standart flex_align-center">
 						<h3>Мощность</h3>
 						<i class="fas fa-angle-down"></i>
 					</div>
@@ -641,7 +641,7 @@
 
 				[category=9,10]
 				<div class="cylinders">
-					<div class="cylinders standart  flex_align-center">
+					<div class="expander cylinders standart  flex_align-center">
 						<h3>Количество цилиндров</h3>
 						<i class="fas fa-angle-down"></i>
 					</div>
@@ -674,7 +674,7 @@
 
 				[category=11]
 				<div class="cylinders">
-					<div class="cylinders standart  flex_align-center">
+					<div class="expander cylinders standart  flex_align-center">
 						<h3>Охлаждение</h3>
 						<i class="fas fa-angle-down"></i>
 					</div>
@@ -697,7 +697,7 @@
 				</div>
 
 				<div class="cylinders">
-					<div class="cylinders standart  flex_align-center">
+					<div class="expander cylinders standart  flex_align-center">
 						<h3>Тип топлива</h3>
 						<i class="fas fa-angle-down"></i>
 					</div>
@@ -724,7 +724,7 @@
 
 				[category=9,10]
 				<div class="drive-unit">
-					<div class="drive-unit standart  flex_align-center">
+					<div class="expander drive-unit standart  flex_align-center">
 						<h3>Привод</h3>
 						<i class="fas fa-angle-down"></i>
 					</div>
@@ -741,7 +741,7 @@
 					</div>
 				</div>
 				<div class="track">
-					<div class="track standart  flex_align-center">
+					<div class="expander track standart  flex_align-center">
 						<h3>Регулируемая колея</h3>
 						<i class="fas fa-angle-down"></i>
 					</div>
@@ -758,7 +758,7 @@
 					</div>
 				</div>
 				<div class="">
-					<div class="track standart flex_align-center">
+					<div class="expander track standart flex_align-center">
 						<h3>Кабина</h3>
 						<i class="fas fa-angle-down"></i>
 					</div>
