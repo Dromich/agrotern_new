@@ -51,7 +51,7 @@
 					</div>
 					<div class="search_basket_icon">
 
-						<div><i class="fas fa-search"></i></div>
+						<div id="mobsearch"><i class="fas fa-search"></i></div>
 						<div class="mobil_goods"><span></span> <img src="{THEME}/img/icon_basket_responsive.png" alt="basket"></div>
 					</div>
 					[available=showfull]
@@ -101,7 +101,7 @@
 								</ul>
 								<div class="menu_responsive">
 									<div style="background-color: #141d2b;">
-										<div class="buttons_copyS">
+										<div id="consult_mob" class="buttons_copyS">
 											<span>
 												<a href="#box">Заказать консультацию</a>
 											</span>
@@ -338,7 +338,7 @@
 						<div class="full_description">
 							<a href="#box">Читать полностью <i class="fas fa-caret-right"></i></a>
 						</div>
-						<div class="buttons">
+						<div id="consult_footer1" class="buttons">
 							<span>
 								<a href="#box">Заказать консультацию</a>
 							</span>
@@ -422,7 +422,7 @@
 			</div>
 		</div>
 		<div class="footer_responsive none" id="nones">
-			<div class="buttons_copyS">
+			<div id="consult_footer2"class="buttons_copyS">
 				<span>
 					<a href="#box">Заказать консультацию</a>
 				</span>
@@ -501,12 +501,46 @@
 		// pop-ap window
 		let message = document.querySelector('.pop_ap'),
 			pop = document.querySelector('.main_pop-ap_window'),
-			close = document.querySelector('.close_window');
+			close = document.querySelector('.close_window'),
+			consult_mob = document.getElementById('consult_mob'),
+			consult_footer1 = document.getElementById('consult_footer1'),
+			consult_footer2 = document.getElementById('consult_footer2'),
+			mobsearch = document.getElementById('mobsearch');
 
-		message.addEventListener('click', function () {
+
+			mobsearch.addEventListener('click', function () {
+			main_menu_response.classList.add('active_responsive-menu');
+			open_menu.style.display = 'none';
+			close_menu.style.display = 'block';
+		});
+
+
+			consult_mob.addEventListener('click', function () {
 			pop.classList.add('active-pop_ap');
 			document.body.style.overflow = 'hidden';
 		});
+
+		consult_footer1.addEventListener('click', function () {
+			document.body.scrollTop = document.documentElement.scrollTop = 0;
+			pop.classList.add('active-pop_ap');
+			document.body.style.overflow = 'hidden';
+		});
+
+		consult_footer2.addEventListener('click', function () {
+			document.body.scrollTop = document.documentElement.scrollTop = 0;
+			pop.classList.add('active-pop_ap');
+			document.body.style.overflow = 'hidden';
+		});
+		
+		
+		
+			message.addEventListener('click', function () {
+			pop.classList.add('active-pop_ap');
+			document.body.style.overflow = 'hidden';
+		});
+		
+
+		
 		close.addEventListener('click', function () {
 			pop.classList.remove('active-pop_ap');
 			document.body.style.overflow = '';
