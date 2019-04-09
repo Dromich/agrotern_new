@@ -17,7 +17,7 @@ $(function () {
 			data: th.serialize()
 		}).done(function () {
 			alert("Спасибо, скоро мы перезвоним!");
-			$.magnificPopup.close();
+			
 			setTimeout(function () {
 				// Done Functions
 				th.trigger("reset");
