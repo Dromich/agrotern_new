@@ -196,7 +196,7 @@ $('#filter_red_but').click();
 		 
 		 console.log('go Filters');
 
-console.log('ціна старт '+xf_price_start+'Ціна стоп '+xf_price_end+ 'Параметри: ' + xf_tip_obor  + xf_prdz + xf_toplivo + xf_coling + xf_power +  xf_brand + xf_wd + xf_weels + xf_cabin + xf_cylinders+'GF '+gf)
+//console.log('ціна старт '+xf_price_start+'Ціна стоп '+xf_price_end+ 'Параметри: ' + xf_tip_obor  + xf_prdz + xf_toplivo + xf_coling + xf_power +  xf_brand + xf_wd + xf_weels + xf_cabin + xf_cylinders+'GF '+gf)
 
  		nextBtn.css({
  			'text-indent': '-9999px',
@@ -261,13 +261,13 @@ console.log('ціна старт '+xf_price_start+'Ціна стоп '+xf_price_
  						width: '100%'
  					}, 'slow', function () {
  						if (cstart > 0){
-							 console.log('var1');
+							// console.log('var1');
 							//$('#main_cont_1').html(mainData);
 							$('#main_cont_1').append(mainData);
 							split_register();} 
 						 else {
 
-							console.log('var2')
+							//console.log('var2')
 							 $('#main_cont_1').html(tpl);
 							 $('#main_cont_1').append(mainData);
 							//$('#dle-content').removeAttr('class');
