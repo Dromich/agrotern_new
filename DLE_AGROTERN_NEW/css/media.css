@@ -10,7 +10,7 @@
 	display: block;
 }
 	.search button {
-right: 10%;
+right: 10% !important;
 	}
 	.button_still span {
 		overflow: hidden;

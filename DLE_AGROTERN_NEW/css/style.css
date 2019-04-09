@@ -1092,11 +1092,15 @@ header {
   width: 90%;
 }
 .main_menu_open .list_category ul li {
-  margin-top: 20px;
-  text-align: none;
+  margin-top: 20px; 
   color: #fff;
   font-size: 14px;
 }
+.main_menu_open .list_category ul li a {
+	
+	color: #fff;
+	font-size: 14px;
+  }
 .main_menu_open .list_category ul li i {
   font-size: 10px;
 }
@@ -1171,7 +1175,7 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	cursor: pointer;
-	z-index: 1500;
+	z-index: 3;
 	padding-left: 18px;
   }
   .bar {
@@ -1541,7 +1545,9 @@ header {
 }
 #mob_price input {
 	width: 48%;
-	/* border: 1px solid yellow; */
+	border: 1px solid #333;
+	padding: 8px;
+	border-radius: 5px;
 }
 #mob_price{
 	display: none;

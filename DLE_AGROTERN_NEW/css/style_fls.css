@@ -1111,6 +1111,11 @@ header {
   color: #fff;
   font-size: 14px;
 }
+.main_menu_open .list_category ul li a {
+	
+	color: #fff;
+	font-size: 14px;
+  }
 .main_menu_open .list_category ul li i {
   font-size: 10px;
 }
@@ -1150,7 +1155,7 @@ header {
 }
 .active_responsive-menu {
   transition: all .5s;
-  z-index: 9999;
+  z-index: 5;
   opacity: 1;
   position: absolute;
   top: 45px;
