@@ -231,7 +231,7 @@
 							Наши специалисты свяжутся с Вами
 							в течении 15 минут
 						</p>
-						<form action="">
+						<form class="ajax_form" action="">
 
 							<!-- Hidden Required Fields -->
 			<input type="hidden" name="project_name" value="AGROTERN">
