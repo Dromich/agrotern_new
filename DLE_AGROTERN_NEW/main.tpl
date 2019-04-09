@@ -624,7 +624,7 @@ let globalurl = window.location.pathname;
 	
 	$(".filteron").css('opacity', '0.3');
 }
-			$('#filter-next').click();
+$('#filter-next').click();
 			console.log("filteron")
 		}
 
