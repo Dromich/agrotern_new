@@ -206,6 +206,7 @@
 		closepopcli = document.getElementById('close{news-id}');
 
 	cli.addEventListener('click', function () {
+		document.body.scrollTop = document.documentElement.scrollTop = 0;
 		popcli.classList.add('active-pop_ap');
 		document.body.style.overflow = 'hidden';
 	});
