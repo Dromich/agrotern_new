@@ -85,10 +85,11 @@ $('#filter_red_but').click();
  	})
  	.on('click', ' #filter-next,  #filter_red_but', function () {
 		 
-		//console.log('go Filters')
+		
 		//$('#dle-content').remove();
  		//$('#content').html('<br>'); //костиль який заміняє вивід фільра на пустишку щоб відображалась анімація
-
+		 if ($('#filter-next').length == 0){
+			$('#main_cont_1').prepend('<div class="navigation-button"><a id="filter-next" data-cstart="0"></a></div>');} 
 
  		var genre = [],
  			xf_power = [],
@@ -101,8 +102,12 @@ $('#filter_red_but').click();
  			xf_toplivo = [],
  			xf_prdz = [],
  			xf_tip_obor = [],
- 			cstart = $(this).data('cstart');
- 		if ($('#filter-next').length == 0) $('#dle-content').prepend('<div class="navigation-button"><a id="filter-next" data-cstart="0"></a></div>');
+			 cstart = $(this).data('cstart');
+			 
+
+		 
+		 
+
  		nextBtn = $('#filter-next');
  		i = 0;
  		$('#cat_value').each(function () {
@@ -186,11 +191,13 @@ $('#filter_red_but').click();
  		i = 0;
  		if (!cstart) cstart = 0;
  		xf_price_start = $('#xf_price .val1').html();
- 		xf_price_end = $('#xf_price .val2').html();
+		 xf_price_end = $('#xf_price .val2').html();
+ 	gf = 1;
+		 
+		 console.log('go Filters');
 
-//console.log('Параметри: '+ xf_tip_obor  + xf_prdz + xf_toplivo + xf_coling + xf_power +  xf_brand + xf_wd + xf_weels + xf_cabin + xf_cylinders)
+console.log('ціна старт '+xf_price_start+'Ціна стоп '+xf_price_end+ 'Параметри: ' + xf_tip_obor  + xf_prdz + xf_toplivo + xf_coling + xf_power +  xf_brand + xf_wd + xf_weels + xf_cabin + xf_cylinders+'GF '+gf)
 
- 		gf = 1;
  		nextBtn.css({
  			'text-indent': '-9999px',
  			'position': 'relative',
@@ -222,6 +229,7 @@ $('#filter_red_but').click();
  					xf_cylinders: xf_cylinders,
  					cstart: cstart
  				},function (data) {
+					 console.log('DATA is ON')
 					$(".filteron").css('opacity', '1');
 
 
@@ -253,10 +261,13 @@ $('#filter_red_but').click();
  						width: '100%'
  					}, 'slow', function () {
  						if (cstart > 0){
+							 console.log('var1');
 							//$('#main_cont_1').html(mainData);
 							$('#main_cont_1').append(mainData);
 							split_register();} 
 						 else {
+
+							console.log('var2')
 							 $('#main_cont_1').html(tpl);
 							 $('#main_cont_1').append(mainData);
 							//$('#dle-content').removeAttr('class');
@@ -332,11 +343,7 @@ $('#filter_red_but').click();
 	 
  });	
 
- $('#mob_price input').change(function (e) { 
-	 console.log($(this).val())
-	 console.log('$(this).val()')
-	 
- });
+
 
 $('#mob_price input').keyup(function (e) { 
 	$('#price_alert').css('display', 'none');
@@ -354,10 +361,17 @@ $('#mob_prc_ok').click(function (e) {
 	}else{
 		$('#xf_price .val1').html(stprc);
 		$('#xf_price .val2').html(endprc);
+
 		setTimeout(() => {
 			$('#filter_red_but').click(); 
 		 }, 200);
+
+		 $([document.documentElement, document.body]).animate({
+			scrollTop: $("#main_cont_1").offset().top
+		}, 2000);
+
 	}
 	
 	
 });
+
