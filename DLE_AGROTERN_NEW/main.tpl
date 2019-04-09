@@ -84,20 +84,23 @@
 						[/not-desktop]
 						<div class="main_list-responsive">
 							<div class="list_category" style="background-color: #141d2b;">
+
+									
 								<ul>
-									<li>Мототракторы <i class="fas fa-chevron-right"></i></li>
-									<li>Минитракторы <i class="fas fa-chevron-right"></i></li>
-									<li>Мотоблоки <i class="fas fa-chevron-right"></i></li>
-									<li>Навесное оборудование <i class="fas fa-chevron-right"></i></li>
-									<li>Генераторы <i class="fas fa-chevron-right"></i></li>
-									<li>Снегоуборочные машины <i class="fas fa-chevron-right"></i></li>
-								</ul>
+									<li><a href="/mototraktory/"> Мототракторы <i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="/minitraktory/">Минитракторы <i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="/motobloki/">Мотоблоки <i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="/generatory/">Навесное оборудование <i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="/navesnoe-oborudovanie/">Генераторы <i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="/svarochnoe-oborudovanie/">Снегоуборочные машины <i class="fas fa-chevron-right"></i></a></li>
+								</ul>							
+									
 								<ul style="margin-top: 50px; display: block; width: 100%;">
-									<li>О нас <i class="fas fa-chevron-right"></i></li>
-									<li>Доставка и оплата<i class="fas fa-chevron-right"></i></li>
-									<li>Гарантия <i class="fas fa-chevron-right"></i></li>
-									<li>Контакты <i class="fas fa-chevron-right"></i></li>
-									<li>Сотрудничество <i class="fas fa-chevron-right"></i></li>
+									<li><a href="/o-nas.html">О нас <i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="/oplata-i-dostavka.html">Доставка и оплата<i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="/garantija.html">Гарантия <i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="/kontaktnaja-informacija.html">Контакты <i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="/sotrudnichestvo.html">Сотрудничество <i class="fas fa-chevron-right"></i></a></li>
 								</ul>
 								<div class="menu_responsive">
 									<div style="background-color: #141d2b;">
