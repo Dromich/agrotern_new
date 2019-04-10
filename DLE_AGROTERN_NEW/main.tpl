@@ -582,73 +582,72 @@ let globalurl = window.location.pathname;
 	
 	</script>
 	[/available]
-	[not-available=showfull]
-
-	<script type="text/javascript">
-  $(document).ready(function () {
-	var nextPage = 2
-	$(".button_still").click(function (event) {
-
-		event.preventDefault();
-
-		
-		
-
-		if(!$(".button_still").hasClass("filteron")){
-			if (nextPage !== undefined) {
-			$.ajax({
-				url: window.location.pathname+'page/' +	nextPage, //для категорій потрібно вивсети спочатку шорт урл категорії
-				success: function (data) {
-
-					$('#ajax-next-page').remove();
-					let ajxcont = '<div class="block_catalog">' + $('#dle-content', data).html() + '</div>';
-					$('#main_cont_1').append(
-
-						ajxcont
-
-					);
-					nextPage++
-					//console.log(nextPage);
-					split_register();
-				},
-				error: function (data) {
-					$(".button_still").remove();
-					
-
-				}
-			})
-		}
-		}else{
-		
-			if($('.navigation-button').length == 0){
-	
-	$(".filteron").css('opacity', '0.3');
-}
-$('#filter-next').click();
-			console.log("filteron")
-		}
-
-	
 
 
-	});	
-	function split_register() {
-		
-		$('.price').each(function () {
-	var price = $(this).text();
-	//console.log(price);
-	var metamorf = price .replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ');
-	$(this).text(metamorf);	
-	});
-	}
-	
-	split_register();
-});
-//console.log(window.location.pathname)
-	</script>
-
-[/not-available]
 [available=cat]
+<script type="text/javascript">
+	$(document).ready(function () {
+	  var nextPage = 6
+	  $(".button_still").click(function (event) {
+  
+		  event.preventDefault();
+  
+		  
+		  
+  
+		  if(!$(".button_still").hasClass("filteron")){
+			  if (nextPage !== undefined) {
+			  $.ajax({
+				  url: window.location.pathname+'page/' +	nextPage, //для категорій потрібно вивсети спочатку шорт урл категорії
+				  success: function (data) {
+  
+					  $('#ajax-next-page').remove();
+					  let ajxcont = '<div class="block_catalog">' + $('#dle-content', data).html() + '</div>';
+					  $('#main_cont_1').append(
+  
+						  ajxcont
+  
+					  );
+					  nextPage++
+					  
+					  split_register();
+				  },
+				  error: function (data) {
+					  $(".button_still").remove();
+					  
+  
+				  }
+			  })
+		  }
+		  }else{
+		  
+			  if($('.navigation-button').length == 0){
+	  
+	  $(".filteron").css('opacity', '0.3');
+  }
+  $('#filter-next').click();
+			  console.log("filteron")
+		  }
+  
+	  
+  
+  
+	  });	
+	  function split_register() {
+		  
+		  $('.price').each(function () {
+	  var price = $(this).text();
+	  //console.log(price);
+	  var metamorf = price .replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ');
+	  $(this).text(metamorf);	
+	  });
+	  }
+	  
+	  split_register();
+  });
+  //console.log(window.location.pathname)
+	  </script>
+<script type="text/javascript" src="{THEME}/js/moreItems.js"></script>
 <script type="text/javascript" src="{THEME}/js/filter.js"></script>
 [/available]
 
