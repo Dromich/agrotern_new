@@ -5,7 +5,7 @@
 				<h1>
 					<img src="{THEME}/img/icon_category.png" alt="category" class="none">
 					<span>Купить сельскохозайственную</span>
-					<span>технику в Украины</span>
+					<span>технику в Украине</span>
 				</h1>
 			</div>
 			<div class="buttons_next">
@@ -83,10 +83,10 @@
 <section class="catalog">
 	<div class="main_width">
 		<div class="title">
-			<h1>
+			<h2>
 				<img src="{THEME}/img/icon_catalog.png" alt="catalog" class="none">
 				Каталог товаров
-			</h1>
+			</h2>
 		</div>
 		<div id="main_cont_1" class="">
 			<!--BEGIN CATALOG-->
@@ -112,10 +112,10 @@
 				<div class="titles">
 					<ul>
 						<li>
-							<h1>
+							<h2>
 								<span>Магазин №1 </span>
 								по продаже <br> сельскохозяйственной техники<br> в Украине
-							</h1>
+							</h2>
 						</li>
 						<li>
 							<span>Доставка товара во все<br></span>
@@ -137,10 +137,10 @@
 <section class="catalog_stock_section">
 	<div class="main_width">
 		<div class="title">
-			<h1>
+			<h2>
 				<img src="{THEME}/img/icon_stock_catalog.png" alt="stock" class="none">
 				Акции и скидки
-			</h1>
+			</h2>
 		</div>
 		<div id="cat_stok">
 
