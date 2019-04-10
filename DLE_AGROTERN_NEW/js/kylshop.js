@@ -108,12 +108,12 @@ $(function(){
     // INIT END
     //#####################################################
 
-    
+	
+	
+$('.basket_click').click(function (e) { 
+	e.preventDefault();
 
-    // добавляем товар в корзину
-    $("body").on("click", ".basket_click", function(){
-
-        id = $(this).attr("data-goodsId");
+	id = $(this).attr("data-goodsId");
         productTitle = $(this).attr("data-goodsTitle");
 		productPrice = $(this).attr("data-goodsPrice");
 		productimg = $(this).attr("data-goodsimg");
@@ -125,8 +125,26 @@ $(function(){
         AddGoods(id,productimg, productTitle, productPrice, productLink);
 		$("#bg_0, #modalCart").fadeIn("slow");
         $('html, body').animate({scrollTop: 0}, 700);
-        return false;
-    });
+});
+
+
+    // добавляем товар в корзину
+    // $("body").on("click", ".basket_click", function(){
+
+    //     id = $(this).attr("data-goodsId");
+    //     productTitle = $(this).attr("data-goodsTitle");
+	// 	productPrice = $(this).attr("data-goodsPrice");
+	// 	productimg = $(this).attr("data-goodsimg");
+    //     productLink = $(this).attr("href"); 
+		
+		
+      
+
+    //     AddGoods(id,productimg, productTitle, productPrice, productLink);
+	// 	$("#bg_0, #modalCart").fadeIn("slow");
+    //     $('html, body').animate({scrollTop: 0}, 700);
+    //     return false;
+    // });
 
     // открываем модальное окно
     $("body").on("click", "#cart", function(){
