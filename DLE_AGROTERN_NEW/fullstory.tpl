@@ -12,7 +12,7 @@
 			<div class="content_card">
 				<div class="title">
 					<h1>
-						<span>{title}</span>
+						<span>{title}</span></h1>
 
 				</div>
 				<div class="manufacture">
@@ -141,9 +141,9 @@
 <section class="modal">
 	<div class="main_width">
 		<div class="title_modal">
-			<h1>
+			<h2>
 				Похожие модели
-			</h1>
+			</h2>
 		</div>
 		<div class="catalog_stock">
 
