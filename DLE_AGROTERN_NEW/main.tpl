@@ -239,9 +239,9 @@
 			<input type="hidden" name="form_subject" value="Консультация">
 			<!-- END Hidden Required Fields -->
 							<p>Ваше имя: </p>
-							<input type="text" class="enter_name">
+							<input type="text" name="Имя" class="enter_name" required>
 							<p>Контактный телефон: </p>
-							<input type="text" class="enter_phone">
+							<input type="text" name="Телефон" class="enter_phone" required>
 							<button type="submit">Заказать</button>
 						</form>
 					</div>

@@ -191,9 +191,10 @@
 				<input type="hidden" name="form_subject" value="Покупка з AGROTERN">
 				<!-- END Hidden Required Fields -->
 				<p>Ваше имя: </p>
-				<input type="text" class="enter_name" required>
+				<input type="text" name="Имя" class="enter_name" required>
 				<p>Контактный телефон: </p>
-				<input type="text" class="enter_phone" required>
+				<input type="text" name="телефон" class="enter_phone" required>
+				<input type="hidden" name="Товар" value="{title}">
 				<button type="submit">Заказать</button>
 			</form>
 		</div>

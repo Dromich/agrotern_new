@@ -17,10 +17,12 @@ $(function () {
 			data: th.serialize()
 		}).done(function () {
 			alert("Спасибо, скоро мы перезвоним!");
-			
+			th.trigger("reset");
+				th.removeClass('active-pop_ap');
 			setTimeout(function () {
 				// Done Functions
 				th.trigger("reset");
+				th.removeClass('active-pop_ap');
 			}, 1000);
 		});
 		return false;
@@ -68,6 +70,8 @@ function AllMoneyGoods() {
 	return sum;
 }
 $(document).ready(function () {
+	var pay_item = '',
+	del_item ='';
 
 	$("#cart_form_subm").click(function () {
 		var tel = $("#kylshop_field_tele").val();
@@ -79,11 +83,23 @@ $(document).ready(function () {
 		$("#costumer_phone").val(tel);
 		$("#costumer_name").val(name);
 
+$('.pay_item').each(function (index, element) {
+	
+	if ($(this).prop('checked')) {
+		$("#payy_tupe").val($(this).val());
+		
+	}
+	
+});
+$('.delivery_item').each(function (index, element) {
+	if ($(this).prop('checked')) {
+		$("#deliver_tupe").val($(this).val())
+	}
+});
 
 
-
-		$("#payy_tupe").val($(".pay_item").val());
-		$("#deliver_tupe").val($(".delivery_item").val());
+		// $("#payy_tupe").val(pay_item);
+		// $("#deliver_tupe").val(del_item);
 
 		var inputName = document.getElementById("kylshop_field_tele");
 		if (!inputName.value.trim()) {
