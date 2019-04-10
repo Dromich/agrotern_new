@@ -930,15 +930,15 @@ header {
   margin-right: 5px;
 }
 .two_block_menu_hover {
-  box-shadow: 17px 8px 35px -23px #000000;
-  z-index: 1000;
-  position: absolute;
-  left: 500px;
-  margin-top: -24px;
-  padding-top: 42px;
-  padding-bottom: 30px;
-  width: 670px;
-  background-color: #f4f5f6;
+	box-shadow: 17px 8px 35px -23px #000000;
+	z-index: 1000;
+	position: relative;
+	/* left: 500px; */
+	margin-top: -24px;
+	padding-top: 42px;
+	padding-bottom: 30px;
+	width: 670px;
+	background-color: #f4f5f6;
 }
 .two_block_menu_hover p {
   margin-left: 20px;
