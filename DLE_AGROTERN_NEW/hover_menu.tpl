@@ -223,49 +223,42 @@
 								</ul>
 							</div>
 						</div>
-					</div>
+					</div>-->
 
 					<div id="svrka_hover" class="hover_menu flex">
 							<div class="one_block_menu_hover">
 								<ul>
-									<li><i class="fas fa-caret-right"></i> <span>Garden Scout</span></li>
-									<li><i class="fas fa-caret-right"></i> <span>Shifeng</span></li>
-									<li><i class="fas fa-caret-right"></i> <span>Булат</span></li>
-									<li><i class="fas fa-caret-right"></i> <span>Файтер</span></li>
-									<li><i class="fas fa-caret-right"></i> <span>Forte</span></li>
-									<li><i class="fas fa-caret-right"></i> <span>DW</span></li>
+									<li><i class="fas fa-caret-right"></i><a href=""><span>Becker</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href=""><span>Edon</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href=""><span>Mainz</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href=""><span>Morkle</span></a> </li>
+									<li><i class="fas fa-caret-right"></i> <a href=""><span>NVP</span></a></li>
+									<li><i class="fas fa-caret-right"></i> <a href=""><span>Redbo</span></a></li>
+									<li><i class="fas fa-caret-right"></i> <a href=""><span>Кентавр</span></a></li>
+									<li><i class="fas fa-caret-right"></i> <a href=""><span>Луч Профи</span></a></li>
 								</ul>
 								<ul>
-									<li><i class="fas fa-caret-right"></i> <span>Добрыня</span></li>
-									<li><i class="fas fa-caret-right"></i> <span>Claus</span></li>
-									<li><i class="fas fa-caret-right"></i> <span>Витязь</span></li>
-									<li><i class="fas fa-caret-right"></i> <span>Lider</span></li>
-									<li><i class="fas fa-caret-right"></i> <span>ДТЗ</span></li>
+									<li><i class="fas fa-caret-right"></i><a href=""><span>Shyuan</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href=""><span>Unica</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href=""><span>Авангард</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href=""><span>Зенит</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href=""><span>Искра</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href=""><span>Сириус</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href=""><span>Спектр</span></a> </li>
 								</ul>
 							</div>
 							<div class="two_block_menu_hover">
-								<p>Купить сварочное оборудование в городе:</p>
+								<p>Тип сварочного оборудования:</p>
 								<div class="flex_around" style="width: 330px;">
 									<ul>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Киев</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Одесса</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Харьков</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Житомир</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Львов</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Чернигов</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Черкассы</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Днепр</span></li>
+										<li><i class="fas fa-map-marker-alt"></i><a href=""><span>Сварочные инверторы</span></a> </li>
+										<li><i class="fas fa-map-marker-alt"></i><a href=""><span>Сварочные полуавтоматы</span></a>	 </li>
+										<li><i class="fas fa-map-marker-alt"></i><a href=""><span>Плазморезы</span></a> </li>
+										<li><i class="fas fa-map-marker-alt"></i><a href=""><span>Аргонно-дуговая сварка</span></a> </li>
+										<li><i class="fas fa-map-marker-alt"></i><a href=""><span>Сварочные маски</span></a> </li>
+										
 									</ul>
-									<ul>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Черновцы</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Полтава</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Сумы</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Ивано-Франковск</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Ровно</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Херсон</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Хмельницк</span></li>
-										<li><i class="fas fa-map-marker-alt"></i> <span>Николаев</span></li>
-									</ul>
+									
 								</div>
 							</div>
-						</div>-->
+						</div>
