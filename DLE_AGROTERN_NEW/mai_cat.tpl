@@ -1,6 +1,10 @@
 <div class="main_block_content main_width">
 	<!--Filter-->
-	<div class="mob_title" style="display:none;"><h1>{category-title}</h1></div>
+	[not-category=9,10]<div class="mob_title" style="display:none;"><h1>{category-title}</h1></div>[/not-category]
+	[category=9]<div class="mob_title" style="display:none;"><h1>Мототрактор купить</h1></div>[/category]
+	[category=10]<div class="mob_title" style="display:none;"><h1>Минитрактор купить</h1></div>[/category]
+	
+	
 	<div class="left-content">
 		<nav class="left-nav">
 			<div class="nav-list">
@@ -806,12 +810,29 @@
 				<div id="main_cont_1" class="">
 					<div class="sorting_card_product">
 						
-						
+						[not-category=9,10]
 						<div class="title">
 							<h1>
 								{category-title}
 							</h1>
 						</div>
+						[/not-category]
+						[category=9]
+						<div class="title">
+							<h1>
+								Мототрактор купить
+							</h1>
+						</div>
+						[/category]
+						[category=10]
+						<div class="title">
+							<h1>
+								Минитрактор купить
+							</h1>
+						</div>
+						[/category]
+
+
 						<div class="sorting flex_betwen">
 							<ul class="one_block flex">
 								<li class="sort">Сортировка:</li>
