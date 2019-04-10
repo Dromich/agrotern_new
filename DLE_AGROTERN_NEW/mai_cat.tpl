@@ -1,9 +1,10 @@
 <div class="main_block_content main_width">
 	<!--Filter-->
+	[not-desktop] 
 	[not-category=9,10]<div class="mob_title" style="display:none;"><h1>{category-title}</h1></div>[/not-category]
 	[category=9]<div class="mob_title" style="display:none;"><h1>Мототрактор купить</h1></div>[/category]
 	[category=10]<div class="mob_title" style="display:none;"><h1>Минитрактор купить</h1></div>[/category]
-	
+	[/not-desktop]
 	
 	<div class="left-content">
 		<nav class="left-nav">
