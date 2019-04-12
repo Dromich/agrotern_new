@@ -584,7 +584,7 @@ let globalurl = window.location.pathname;
 	[/available]
 
 
-[available=cat]
+[available=cat|main]
 <script type="text/javascript">
 	$(document).ready(function () {
 	  var nextPage = 6
@@ -647,6 +647,8 @@ let globalurl = window.location.pathname;
   });
   //console.log(window.location.pathname)
 	  </script>
+	  [/available]
+	  [available=cat]
 <script type="text/javascript" src="{THEME}/js/moreItems.js"></script>
 <script type="text/javascript" src="{THEME}/js/filter.js"></script>
 [/available]
