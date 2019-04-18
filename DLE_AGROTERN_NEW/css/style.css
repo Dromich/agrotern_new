@@ -1421,8 +1421,9 @@ header {
   /* Текст в конце страницы */
   .text-about {
 	width: 870px;
-	height: 380px;
-  }
+	min-height: 380px;
+	margin-bottom: 25px;
+}
   .text-about h2 {
 	margin-bottom: 25px;
   }
