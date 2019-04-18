@@ -226,36 +226,36 @@
 					</div>-->
 
 					<div id="svrka_hover" class="hover_menu flex">
-							<div class="one_block_menu_hover">Сварочное оборудование
+							<div class="one_block_menu_hover">
 								<ul>
-									<li><i class="fas fa-caret-right"></i><a href=""><span>Becker</span></a> </li>
-									<li><i class="fas fa-caret-right"></i><a href=""><span>Edon</span></a> </li>
-									<li><i class="fas fa-caret-right"></i><a href=""><span>Mainz</span></a> </li>
-									<li><i class="fas fa-caret-right"></i><a href=""><span>Morkle</span></a> </li>
-									<li><i class="fas fa-caret-right"></i> <a href=""><span>NVP</span></a></li>
-									<li><i class="fas fa-caret-right"></i> <a href=""><span>Redbo</span></a></li>
-									<li><i class="fas fa-caret-right"></i> <a href=""><span>Кентавр</span></a></li>
-									<li><i class="fas fa-caret-right"></i> <a href=""><span>Луч Профи</span></a></li>
+									<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-becker/"><span>Becker</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-edon/"><span>Edon</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-mainz/"><span>Mainz</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-morkle/"><span>Morkle</span></a> </li>
+									<li><i class="fas fa-caret-right"></i> <a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-nvp/"><span>NVP</span></a></li>
+									<li><i class="fas fa-caret-right"></i> <a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-redbo/"><span>Redbo</span></a></li>
+									<li><i class="fas fa-caret-right"></i> <a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-kentavr/"><span>Кентавр</span></a></li>
+									<li><i class="fas fa-caret-right"></i> <a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-luch-profi/"><span>Луч Профи</span></a></li>
 								</ul>
 								<ul>
-									<li><i class="fas fa-caret-right"></i><a href=""><span>Shyuan</span></a> </li>
-									<li><i class="fas fa-caret-right"></i><a href=""><span>Unica</span></a> </li>
-									<li><i class="fas fa-caret-right"></i><a href=""><span>Авангард</span></a> </li>
-									<li><i class="fas fa-caret-right"></i><a href=""><span>Зенит</span></a> </li>
-									<li><i class="fas fa-caret-right"></i><a href=""><span>Искра</span></a> </li>
-									<li><i class="fas fa-caret-right"></i><a href=""><span>Сириус</span></a> </li>
-									<li><i class="fas fa-caret-right"></i><a href=""><span>Спектр</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-shyuan/"><span>Shyuan</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-unica/"><span>Unica</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-avangard/"><span>Авангард</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-zenit/"><span>Зенит</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-iskra/"><span>Искра</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-sirius/"><span>Сириус</span></a> </li>
+									<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnoe-oborudovanie-spektr/"><span>Спектр</span></a> </li>
 								</ul>
 							</div>
 							<div class="two_block_menu_hover">
 								<p>Тип сварочного оборудования:</p>
 								<div class="flex_around" style="width: 330px;">
 									<ul>
-										<li><i class="fas fa-caret-right"></i><a href=""><span>Сварочные инверторы</span></a> </li>
-										<li><i class="fas fa-caret-right"></i><a href=""><span>Сварочные полуавтоматы</span></a>	 </li>
-										<li><i class="fas fa-caret-right"></i><a href=""><span>Плазморезы</span></a> </li>
-										<li><i class="fas fa-caret-right"></i><a href=""><span>Аргонно-дуговая сварка</span></a> </li>
-										<li><i class="fas fa-caret-right"></i><a href=""><span>Сварочные маски</span></a> </li>
+										<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnye-invertory/"><span>Сварочные инверторы</span></a> </li>
+										<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnye-poluavtomaty/"><span>Сварочные полуавтоматы</span></a>	 </li>
+										<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/plazmorezy/"><span>Плазморезы</span></a> </li>
+										<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/argonno-dugovaja-svarka/"><span>Аргонно-дуговая сварка</span></a> </li>
+										<li><i class="fas fa-caret-right"></i><a href="https://agrotern.com.ua/svarochnoe-oborudovanie/svarochnye-maski/"><span>Сварочные маски</span></a> </li>
 										
 									</ul>
 									
