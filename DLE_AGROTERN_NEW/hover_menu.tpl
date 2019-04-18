@@ -226,7 +226,7 @@
 					</div>-->
 
 					<div id="svrka_hover" class="hover_menu flex">
-							<div class="one_block_menu_hover">
+							<div class="one_block_menu_hover">Сварочное оборудование
 								<ul>
 									<li><i class="fas fa-caret-right"></i><a href=""><span>Becker</span></a> </li>
 									<li><i class="fas fa-caret-right"></i><a href=""><span>Edon</span></a> </li>
@@ -251,11 +251,11 @@
 								<p>Тип сварочного оборудования:</p>
 								<div class="flex_around" style="width: 330px;">
 									<ul>
-										<li><i class="fas fa-map-marker-alt"></i><a href=""><span>Сварочные инверторы</span></a> </li>
-										<li><i class="fas fa-map-marker-alt"></i><a href=""><span>Сварочные полуавтоматы</span></a>	 </li>
-										<li><i class="fas fa-map-marker-alt"></i><a href=""><span>Плазморезы</span></a> </li>
-										<li><i class="fas fa-map-marker-alt"></i><a href=""><span>Аргонно-дуговая сварка</span></a> </li>
-										<li><i class="fas fa-map-marker-alt"></i><a href=""><span>Сварочные маски</span></a> </li>
+										<li><i class="fas fa-caret-right"></i><a href=""><span>Сварочные инверторы</span></a> </li>
+										<li><i class="fas fa-caret-right"></i><a href=""><span>Сварочные полуавтоматы</span></a>	 </li>
+										<li><i class="fas fa-caret-right"></i><a href=""><span>Плазморезы</span></a> </li>
+										<li><i class="fas fa-caret-right"></i><a href=""><span>Аргонно-дуговая сварка</span></a> </li>
+										<li><i class="fas fa-caret-right"></i><a href=""><span>Сварочные маски</span></a> </li>
 										
 									</ul>
 									
