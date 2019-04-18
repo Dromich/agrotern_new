@@ -154,6 +154,7 @@
 				<div class="button_still none">
 					<a id="more_sale" href="/rozprodazh/"><span><i class="fas fa-redo-alt reload"></i>Показать ещё скидки</span></a>
 					</div>
+					[aviable=main]{include file="engine/modules/catface.php"}[/aviable]
 		</div>
 		
 		</div>
